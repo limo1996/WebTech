@@ -6,8 +6,11 @@ Dufam ze ste vsetci dosli do stavu ked mate naklonovany repository lokalne v poc
 https://www.youtube.com/watch?v=9-u6uiB1Icg     --> tu je navod ako commitovat zmeny
 
 #Rozdelenie uloh
-Jakub: (2) + (7))  
+Jakub: (2) + (7)
 Tamas: (4) a (9)  
 Matus: (3) a celkovy dizajn  
 Roman: kontakt a (8)  
 Robert: (5) a (6)  
+
+#Stav vypracovania
+Limo: (7) + individualne zadanie done 
