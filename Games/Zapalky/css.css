@@ -1,0 +1,41 @@
+#background{
+	background-color: #009933;
+	height:  460px;
+	width:  1070px;
+}
+.lineHeight{
+background-color: green;
+	height: 460px;
+	width:  10px;
+	position: absolute;
+}
+
+.lineWidth{
+	background-color: green;
+	height: 10px;
+	width:  110px;
+	position: absolute;
+}
+
+.lineEightHeight {
+	background-color: green;
+	height: 10px;
+	width:  1070px;
+	position: absolute;
+}
+
+.h1{left: 110px;}
+.h2{left: 230px;}
+.h3{left: 350px;}
+.h4{left: 470px;}
+.h5{left: 590px;}
+.h6{left: 710px;}
+.h7{left: 830px;}
+.h8{left: 950px;}
+.h9{top: 110px;}
+.h10{top: 230px;}
+.h11{top: 350px;}
+
+
+
+
