@@ -13,15 +13,35 @@ background-color: green;
 .lineWidth{
 	background-color: green;
 	height: 10px;
-	width:  110px;
+	width:   1070px;
 	position: absolute;
 }
 
 .lineEightHeight {
-	background-color: green;
-	height: 10px;
-	width:  1070px;
+	background-color: #005726;
 	position: absolute;
+	 text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.lineEightWidth{
+	background-color: #005726;
+	position: absolute;
+	 text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.zapalka {
+	background-color: brown;
+	position: absolute;
+}
+
+.drevo{
+	width: 100px;
+	height: 10px;
+	background-color: yellow;
 }
 
 .h1{left: 110px;}
@@ -35,6 +55,36 @@ background-color: green;
 .h9{top: 110px;}
 .h10{top: 230px;}
 .h11{top: 350px;}
+
+#h12{top: 110px; left: 120px;}
+#h13{top: 230px; left: 120px;}
+#h14{top: 350px; left: 120px;}
+#h15{top: 110px; left: 480px;}
+#h16{top: 230px; left: 480px;}
+#h17{top: 350px; left: 480px;}
+#h18{top: 110px; left: 840px;}
+#h19{top: 230px; left: 840px;}
+#h20{top: 350px; left: 840px;}
+
+#h21{top: 120px; left: 110px;}
+#h22{top: 120px; left: 230px;}
+#h23{top: 120px; left: 470px;}
+#h24{top: 120px; left: 590px;}
+#h25{top: 120px; left: 830px;}
+#h26{top: 120px; left: 950px;}
+
+#h27{top: 240px; left: 110px;}
+#h28{top: 240px; left: 230px;}
+#h29{top: 240px; left: 470px;}
+#h30{top: 240px; left: 590px;}
+#h31{top: 240px; left: 830px;}
+#h32{top: 240px; left: 950px;}
+
+#h33{top: 230px; left: 300px;}
+#h34{top: 180px; left: 350px;}
+
+#h35{top: 210px; left: 660px;}
+#h36{top: 250px; left: 660px;}
 
 
 
