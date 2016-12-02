@@ -92,14 +92,21 @@
     color: white;
     position:absolute;
     left: 70px;
-    top: 100px;
+    top: 140px;
 }
 
 #yourMoves{
     color: white;
     position: absolute;
     left: 50px;
-    top: 200px;
+    top: 270px;
+}
+
+#yourBestScore{
+    color: white;
+    position: absolute;
+    left: 20px;
+    top: 70px;
 }
 
 #statDiv{

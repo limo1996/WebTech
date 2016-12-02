@@ -1,0 +1,14 @@
+#ImgSlovensko{
+    width:100%;
+    z-index: 0;
+}
+
+#mapWrapper{
+    position: relative;
+}
+
+.pins{
+    width: 30px;
+    position: absolute;
+    z-index: 1;
+}

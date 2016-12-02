@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="sk">
+    <head>
+        <title>Mapy</title>
+        <script src="mapScripts.js"></script>
+        <link href="mapStyles.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="map" style="width:100%;height:500px"></div>
+        <section id="mapWrapper">
+            <img alt="Mapa Slovenska" src="mapa.jpg" id="ImgSlovensko" />
+            <img alt="Bratislava" src="pin.png" id="pin1" class="pins" />
+        </section>
+        <section>
+            Zdroj mapy: <a href="https://dennikn.sk/128506/cim-ziju-ludia-v-chudobnych-regionoch-slovenska/">DennikN</a>
+        </section>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDWOmTseL-m6T0cnjUt2ddpx18QW-kxtk0&libraries=places&callback=myMap" type="text/javascript"></script>
+    </body>
+</html>
