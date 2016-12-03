@@ -22,15 +22,15 @@ background-color: green;
 	position: absolute;
 	 text-indent: 100%;
     white-space: nowrap;
-    overflow: hidden;
+    overflow: hidden; 
 }
 
 .lineEightWidth{
 	background-color: #005726;
 	position: absolute;
-	 text-indent: 100%;
+ text-indent: 100%;
     white-space: nowrap;
-    overflow: hidden;
+    overflow: hidden; 
 }
 
 .zapalka {
