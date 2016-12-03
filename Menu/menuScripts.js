@@ -1,6 +1,7 @@
+var navMenu;
 function LoadMenu(activeItem){
     var rawFile = new XMLHttpRequest();
-        rawFile.open("GET", "menu.json", false);
+        rawFile.open("GET", "Menu/menu.json", false);
         rawFile.onreadystatechange = function ()
         {
             if(rawFile.readyState === 4)
@@ -9,35 +10,44 @@ function LoadMenu(activeItem){
                 {
                     var allText = rawFile.responseText;
                     var json = JSON.parse(allText);
-                    var navMenu = document.getElementById('navMenu');
-                    json.MenuItems.forEach(function(element) {
-                        
+                    navMenu = document.getElementById('navMenu');
+                    var content = "";
+                    for(var i = 0; i < json.MenuItems.length; i++) {
+                        var element = json.MenuItems[i];
                         if(element.children.length != 0){
-                            navMenu += "<li>";
-                            navMenu.innerHTML += "<li" + isActive(activeItem, element.displayName) + "><a href='" + 
-                                element.href + "'>" + element.displayName + "</a></li>";
-                            
-                            navMenu.innerHTML += "<ul class='dropdown-menu'>";
-                            element.children.forEach(function(element) {
-                                if(element.children.length != 0){
-                                    navMenu += "<li>";
-                                    navMenu.innerHTML += "<li" + isActive(activeItem, element.displayName) + "><a href='" + 
-                                        element.href + "'>" + element.displayName + "</a></li>";
-                                        navMenu.innerHTML += "<ul class='dropdown-menu'>";
+                            content += "<li>";
+                            content += "<a href='" + element.href + "' class='dropdown-toggle' data-toggle='dropdown'>" 
+                                + element.displayName + "<b class='caret'></b></a>";
+                            content += "<ul class='dropdown-menu'>";
+                            for(var j = 0; j < element.children.length; j++) {
+                                var element2 = element.children[j];
+                                if(element2.children.length != 0){
+                                    content += "<li>";
+                                    content += "<a href='" + element2.href + "' class='dropdown-toggle' data-toggle='dropdown'>" 
+                                        + element2.displayName + "<b class='caret'></b></a>";
+                                    content += "<ul class='dropdown-menu'><li>";
 
-                                        element.children.forEach(function(element){
-                                            navMenu.innerHTML += "<li" + isActive(activeItem, element.displayName) + "><a href='" + 
-                                                element.href + "'>" + element.displayName + "</a></li>";
-                                        }, this);
+                                    for(var k = 0; k < element2.children.length; k++){
+                                        var element3 = element2.children[k];
+                                        content += "<li" + isActive(activeItem, element3.displayName) + "><a href='" + 
+                                            element3.href + "'>" + element3.displayName + "</a></li>";
+                                        }
+                                    content += "</li></ul></li>";
                                 }
-                            }, this);
-                            navMenu += "</li>";
+                                else{
+                                    content += "<li" + isActive(activeItem, element2.displayName) + "><a href='" + 
+                                        element2.href + "'>" + element2.displayName + "</a></li>";
+                                }
+                            }
+                            content += "</ul></li>";
                         }
                         else{
-                            navMenu.innerHTML += "<li" + isActive(activeItem, element.displayName) + "><a href='" + 
-                                element.href + "'>" + element.displayName + "</a></li>"
+                            content += "<li" + isActive(activeItem, element.displayName) + "><a href='" + 
+                                element.href + "'>" + element.displayName + "</a></li>";
                         }
-                    }, this);
+                    }
+
+                    navMenu.innerHTML = content;
                 }
             }
         }
@@ -50,3 +60,19 @@ function isActive(first, second){
     else
         return "";
 }
+
+$(document).ready(function() {
+    $('.navbar a.dropdown-toggle').on('click', function(e) {
+        var $el = $(this);
+        var $parent = $(this).offsetParent(".dropdown-menu");
+        $(this).parent("li").toggleClass('open');
+
+        if(!$parent.parent().hasClass('nav')) {
+            $el.next().css({"top": $el[0].offsetTop, "left": $parent.outerWidth() - 4});
+        }
+
+        $('.nav li.open').not($(this).parents("li")).removeClass("open");
+
+        return false;
+    });
+});
