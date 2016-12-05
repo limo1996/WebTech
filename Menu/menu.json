@@ -2,35 +2,37 @@
     "MenuItems":
     [
         {
-            "displayName": "Fuck",
-            "href": "#",
+            "displayName": "Home",
+            "href": "index.html",
             "separator": false,
             "children": []
         },
         {
-            "displayName": "Menu1",
+            "displayName": "Individualne Zadania",
             "href": "#",
             "separator": false,
             "children": 
             [
                 {
-                    "displayName": "Menu1.1",
+                    "displayName": "Pamiatky",
                     "href": "#",
                     "separator": false,
                     "children": 
                     [
-                        { "displayName": "Menu1.1.1", "href": "#", "separator": false, "children": [] },
-                        { "displayName": "Menu1.1.2", "href": "#", "separator": false, "children": [] },
-                        { "displayName": "Menu1.1.3", "href": "#", "separator": false, "children": [] }
+                        { "displayName": "Jakub", "href": "http://147.175.98.22/~xlichman/fa967d3e-8b79-4700-914e-63b52a4f8e15/WebTech/Pamiatky/limovePamiatky.html", "separator": false, "children": [] },
+                        { "displayName": "Matúš", "href": "#", "separator": false, "children": [] },
+                        { "displayName": "Tamás", "href": "#", "separator": false, "children": [] },
+                        { "displayName": "Roman", "href": "#", "separator": false, "children": [] },
+                        { "displayName": "Róbert", "href": "#", "separator": false, "children": [] }
                     ]
                 },
                 {
-                    "displayName": "Menu1.2",
+                    "displayName": "Hry",
                     "href": "#",
                     "separator": true, 
                     "children": 
                     [
-                        { "displayName": "Menu1.2.1", "href": "#", "separator": false, "children": [] },
+                        { "displayName": "Jakub", "href": "http://147.175.98.22/~xlichman/fa967d3e-8b79-4700-914e-63b52a4f8e15/WebTech/Hry/Hanoj/hanoj.html", "separator": false, "children": [] },
                         { "displayName": "Menu1.2.2", "href": "#", "separator": false, "children": [] },
                         { "displayName": "Menu1.2.3", "href": "#", "separator": false, "children": [] }
                     ]

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pamiatky Bratislavy</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link href="limoStyles.css" rel="stylesheet">
+        <script src="../Menu/menuScripts.js"></script>
+        <script src="limoScripts.js"></script>
+    </head>
+    <body onload="LoadMenu('Jakub', '../Menu/menu.json');">
+        <style>
+        body {
+            padding-top: 50px;
+        }
+        
+        .navbar-template {
+            padding: 40px 15px;
+        }
+    </style>
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation" id="menuBar"></div>
+
+    <div class="jumbotron">
+        <div class="col-sm-6 panel" id="leftPanel">
+             <div class="navbar-template text-center">
+                <h1>Bootstrap NavBar</h1>
+                <p class="lead text-info">NavBar with too many childs.</p>
+            </div>
+        </div>
+        <div class="col-sm-6 panel" id="rightPanel">
+        </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="../Menu/jQueryScripts.js"></script>
+    </body>
+</html>

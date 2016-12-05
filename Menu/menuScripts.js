@@ -1,7 +1,7 @@
 var navMenu;
-function LoadMenu(activeItem){
+function LoadMenu(activeItem, path){
     var rawFile = new XMLHttpRequest();
-        rawFile.open("GET", "Menu/menu.json", false);
+        rawFile.open("GET", path, false);
         rawFile.onreadystatechange = function ()
         {
             if(rawFile.readyState === 4)
@@ -10,8 +10,21 @@ function LoadMenu(activeItem){
                 {
                     var allText = rawFile.responseText;
                     var json = JSON.parse(allText);
-                    navMenu = document.getElementById('navMenu');
-                    var content = "";
+                    navMenu = document.getElementById('menuBar');
+                    var content = "<div class='navbar-header'>" +
+                                        "<button type='button' class='navbar-toggle' data-toggle='collapse' data-target='.navbar-collapse'>" +
+                                            "<span class='sr-only'>Toggle navigation</span>" +
+                                            "<span class='icon-bar'></span>" +
+                                            "<span class='icon-bar'></span>" +
+                                            "<span class='icon-bar'></span>" +
+                                        "</button>" +
+                                    "<a class='navbar-brand' href='index.html#'>Home</a>" +
+                                "</div>"+
+                                "<div class='container'>" +
+                                    "<div class='navbar-header'>" +
+                                    "</div>" +
+                                    "<div class='collapse navbar-collapse'>" +
+                                        "<ul class='nav navbar-nav' id='navMenu'>";
                     for(var i = 0; i < json.MenuItems.length; i++) {
                         var element = json.MenuItems[i];
                         if(element.children.length != 0){
@@ -49,7 +62,7 @@ function LoadMenu(activeItem){
                                 element.href + "'>" + element.displayName + "</a></li>";
                         }
                     }
-
+                    content += "</ul></div></div>";
                     navMenu.innerHTML = content;
                 }
             }
