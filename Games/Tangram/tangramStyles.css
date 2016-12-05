@@ -1,0 +1,153 @@
+.block{
+    position:relative;
+}
+
+#game{
+  position:relative;
+  border: 3px solid black; 
+  margin: 10px 10px 10px 10px;
+  padding: 5px 5px 5px 5px;
+  height: 600px;
+  background-color: #009933;
+  width:95%;
+}
+
+#square { 
+    width: 111px; 
+    height: 101px; 
+    background: #16a085; 
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 130px;
+    left: 420px;
+}
+
+#triangle1 { 
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 80px 80px 80px 0;
+    border-color: transparent #f1c40f transparent transparent; 
+    top: 140px;
+    left: 75px;
+}
+
+#triangle2 { 
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 150px 0 150px 150px;
+    border-color: transparent transparent    transparent #e74c3c;
+    top: -250px;
+    left: 70px;
+}
+
+#triangle3 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0  150px 150px 150px;
+    border-color: transparent transparent #007bff transparent ;
+    top: -380px;
+    left: 230px;
+}
+
+#triangle4 { 
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 150px 150px;
+    border-color: transparent transparent #d63294 transparent;
+    top: -710px;
+    left: 275px;
+}
+
+#triangle5 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 80px 80px 80px 0;
+    border-color: transparent #69dcf0 transparent transparent;
+    top: -730px;
+    left: 180px;
+}
+
+#parallelogram {
+    width: 150px;
+    height: 70px;
+    -webkit-transform: skew(-45deg);
+    -moz-transform: skew(-45deg);
+    -o-transform: skew(-45deg);
+    background: #e67e22;
+    top: -1015px;
+    left: 200px;
+}
+
+/*Page layout*/
+#blockTray {
+  position:absolute;
+	height: 400px;
+	width: 550px;
+  padding:5px;
+  border: 2px solid black; 
+  top:1%;
+  right:1%;
+  background-color: #bfff00;
+}
+
+#navod{
+  position:absolute;
+  border: 2px solid black;
+  width:540px;
+  height: 175px;
+  bottom:1%;
+  left:1%;
+  padding:1%;
+  background-color: #bfff00;
+}
+#body{
+  position:absolute;
+  border: 2px solid black;
+  width: 245px;
+  height: 175px;
+  bottom:1%;
+  right: 1%;
+  background-color: #bfff00;
+}
+
+#output{
+  position:absolute;
+  border: 2px solid black;
+  width:100px;
+  height: 296px;
+  top:1%;
+  left:1%;
+  background-color: #bfff00;
+}
+#canvas {
+  position:absolute;
+	height: 296px;
+	width: 296px;
+  top:1%;
+  left:15%;
+	text-align: center;
+	vertical-align: top;
+  background-color: #ecf0f1;
+  border: 2px solid black; 
+  position: relative;
+}
+
+#instruction {
+	margin-top: 10px; 
+	font-size: 24px;
+	color: #bdc3c7;
+}
+
+html, body {
+  height:100%;
+  width:100%;
+  background-size: cover;
+}
