@@ -22,17 +22,20 @@ function LoadMenu(activeItem){
                             for(var j = 0; j < element.children.length; j++) {
                                 var element2 = element.children[j];
                                 if(element2.children.length != 0){
+                                    if(element2.separator)
+                                        content += "<li class='divider'></li>";
                                     content += "<li>";
                                     content += "<a href='" + element2.href + "' class='dropdown-toggle' data-toggle='dropdown'>" 
                                         + element2.displayName + "<b class='caret'></b></a>";
-                                    content += "<ul class='dropdown-menu'><li>";
+                                    content += "<ul class='dropdown-menu'>";
 
                                     for(var k = 0; k < element2.children.length; k++){
                                         var element3 = element2.children[k];
-                                        content += "<li" + isActive(activeItem, element3.displayName) + "><a href='" + 
-                                            element3.href + "'>" + element3.displayName + "</a></li>";
+                                        if(element3.separator)
+                                            content += "<li class='divider'></li>";
+                                        content += "<li><a href='" + element3.href + "'>" + element3.displayName + "</a></li>";
                                         }
-                                    content += "</li></ul></li>";
+                                    content += "</ul></li>";
                                 }
                                 else{
                                     content += "<li" + isActive(activeItem, element2.displayName) + "><a href='" + 
@@ -60,19 +63,3 @@ function isActive(first, second){
     else
         return "";
 }
-
-$(document).ready(function() {
-    $('.navbar a.dropdown-toggle').on('click', function(e) {
-        var $el = $(this);
-        var $parent = $(this).offsetParent(".dropdown-menu");
-        $(this).parent("li").toggleClass('open');
-
-        if(!$parent.parent().hasClass('nav')) {
-            $el.next().css({"top": $el[0].offsetTop, "left": $parent.outerWidth() - 4});
-        }
-
-        $('.nav li.open').not($(this).parents("li")).removeClass("open");
-
-        return false;
-    });
-});

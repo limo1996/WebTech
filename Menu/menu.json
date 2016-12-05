@@ -2,6 +2,12 @@
     "MenuItems":
     [
         {
+            "displayName": "Fuck",
+            "href": "#",
+            "separator": false,
+            "children": []
+        },
+        {
             "displayName": "Menu1",
             "href": "#",
             "separator": false,
