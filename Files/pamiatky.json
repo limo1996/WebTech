@@ -4,29 +4,50 @@
             "nazov": "Bratislavská tepláreň",
             "autor": "Dušan Jurkovič",
             "rokVzniku": "1941",
-            "sirka": "Z1a",
-            "dlzka": "Z1b",
             "poloha": "Bratislava, Čulenova ulica",
-            "Nadpis": "Súčastný stav",
-            "paragraf1": "Budova Teplárne,alebo Turbínovej haly je z roku 1941, patrí do záverečného obdobia tvorby architekta Dušana Jurkoviča. Budova je spomenutá v monografii Dany Bořutovej z roku 1993 okrajovo, bez popisu v zozname prác, rok 1940. Bratislavská tepláreň sa nachádza v zóne Chalúpkova, ktorá sa dnes stala z okrajovej zóny centra priamo jeho súčasťou.",
-            "paragraf2": "Jadrom teplárne je súbor budov výrobného bloku a komín vysoký 120 metrov Výsledný komplex je dnes zvláštnym konglomerátom hmôt a priestorov, ktoré boli obkolesené rôznymi vedeniami, rúrami po fasádach. Pôvodná architektúra, návrh Dušana Jurkoviča je dnes vlastne takmer nečitateľný, analýzu a popis vývoja areálu obsahuje článok v časopise Projekt z roku 2004. Bratislavská Tepláreň bola opísaná ako ojedinelé dielo architekta Jurkoviča, ktoré obsahuje:<ul>",
-            "paragraf3": "<li>Prvky secesie - použitie (lícového, resp. fasádneho) tehlového muriva</li><li>zrelej tvorby - monumentalita hmoty, symetria, použitie nárožných veží neskorej tvorby</li> <li>funkcionalizmus - vzťah členenia vnútorného priestoru a fasád.</li><ul>",
-            "": "V súčastosti je zóna Chalúpkova cieľom realitných developerských skupín HB Reavis a Penta. HB Reavis práve dokončil časť projektu Twin City a Penta práve začala stavať SkyPark - 5  výškových budov a rekonštrukcia Jurkovičovej teplárne, ktorá bude prevdepodobne využívaná na kultúrne účely.",
-            "source": "http://www.archinet.sk/magazine/Clanok.asp?ClanokID=15&VydanieKOD=95&Magazine=forum",
-            "img1": "Images/jurTeplaren.jpg",
-            "img2": "Images/skyPark.jpg"
+			"Nadpis": "Súčastný stav",
+			"paragrafs": 
+			[
+				"Budova Teplárne,alebo Turbínovej haly je z roku 1941, patrí do záverečného obdobia tvorby architekta Dušana Jurkoviča. Budova je spomenutá v monografii Dany Bořutovej z roku 1993 okrajovo, bez popisu v zozname prác, rok 1940. Bratislavská tepláreň sa nachádza v zóne Chalúpkova, ktorá sa dnes stala z okrajovej zóny centra priamo jeho súčasťou.",
+				"Jadrom teplárne je súbor budov výrobného bloku a komín vysoký 120 metrov Výsledný komplex je dnes zvláštnym konglomerátom hmôt a priestorov, ktoré boli obkolesené rôznymi vedeniami, rúrami po fasádach. Pôvodná architektúra, návrh Dušana Jurkoviča je dnes vlastne takmer nečitateľný, analýzu a popis vývoja areálu obsahuje článok v časopise Projekt z roku 2004. Bratislavská Tepláreň bola opísaná ako ojedinelé dielo architekta Jurkoviča, ktoré obsahuje:",
+				"<ul><li>Prvky secesie - použitie (lícového, resp. fasádneho) tehlového muriva</li><li>zrelej tvorby - monumentalita hmoty, symetria, použitie nárožných veží neskorej tvorby</li> <li>funkcionalizmus - vzťah členenia vnútorného priestoru a fasád.</li><ul>",
+				"V súčastosti je zóna Chalúpkova cieľom realitných developerských skupín HB Reavis a Penta. HB Reavis práve dokončil časť projektu Twin City a Penta práve začala stavať SkyPark.&nbsp;	Všetky tri bytové veže, rovnako ako nižšia z plánovanej dvojice administratívnych budov, už majú platné stavebné povolenie. Súčasťou projektu je aj 2 100 štvorcových metrov obchodných priestorov na prízemí veží, obchodné pavilóny a viac ako 1 100 parkovacích miest v podzemných garážach. V prvej fáze vznikne aj park s rozlohou 20-tisíc štvorcových metrov a zrekonštruuje sa plášť pamiatkovo chránenej Jurkovičovej teplárne. Jej využitie ešte nie je definitívne určené, mala by však mať čiastočne verejnú funkciu."
+			],
+			"source": "http://www.archinet.sk/magazine/Clanok.asp?ClanokID=15&VydanieKOD=95&Magazine=forum",
+			"imgs": 
+			[
+				{
+					"src": "../../Images/jurTeplaren.jpg",
+					"alt": "Jurkovičová tepláreň"
+				},
+				{
+					"src": "../../Images/skyPark.jpg",
+					"alt": "Sky Park vizualizácia"
+				}
+			]
         },
         {
             "nazov": "Starý most Františka Jozefa I.",
             "rokVzniku": "1889",
             "poloha": "Bratislava, Staré mesto",
-            "Nadpis": "Prestavba",
-            "paragraf1": "Starý most (pôvodne: Most Františka Jozefa) je most cez Dunaj v Bratislave. Postupne niesol ďalšie mená: Franz-Josef-Brücke, Ferencz József-híd, po prvej svetovej vojne Štefánikov most, po druhej svetovej vojne Most Červenej armády. V čase jeho uzatvorenia bol najstarší pevný most cez Dunaj na území Bratislavy. V januári 2016 prebehla kolaudácia nového mosta.",
-            "paragraf2": "Pozostáva zo železnej konštrukcie vyrobenej vo Vítkovických železiarňach, umiestnenej na kamenných pilieroch. Je dlhý 460 m. Je na ňom drevený chodník a jednokoľajová železničná trať (ktorá nepokračuje na žiadnom konci mosta). Do roku 2010 tu bola aj dvojpruhová cestná komunikácia. Tá bola najprv vo večerných hodinách 31. decembra 2008 uzavretá pre všetky druhy dopravy okrem MHD a od 14. mája 2010 aj pre MHD. Následne bola pre havarijný stav mosta demontovaná. Od konca novembra 2013 prebiehala jeho demontáž, pričom z tohto dôvodu bol od 2. decembra 2013 uzavretý pre všetku dopravu. Po jeho demontáži bol na jeho mieste vybudovaný nový most, ktorý využíva niektoré z pilierov Starého mosta, ktoré sú však nadstavené. Nový most slúži električkovej, cyklistickej a pešej doprave.",
-            "paragraf3": "2. decembra 2013 o 8:15 sa most pre verejnosť definitívne uzavrel a započala sa demontáž mostu a dvoch pôvodných pilierov, ako aj výstavba nového pileru. Pôvodný termín ukončenia demontáže, naplánový na jar 2014, nebol splnený, nakoľko sa našli na dne Dunaja objekty, ktoré boli predbežne vyhodnotené ako munícia. V záujme bezpečnosti si preto hlavné mesto objednalo podrobnejší sonarový prieskum dna rieky v oblasti pilierov Starého mosta. Ten však odhalil, že kovové objekty nie sú nevybuchnutými mínami a tak sa na demontáži mohlo pokračovať. Pôvodný plán sa však neúnosne natiahol a s búraním dvoch pilierov sa začalo až v septembri 2014. Táto skutočnosť čelila obrovskej kritike verejnosti, podľa ktorej došlo k výraznému časovému sklzu, ktorý mohol ohroziť plánované dokončenie stavby mostu a spojazdnenia trate do Petržalky v stanovenom termíne. Koncom januára 2015 stavba meškala už 10 týždňov a tak mestu hrozí, že 70 miliónové náklady bude musieť hradiť samo. 85% rozpočtu pochádza z Kohézneho fondu Európskej únie.<br> S vysúvaním novej konštrukcie mostu sa začalo v marci 2015 z petržalskej strany a súbežne dostáva aj šedo-zelený náter. Predbežný plán dokončenia mostu je plánovaný na október 2015. Nový most bude slúžiť električkovej doprave a v prípade potreby ho tiež budú môcť využiť záchranné zložky. Električková trať bude na súčasnú sieť napojená na Šafárikovom námestí (zároveň bude zdvojkoľajnená existujúca trať na Štúrovej), na petržalskej strane bude vedená v prvej etape po Jantárovú cestu, neskôr sa plánuje predĺženie do Janíkovho dvora na juhu Petržalky. Električková trať bude vybudovaná ako tram-train s dvomi rozchodmi a v budúcnosti by mala umožniť podľa potreby aj prevádzku duálnych vozidiel, ktoré by mohli prechádzať z električkovej siete na železničnú a naopak.<br>Oficiálne práce na moste skončili už 15. decembra 2015, ale na moste sa pracovalo ešte aj potom. Práce na viac než stovke objektov mali byť podľa mesta ukončné 21. januára 2016. K predošlému dňu sa začala kolaudácia mosta. Predchádzajúci víkend sa na moste uskutočnila dynamická skúška.[2] V polovici februára prešla v rámci kolaudácie mostom prvá električka. [3]Most bol otvorený pre verejnosť 19. mája 2016. Sprístupnený je však len pre pešiu a cyklistickú dopravu. Električky začali premávať po Starom moste 8. júla 2016.",
-            "source": "https://sk.wikipedia.org/wiki/Star%C3%BD_most_(Bratislava)",
-            "img1": "Images/jurTeplaren.jpg",
-            "img2": "Images/skyPark.jpg"
+			"Nadpis": "Prestavba",
+			"paragrafs": 
+			[
+				"Starý most (pôvodne: Most Františka Jozefa) je most cez Dunaj v Bratislave. Postupne niesol ďalšie mená: Franz-Josef-Brücke, Ferencz József-híd, po prvej svetovej vojne Štefánikov most, po druhej svetovej vojne Most Červenej armády. V čase jeho uzatvorenia bol najstarší pevný most cez Dunaj na území Bratislavy. V januári 2016 prebehla kolaudácia nového mosta.",
+				"Pozostáva zo železnej konštrukcie vyrobenej vo Vítkovických železiarňach, umiestnenej na kamenných pilieroch. Je dlhý 460 m. Je na ňom drevený chodník a jednokoľajová železničná trať (ktorá nepokračuje na žiadnom konci mosta). Do roku 2010 tu bola aj dvojpruhová cestná komunikácia. Tá bola najprv vo večerných hodinách 31. decembra 2008 uzavretá pre všetky druhy dopravy okrem MHD a od 14. mája 2010 aj pre MHD. Následne bola pre havarijný stav mosta demontovaná. Od konca novembra 2013 prebiehala jeho demontáž, pričom z tohto dôvodu bol od 2. decembra 2013 uzavretý pre všetku dopravu. Po jeho demontáži bol na jeho mieste vybudovaný nový most, ktorý využíva niektoré z pilierov Starého mosta, ktoré sú však nadstavené. Nový most slúži električkovej, cyklistickej a pešej doprave.",
+				"2. decembra 2013 o 8:15 sa most pre verejnosť definitívne uzavrel a započala sa demontáž mostu a dvoch pôvodných pilierov, ako aj výstavba nového pileru. Pôvodný termín ukončenia demontáže, naplánový na jar 2014, nebol splnený, nakoľko sa našli na dne Dunaja objekty, ktoré boli predbežne vyhodnotené ako munícia. V záujme bezpečnosti si preto hlavné mesto objednalo podrobnejší sonarový prieskum dna rieky v oblasti pilierov Starého mosta. Ten však odhalil, že kovové objekty nie sú nevybuchnutými mínami a tak sa na demontáži mohlo pokračovať. Pôvodný plán sa však neúnosne natiahol a s búraním dvoch pilierov sa začalo až v septembri 2014. Táto skutočnosť čelila obrovskej kritike verejnosti, podľa ktorej došlo k výraznému časovému sklzu, ktorý mohol ohroziť plánované dokončenie stavby mostu a spojazdnenia trate do Petržalky v stanovenom termíne. Koncom januára 2015 stavba meškala už 10 týždňov a tak mestu hrozí, že 70 miliónové náklady bude musieť hradiť samo. 85% rozpočtu pochádza z Kohézneho fondu Európskej únie.<br> S vysúvaním novej konštrukcie mostu sa začalo v marci 2015 z petržalskej strany a súbežne dostáva aj šedo-zelený náter. Predbežný plán dokončenia mostu je plánovaný na október 2015. Nový most bude slúžiť električkovej doprave a v prípade potreby ho tiež budú môcť využiť záchranné zložky. Električková trať bude na súčasnú sieť napojená na Šafárikovom námestí (zároveň bude zdvojkoľajnená existujúca trať na Štúrovej), na petržalskej strane bude vedená v prvej etape po Jantárovú cestu, neskôr sa plánuje predĺženie do Janíkovho dvora na juhu Petržalky. Električková trať bude vybudovaná ako tram-train s dvomi rozchodmi a v budúcnosti by mala umožniť podľa potreby aj prevádzku duálnych vozidiel, ktoré by mohli prechádzať z električkovej siete na železničnú a naopak.<br>Oficiálne práce na moste skončili už 15. decembra 2015, ale na moste sa pracovalo ešte aj potom. Práce na viac než stovke objektov mali byť podľa mesta ukončné 21. januára 2016. K predošlému dňu sa začala kolaudácia mosta. Predchádzajúci víkend sa na moste uskutočnila dynamická skúška.[2] V polovici februára prešla v rámci kolaudácie mostom prvá električka. [3]Most bol otvorený pre verejnosť 19. mája 2016. Sprístupnený je však len pre pešiu a cyklistickú dopravu. Električky začali premávať po Starom moste 8. júla 2016."
+			],
+			"source": "https://sk.wikipedia.org/wiki/Star%C3%BD_most_(Bratislava)",
+			"imgs": [
+				{
+					"src": "../../Images/staryMost.jpg",
+					"alt": "Starý most"
+				},
+				{
+					"src": "../../Images/novyStaryMost.jpg",
+					"alt": "Starý most po rekonštrukcií"
+				}
+			]
         }
     ]
 }
