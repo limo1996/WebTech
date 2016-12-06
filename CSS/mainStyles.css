@@ -1,0 +1,24 @@
+﻿.btn-xl {
+    padding: 15px 45px;
+    font-size: 11px;
+}
+.btn {
+    border-radius: 300px;
+}
+.btn-outline {
+    color: #fff;
+    border: 1px solid;
+}
+.btn, .navbar-default .nav>li>a {
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+body{
+}
+
+header{
+	background: url('../Images/bg-pattern.png'), linear-gradient(to left, #7b4397,#dc2430);
+	height: 700px;
+}
