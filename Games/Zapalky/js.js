@@ -11,8 +11,7 @@ function drop(ev) {
     var data = ev.dataTransfer.getData("text");
     var dragDiv = document.getElementById(data)
     var dropDiv = ev.target;
-    console.log(vysledky[1])
-     console.log(dropDiv.childNodes[0])
+    //  console.log(dragDiv.id)
         if(dropDiv.childNodes.length == 1){
     var castZaplaky = dragDiv.childNodes[0];
     var w  = castZaplaky.style.width;
@@ -22,7 +21,7 @@ function drop(ev) {
     var top = tmp.style.top;
     dragDiv.style.left = left;
     dragDiv.style.top =top;	
-
+  //  console.log(zaciatok.sort())
     if(dragDiv.style.width != dropDiv.style.width)
     {
     	dragDiv.style.width =dropDiv.style.width;
@@ -31,7 +30,18 @@ function drop(ev) {
     	castZaplaky.style.height = w;
 
     }
+    var a = dropDiv.innerHTML;
+    var index = zaciatok.indexOf(Number(dragDiv.id));
+    zaciatok[index] = Number(a);
+    dragDiv.id = a;
     ev.target.appendChild(dragDiv);
+    console.log(zaciatok);
+    console.log(vysledky[j]);
+    var zaciatokSort = zaciatok.sort();
+    var vysledkySort  = vysledky[j].sort();
+    if(zaciatokSort.toString() == vysledkySort.toString()){
+    	console.log('DOPICE');
+    }
 	}
 }
 
