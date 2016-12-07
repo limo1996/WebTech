@@ -15,3 +15,4 @@ Robert: (5) a (6)
 
 #Stav vypracovania
 Limo: (2) + (7) + individualne zadania done 
+Robert: (5) + (6) + game done 
