@@ -151,6 +151,57 @@
 					"alt": "Mestský úrad v súčasnosti."
 				}
 			]
+		},
+        {
+			"tag": 7,
+			"nazov": "Lodný mlyn Kolárov",
+			"rokVzniku": "1982",
+			"poloha": "Nitriansky kraj, okres Komárno, Kolárov",
+			"Nadpis1": "História",
+			"Nadpis2": "Súčastný stav",
+			"paragrafs": [
+				"Lodný mlyn v Kolárove na juhozápadnom Slovensku je posledným exemplárom plávajúceho mlyna a jediným lodným mlynom na Slovensku. V mlyne sídli Múzeum vodného mlynárstva.Vodný mlyn je umiestnený na mŕtvom ramene Dunaja. Postavený je na dvoch rovnobežných člnoch a ukotvený o breh rieky. Loďky sú väčšie, ako boli na pôvodných plávajúcich mlynoch. Je to rekonštruovaná podoba vyrobená v Slovenských lodeniciach v Komárne v roku 1982 podľa vzoru bývalého lodného mlyna v Radvani nad Dunajom.",
+				"Mlyn je dnes teoreticky funkčný, v skutočnosti však nefunguje, čoho dôvodom je stojatá voda ramena. V objekte sa nachádza niekoľko komponentov z pôvodného mlyna a využitý je ako malá historická expozícia. Zaujímavosťou je napríklad benzínový agregát z prelomu 19. a 20. storočia, pripomínajúci malú lokomotívu, ktorý údajne patrí medzi prvé mechanizmy na svete, vďaka ktorým vyrábali stroje rybárske siete.Mlyn má pevnú konštrukciu, aby vydržal nápor jarných ľadov i storočnú vodu. Vedie k nemu 86 m dlhý most, ktorý sa považuje za najdlhší most s drevenou konštrukciou v Európe. Mlyn sa nachádza na obľúbenej vodáckej trase Malým Dunajom. Rameno Malého Dunaja je tu však zahatané z oboch strán, takže k mlynu sa po vode nedá dostať.",
+				"Pri vstupe do areálu je k zhliadnutiu malé technické múzeum. Skvostom medzi exponátmi je stroj na pohon transmisie, s prevodom na pletacie stroje na výrobu sietí. Stroj sa podarilo takmer po 50-tich rokoch opäť sfunkčniť, čo sa aj využíva pri niektorých slávnostných príležitostiach. Mlyn je súčasťou areálu s viacerými technickými pamiatkami a možnosťou oddychu a občerstvenia v tradičnej "Krčme u Mlyna", ktorá okrem iného upúta aj ojedinelou ponukou bylinkových likérov. Počas celej letnej sezóny sa v areáli koná množstvo rôznych kultúrnych i gastronomických podujatí, tiež sa tu organizujú ekotábory pre školy."				
+			],
+			"source": "http://slovakia.travel/lodny-mlyn-kolarovo",
+			"imgs": [
+				{
+					"src": "../../Images/mlynK1.jpg",
+					"alt": "Vodný mlyn Kolárovo 1"
+				},
+				{
+					"src": "../../Images/mlynK2.jpg",
+					"alt": "Vodný mlyn Kolárovo 2"
+				}
+			]
+		},
+		{
+			"tag": 8,
+			"nazov": "Vodný mlyn Dunajský Klátov",
+			"rokVzniku": "1889",
+			"poloha": "Trnavský kraj, okres Dunajská Streda, Dunajský Klátov",
+			"Nadpis1": "História",
+			"Nadpis2": "Súčastný stav",
+			"paragrafs": [
+				"Kultúrna technická pamiatka, vodný mlyn v Dunajskom Klátove sa nachádza na brehu Klátovského ramena Malého Dunaja v katastri obce Dunajský Klátov, okres Dunajská Streda. Je typickým príkladom spodkového mlyna.  Vodný mlyn Dunajský KlátovTerajšiu stavebnú úpravu získal pri prestavbe v roku 1920. Posledným majiteľom bol Michal Cséfalvay. Naposledy sa v mlyne pracovalo v štyridsiatich rokoch 20. storočia.",
+				"Postavením nového mostu v päťdesiatych rokoch bola voda odvedená od vodného kolesa, a niet divu, že bolo úplne zruinované. V druhej polovici osemdesiatych rokov 20. storočia bol mlyn odkúpený štátom a objekt a celé okolie bolo vyhlásené za štátom chránené územie. Začala sa stavebno-technická rekonštrukcia objektu. Pre verejnosť bol mlyn sprístupnený 21.augusta 1987.",
+				"V roku 2016 sa realizovala komplexná obnova budovy mlyna, zrekonštruovaný bol interiér aj exteriér a budova dostala novú strechu.
+                    Obnovilo sa mlynské koleso, jeho oporná časť a k nemu patriace ozubené koleso. Taktiež boli spevnené brehy, vybudovala sa nová ohrada, 
+                    prebehla komplexná úprava okolitého terénu. Na druhom brehu Klátovského ramena bolo vybudované mólo - výhľadňa. Pre verejnosť bol mlyn znovu otvorený 7. mája 2016. <br>
+                Mlyn je síce schopný prevádzky, ale nemožno ho spúšťať pre nízku hladinu vody. Na rozdiel od iných dunajských mlynov má murovanú mlynicu, len koleso a hnacia časť sú umiestnené v drevenej prístavbe. V horúcom lete na vodnej hladine umocňujú čaro prírodnej rezervácie Klátovské rameno prekrásne kvety lekna bieleho."								
+			],
+			"source": "http://www.muzeum.sk/?obj=pamiatka&ix=zom_vmdv",
+			"imgs": [
+				{
+					"src": "../../Images/mlynDK1.jpg",
+					"alt": "Vodný mlyn Dunajský Klátov 1"
+				},
+				{
+					"src": "../../Images/mlynDK2.jpg",
+					"alt": "Vodný mlyn Dunajský Klátov 2"
+				}
+			]
 		}
     ]
 }

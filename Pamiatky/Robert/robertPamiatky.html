@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="sk">
+
+<head>
+	<title>Pamiatka v Kolárove a v Dunajskom Klátove</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<!--Bootstrap linking-->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+	<!--Local files linking-->
+	<link href="limoStyles.css" rel="stylesheet">
+	<link href="../../CSS/mainStyles.css" rel="stylesheet">
+	<script src="../../Menu/menuScripts.js"></script>
+	<script src="../limoScripts.js"></script>
+	<script>
+        function Load(){
+            LoadPage(7,8,'../../Files/pamiatky.json');            
+            LoadMenu('Róbert', '../../Menu/menu.json');
+        }
+    </script>
+</head>
+
+<body onload="Load();">
+	<div class="navbar navbar-default navbar-fixed-top" role="navigation" id="menuBar"></div>
+	<div class="jumbotron">
+		<div class="col-sm-6 panel" id="leftPanel">
+		</div>
+		<div class="col-sm-6 panel" id="rightPanel">
+		</div>
+	</div>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="../../Menu/jQueryScripts.js"></script>
+</body>
+
+</html>
