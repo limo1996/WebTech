@@ -99,6 +99,58 @@
 					"alt": "Gymnázium P.J Šafárika v Rožňave stará fotka"
 				}
 			]
+		},
+		{
+			"tag": 5,
+			"nazov": "Schoellerov mlyn",
+			"rokVzniku": "1882",
+			"poloha": "Levice, Mlynská ulica",
+			"Nadpis1": "História",
+			"Nadpis2": "Súčastný stav",
+			"paragrafs": [
+				"Mlyn postavili v rokoch 1879 až 1882 na mieste starého kamenného mlyna z čias Esterházyovcov. Nový mlyn v roku 1889 vyhorel, avšak znovu ho vybudovali a stal sa najväčšímpriemyselným objektom v okolí. .",
+				"V roku 1900 pôvodne vodný mlyn prestavali na parný pohon. Ako kurivo slúžila nafta, neskôr pri vyšších energetických nárokoch sem potiahli doplnkové vedenie z mestskej elektrárne a napokon mlyn v roku 1928 napojili na rozvodnú sieť Stredoslovenských elektrární."	
+				"Prestavbu mlyna realizovala firma Bárdos és Brachfeld v rokoch 1926 až 1927. V rámci nej postavili štvorposchodové silo na dlhšie uskladovanie obilia pri zachovaní jeho kvality. Mlyn zamestnával približne 80 ľudí a spracúval 2 300 vagónov obilia ročne. Bol vybavený najmodernejšou technikou, mal laboratórium európskeho významu, vlastnú elektráreň a skúšobnú pec. Produkty levického mlyna boli známe po celom Slovensku a získavali významné ocenenia. ",
+				"Mlyn podstupuje v súčasnosti rekonštrukciu. Hlavná budova je opravená a slúži pre podnikateľské účely. Mlyn tvorí jednu z dominánt mesta a svojou mohutnosťou a úchvatnosťou stavby pripomína každému okoloidúcemu význam svojej existencie vminulosti."
+."	
+			],
+			"source": "http://www.levice.sk/download_file_f.php?id=069979",
+			"imgs": [
+				{
+					"src": "../../Images/stary_mlyn.png",
+					"alt": "Historická fotka Schoellerovho mlynu"
+				},
+				{
+					"src": "../../Images/novy_mlyn.png",
+					"alt": "Súčasná fotka Shchoellerovho mlynu"
+				}
+			]
+		},
+		{
+			"tag": 6,
+			"nazov": "Bývalá radnica (dnes budova Mestského úradu)",
+			"rokVzniku": "1902",
+			"poloha": "Levice,Námestie hrdinov",
+			"Nadpis1": "História",
+			"Nadpis2": "Súčastný stav",
+			"paragrafs": [
+				"Do polovice 18. storočia Levice nemali radnicu, v pravom zmysle slova. Richtári totiž úradovali vo vlastných domoch. Koncom 19. storočia levickí radní páni rozhodli o stavbe Mestského domu, pričom za vhodný považovali priestor na mieste starej radnice. Projekt vyhotovil architekt Rudolf Czibulka. Mestský dom postavený v slohu neskorého romantizmu s prvkami uhorskej secesie 19. septembra 1902 slávnostne odovzdali do rúk mešťanostu Ľudovíta Bódogha.", 
+				"V dvadsiatych rokoch 20. storočia mesto začalo uvažovať o prestavbe radnice, pretože pôvodné priestory už neboli dostačujúce. Magistrát preto vyhlásil súťaž, v ktorej vyhral pôvodný architekt – Rudolf Czibulka. Ten poskytol originálne a úsporné riešenie prestavby bez rozobratia krovu. Strechu budovy rozobrali na sektory a podopreli podpornými stĺpmi. Krov zdvihli skrutkovými dvihákmi, pričom postupne domurovali ďalšie poschodie. Do zrekonštruovanej budovy na prvé poschodie umiestnili Okresný úrad a iné inštitúcie, na druhom poschodí sídlil Štátny daňový úrad, daňové riaditeľstvo, mestská knižnica a múzeum. Na prízemí bolo 6 obchodných priestorov, Mestský notársky úrad, mestské žandárstvo a úrad na sprostredkovanie práce. ",
+				"Do zrekonštruovanej budovy na prvé poschodie umiestnili Okresný úrad a iné inštitúcie, na druhom poschodí sídlil Štátny daňový úrad, daňové riaditeľstvo, mestská knižnica a múzeum. Na prízemí bolo 6 obchodných priestorov, Mestský notársky úrad, mestské žandárstvo a úrad na sprostredkovanie práce. Po pripojení Levíc k Maďarsku v novembri 1938 sa mesto stalo sídlom župy a v budove Mestského domu zriadili župný úrad. Funkciu radnice prevzala dnešná budova polície. Ešte pred prestavbou na secesné priečelie nad oknami v strede umiestnili kamenný erb mesta. Po prestavbe v roku 1927 a zodvihnutí strechy pribudli na hornej časti priečelia veľké ručičkové hodiny a mestský erb získal novú podobu. V spodnej časti budovy bolo spomínaných 6 obchodných priestorov: Langova centrálna kaviareň, predajňa s obuvou Alexandra Kovácsa a obchod Schweihsa a Trebitscha so zmiešaným tovarom. V pravom krídle mal obchod s vínom a so značkovým alkoholom Imrich Amstetter. Na pravej strane budovy bola predajňa Samuela Wienera a obchod s lahôdkami a koreninami. Po niekoľkých rokoch prevádzky Langovej centrálnej kaviarne, si tento priestor prenajal židovský obchodník Móric Vámos. Zriadil v nich obchod so skleným a s porcelánovým tovarom, lustrami, hračkami, detskými kočíkmi a potrebami pre matky. Obchody sa postupne menili, výklady sa vytrácali a v 40. rokoch sa prerobili na okná.",
+				"V nedávnej minulosti bola v dolných priestoroch situovaná Tekovská knižnica – oddelenie detskej literatúry, neskôr kníhkupectvo a banka. V súčasnosti sú tieto priestory budovy využívané Mestským úradom ako kancelária prvého kontaktu a matričný úrad."
+"
+			],
+			"source": "http://www.levice.sk/download_file_f.php?id=069971",
+			"imgs": [
+				{
+					"src": "../../Images/stary_urad.png",
+					"alt": "Mestský úrad v minulosti"
+				},
+				{
+					"src": "../../Images/novy_urad.png",
+					"alt": "Mestský úrad v súčasnosti."
+				}
+			]
 		}
     ]
 }
