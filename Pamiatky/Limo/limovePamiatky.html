@@ -3,116 +3,115 @@
 <head>
 	<title>Pamiatky Bratislavy</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
 	<!--Bootstrap linking-->
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 
 	<!--Local files linking-->
 	<link href="limoStyles.css" rel="stylesheet">
-	<script src="../Menu/menuScripts.js"></script>
+    <link href="../../CSS/mainStyles.css" rel="stylesheet">
+	<script src="../../Menu/menuScripts.js"></script>
 	<script src="limoScripts.js"></script>
+    <script>
+        function Load(){
+            LoadPage('../../Files/pamiatky.json');            
+            LoadMenu('Jakub', '../../Menu/menu.json');
+        }
+    </script>
 </head>
-<body onload="LoadMenu('Jakub', '../Menu/menu.json');">
-	<style>
-		body {
-			padding-top: 50px;
-		}
-
-		.navbar-template {
-			padding: 40px 15px;
-		}
-	</style>
+<body onload="Load();">
 	<div class="navbar navbar-default navbar-fixed-top" role="navigation" id="menuBar"></div>
 	<div class="jumbotron">
 		<div class="col-sm-6 panel" id="leftPanel">
-			<div class="container">
-				<h1 class="featurette-heading">Bratislavská tepláreò</h1>
+			<!--<div class="container">
+				<h1 class="featurette-heading">BratislavskÃ¡ teplÃ¡reÅˆ</h1>
 				<div class="text-left">
-					<p><span class="glyphicon glyphicon-map-marker"></span>&nbsp;Bratislava, Èulenova ulica</p>
-					<p><span class="glyphicon glyphicon-user"></span>&nbsp;Dušan Jurkoviè</p>
+					<p><span class="glyphicon glyphicon-map-marker"></span>&nbsp;Bratislava, ÄŒulenova ulica</p>
+					<p><span class="glyphicon glyphicon-user"></span>&nbsp;DuÅ¡an JurkoviÄ</p>
 					<p><span class="glyphicon glyphicon-flag"></span>&nbsp;Rok vzniku 1941</p>
 				</div>
-				<p class="lead text-info">História</p>
+				<p class="lead text-info">Histï¿½ria</p>
 				<div class="articleText text-justify">
-					Budova Teplárne,alebo Turbínovej haly je z roku 1941, patrí do závereèného obdobia tvorby architekta Dušana Jurkovièa.
-					Budova je spomenutá v monografii Dany Boøutovej z roku 1993 okrajovo, bez popisu v zozname prác, rok 1940.
-					Bratislavská tepláreò sa nachádza v zóne Chalúpkova, ktorá sa dnes stala z okrajovej zóny centra priamo jeho súèasou.
+					Budova TeplÃ¡rne alebo TurbÃ­novej haly je z roku 1941, patrÃ­ do zÃ¡vereÄnÃ©ho obdobia tvorby architekta DuÅ¡ana JurkoviÄa.
+					Budova je spomenutÃ¡ v monografii Dany BoÅ¡utovej z roku 1993 okrajovo, bez popisu v zozname prÃ¡c, rok 1940.
+					Bratislavskï¿½ teplï¿½reï¿½ sa nachï¿½dza v zÃ³ne ChalÃºpkova, ktorï¿½ sa dnes stala z okrajovej zï¿½ny centra priamo jeho sï¿½ï¿½asï¿½ou.
 				</div>
 				<div class="articleText text-justify">
-					Jadrom teplárne je súbor budov vırobného bloku a komín vysokı 120 metrov Vıslednı komplex je dnes zvláštnym konglomerátom hmôt a priestorov,
-					ktoré boli obkolesené rôznymi vedeniami, rúrami po fasádach. Pôvodná architektúra, návrh Dušana Jurkovièa je dnes vlastne takmer neèitate¾nı,
-					analızu a popis vıvoja areálu obsahuje èlánok v èasopise Projekt z roku 2004. Bratislavská Tepláreò bola opísaná ako ojedinelé dielo architekta Jurkovièa, ktoré obsahuje:
+					Jadrom teplï¿½rne je sï¿½bor budov vï¿½robnï¿½ho bloku a komï¿½n vysokï¿½ 120 metrov Vï¿½slednï¿½ komplex je dnes zvlï¿½ï¿½tnym konglomerï¿½tom hmï¿½t a priestorov,
+					ktorï¿½ boli obkolesenï¿½ rï¿½znymi vedeniami, rï¿½rami po fasï¿½dach. Pï¿½vodnï¿½ architektï¿½ra, nï¿½vrh Duï¿½ana Jurkoviï¿½a je dnes vlastne takmer neï¿½itateï¿½nï¿½,
+					analï¿½zu a popis vï¿½voja areï¿½lu obsahuje ï¿½lï¿½nok v ï¿½asopise Projekt z roku 2004. Bratislavskï¿½ Teplï¿½reï¿½ bola opï¿½sanï¿½ ako ojedinelï¿½ dielo architekta Jurkoviï¿½a, ktorï¿½ obsahuje:
 				</div>
 				<div class="articleText text-left">
 					<ul class='list-group' style='margin-left:12px;'>
-						<li>Prvky secesie - pouitie (lícového, resp. fasádneho) tehlového muriva</li>
-						<li>zrelej tvorby - monumentalita hmoty, symetria, pouitie náronıch veí neskorej tvorby</li>
-						<li>funkcionalizmus - vzah èlenenia vnútorného priestoru a fasád.</li>
+						<li>Prvky secesie - pouï¿½itie (lï¿½covï¿½ho, resp. fasï¿½dneho) tehlovï¿½ho muriva</li>
+						<li>zrelej tvorby - monumentalita hmoty, symetria, pouï¿½itie nï¿½roï¿½nï¿½ch veï¿½ï¿½ neskorej tvorby</li>
+						<li>funkcionalizmus - vzï¿½ah ï¿½lenenia vnï¿½tornï¿½ho priestoru a fasï¿½d.</li>
 					</ul>
 				</div>
 				<img src="../../Images/jurTeplaren.jpg" alt="teplaren" class="images" />
-				<p class="lead text-info">Súèastnı stav</p>
+				<p class="lead text-info">Sï¿½ï¿½astnï¿½ stav</p>
 				<div class="articleText text-justify">
-					V súèastosti je zóna Chalúpkova cie¾om realitnıch developerskıch skupín HB Reavis a Penta. HB Reavis práve dokonèil èas projektu Twin City
-					a Penta práve zaèala stava SkyPark.&nbsp;
-					Všetky tri bytové vee, rovnako ako nišia z plánovanej dvojice administratívnych budov, u majú platné stavebné povolenie.
-					Súèasou projektu je aj 2 100 štvorcovıch metrov obchodnıch priestorov na prízemí veí, obchodné pavilóny a viac ako 1 100 parkovacích miest v podzemnıch garáach.
-					V prvej fáze vznikne aj park s rozlohou 20-tisíc štvorcovıch metrov a zrekonštruuje sa pláš pamiatkovo chránenej Jurkovièovej teplárne.
-					Jej vyuitie ešte nie je definitívne urèené, mala by však ma èiastoène verejnú funkciu.
+					V sï¿½ï¿½astosti je zï¿½na Chalï¿½pkova cieï¿½om realitnï¿½ch developerskï¿½ch skupï¿½n HB Reavis a Penta. HB Reavis prï¿½ve dokonï¿½il ï¿½asï¿½ projektu Twin City
+					a Penta prï¿½ve zaï¿½ala stavaï¿½ SkyPark.&nbsp;
+					Vï¿½etky tri bytovï¿½ veï¿½e, rovnako ako niï¿½ï¿½ia z plï¿½novanej dvojice administratï¿½vnych budov, uï¿½ majï¿½ platnï¿½ stavebnï¿½ povolenie.
+					Sï¿½ï¿½asï¿½ou projektu je aj 2 100 ï¿½tvorcovï¿½ch metrov obchodnï¿½ch priestorov na prï¿½zemï¿½ veï¿½ï¿½, obchodnï¿½ pavilï¿½ny a viac ako 1 100 parkovacï¿½ch miest v podzemnï¿½ch garï¿½ï¿½ach.
+					V prvej fï¿½ze vznikne aj park s rozlohou 20-tisï¿½c ï¿½tvorcovï¿½ch metrov a zrekonï¿½truuje sa pláš pamiatkovo chrï¿½nenej Jurkoviï¿½ovej teplï¿½rne.
+					Jej vyuï¿½itie eï¿½te nie je definitï¿½vne urï¿½enï¿½, mala by vï¿½ak maï¿½ ï¿½iastoï¿½ne verejnï¿½ funkciu.
 				</div>
 				<img src="../../Images/skyPark.jpg" alt="skypark" class="images" />
 				<p class="articleText">Zdroj: <a href="http://www.archinet.sk/magazine/Clanok.asp?ClanokID=15&VydanieKOD=95&Magazine=forum">tu</a>.</p>
-			</div>
+			</div>-->
 		</div>
 		<div class="col-sm-6 panel" id="rightPanel">
-			<div class="container">
-				<h1 class="featurette-heading">Starı most Františka Jozefa I.</h1>
+			<!--<div class="container">
+				<h1 class="featurette-heading">Starï¿½ most Frantiï¿½ka Jozefa I.</h1>
 				<div class="text-left">
-					<p><span class="glyphicon glyphicon-map-marker"></span>&nbsp;Bratislava, Staré mesto</p>
+					<p><span class="glyphicon glyphicon-map-marker"></span>&nbsp;Bratislava, Starï¿½ mesto</p>
 					<p><span class="glyphicon glyphicon-flag"></span>&nbsp;Rok vzniku 1889</p>
 				</div>
-				<p class="lead text-info">História</p>
+				<p class="lead text-info">Histï¿½ria</p>
 				<div class="articleText text-justify">
-					Starı most (pôvodne: Most Františka Jozefa) je most cez Dunaj v Bratislave. Postupne niesol ïalšie mená: Franz-Josef-Brücke,
-					Ferencz József-híd, po prvej svetovej vojne Štefánikov most, po druhej svetovej vojne Most Èervenej armády.
-					V èase jeho uzatvorenia bol najstarší pevnı most cez Dunaj na území Bratislavy. V januári 2016 prebehla kolaudácia nového mosta.
+					Starï¿½ most (pï¿½vodne: Most Frantiï¿½ka Jozefa) je most cez Dunaj v Bratislave. Postupne niesol ï¿½alï¿½ie menï¿½: Franz-Josef-Brï¿½cke,
+					Ferencz Jï¿½zsef-hï¿½d, po prvej svetovej vojne ï¿½tefï¿½nikov most, po druhej svetovej vojne Most ï¿½ervenej armï¿½dy.
+					V ï¿½ase jeho uzatvorenia bol najstarï¿½ï¿½ pevnï¿½ most cez Dunaj na ï¿½zemï¿½ Bratislavy. V januï¿½ri 2016 prebehla kolaudï¿½cia novï¿½ho mosta.
 				</div>
 				<div class="articleText text-justify">
-					Pozostáva zo eleznej konštrukcie vyrobenej vo Vítkovickıch eleziaròach, umiestnenej na kamennıch pilieroch. Je dlhı 460 m.
-					Je na òom drevenı chodník a jednoko¾ajová eleznièná tra (ktorá nepokraèuje na iadnom konci mosta). Do roku 2010 tu bola aj
-					dvojpruhová cestná komunikácia. Tá bola najprv vo veèernıch hodinách 31. decembra 2008 uzavretá pre všetky druhy dopravy okrem MHD
-					a od 14. mája 2010 aj pre MHD. Následne bola pre havarijnı stav mosta demontovaná. Od konca novembra 2013 prebiehala jeho demontá,
-					prièom z tohto dôvodu bol od 2. decembra 2013 uzavretı pre všetku dopravu. Po jeho demontái bol na jeho mieste vybudovanı novı most,
-					ktorı vyuíva niektoré z pilierov Starého mosta, ktoré sú však nadstavené. Novı most slúi elektrièkovej, cyklistickej a pešej doprave.
+					Pozostï¿½va zo ï¿½eleznej konï¿½trukcie vyrobenej vo Vï¿½tkovickï¿½ch ï¿½eleziarï¿½ach, umiestnenej na kamennï¿½ch pilieroch. Je dlhï¿½ 460 m.
+					Je na ï¿½om drevenï¿½ chodnï¿½k a jednokoï¿½ajovï¿½ ï¿½elezniï¿½nï¿½ traï¿½ (ktorï¿½ nepokraï¿½uje na ï¿½iadnom konci mosta). Do roku 2010 tu bola aj
+					dvojpruhovï¿½ cestnï¿½ komunikï¿½cia. Tï¿½ bola najprv vo veï¿½ernï¿½ch hodinï¿½ch 31. decembra 2008 uzavretï¿½ pre vï¿½etky druhy dopravy okrem MHD
+					a od 14. mï¿½ja 2010 aj pre MHD. Nï¿½sledne bola pre havarijnï¿½ stav mosta demontovanï¿½. Od konca novembra 2013 prebiehala jeho demontï¿½ï¿½,
+					priï¿½om z tohto dï¿½vodu bol od 2. decembra 2013 uzavretï¿½ pre vï¿½etku dopravu. Po jeho demontï¿½ï¿½i bol na jeho mieste vybudovanï¿½ novï¿½ most,
+					ktorï¿½ vyuï¿½ï¿½va niektorï¿½ z pilierov Starï¿½ho mosta, ktorï¿½ sï¿½ vï¿½ak nadstavenï¿½. Novï¿½ most slï¿½ï¿½i elektriï¿½kovej, cyklistickej a peï¿½ej doprave.
 				</div>
-				<img src="../../Images/staryMost.jpg" alt="Starı most" class="images" />
-				<p class="lead text-info">Súèastnı stav</p>
+				<img src="../../Images/staryMost.jpg" alt="Starï¿½ most" class="images" />
+				<p class="lead text-info">Sï¿½ï¿½astnï¿½ stav</p>
 				<div class="articleText text-justify">
-					2. decembra 2013 o 8:15 sa most pre verejnos definitívne uzavrel a zapoèala sa demontá mostu a dvoch pôvodnıch pilierov, ako aj vıstavba nového pileru.
-					Pôvodnı termín ukonèenia demontáe, naplánovı na jar 2014, nebol splnenı, nako¾ko sa našli na dne Dunaja objekty, ktoré boli predbene vyhodnotené ako munícia.
-					V záujme bezpeènosti si preto hlavné mesto objednalo podrobnejší sonarovı prieskum dna rieky v oblasti pilierov Starého mosta. Ten však odhalil,
-					e kovové objekty nie sú nevybuchnutımi mínami a tak sa na demontái mohlo pokraèova. Pôvodnı plán sa však neúnosne natiahol a s búraním dvoch
-					pilierov sa zaèalo a v septembri 2014. Táto skutoènos èelila obrovskej kritike verejnosti, pod¾a ktorej došlo k vıraznému èasovému sklzu,
-					ktorı mohol ohrozi plánované dokonèenie stavby mostu a spojazdnenia trate do Petralky v stanovenom termíne. Koncom januára 2015 stavba meškala
-					u 10 tıdòov a tak mestu hrozí, e 70 miliónové náklady bude musie hradi samo. 85% rozpoètu pochádza z Kohézneho fondu Európskej únie.<br>
-					S vysúvaním novej konštrukcie mostu sa zaèalo v marci 2015 z petralskej strany a súbene dostáva aj šedo-zelenı náter. Predbenı plán dokonèenia
-					mostu je plánovanı na október 2015. Novı most bude slúi elektrièkovej doprave a v prípade potreby ho tie budú môc vyui záchranné zloky.
-					Elektrièková tra bude na súèasnú sie napojená na Šafárikovom námestí (zároveò bude zdvojko¾ajnená existujúca tra na Štúrovej), na petralskej
-					strane bude vedená v prvej etape po Jantárovú cestu, neskôr sa plánuje predåenie do Janíkovho dvora na juhu Petralky. Elektrièková tra bude
-					vybudovaná ako tram-train s dvomi rozchodmi a v budúcnosti by mala umoni pod¾a potreby aj prevádzku duálnych vozidiel, ktoré by mohli prechádza
-					z elektrièkovej siete na elezniènú a naopak.<br>Oficiálne práce na moste skonèili u 15. decembra 2015, ale na moste sa pracovalo ešte aj potom.
-					Práce na viac ne stovke objektov mali by pod¾a mesta ukonèné 21. januára 2016. K predošlému dòu sa zaèala kolaudácia mosta. Predchádzajúci
-					víkend sa na moste uskutoènila dynamická skúška.[2] V polovici februára prešla v rámci kolaudácie mostom prvá elektrièka. Most bol otvorenı pre verejnos 19. mája 2016.
-					Sprístupnenı je však len pre pešiu a cyklistickú dopravu. Elektrièky zaèali premáva po Starom moste 8. júla 2016.
+					2. decembra 2013 o 8:15 sa most pre verejnosï¿½ definitï¿½vne uzavrel a zapoï¿½ala sa demontï¿½ï¿½ mostu a dvoch pï¿½vodnï¿½ch pilierov, ako aj vï¿½stavba novï¿½ho pileru.
+					Pï¿½vodnï¿½ termï¿½n ukonï¿½enia demontï¿½ï¿½e, naplï¿½novï¿½ na jar 2014, nebol splnenï¿½, nakoï¿½ko sa naï¿½li na dne Dunaja objekty, ktorï¿½ boli predbeï¿½ne vyhodnotenï¿½ ako munï¿½cia.
+					V zï¿½ujme bezpeï¿½nosti si preto hlavnï¿½ mesto objednalo podrobnejï¿½ï¿½ sonarovï¿½ prieskum dna rieky v oblasti pilierov Starï¿½ho mosta. Ten vï¿½ak odhalil,
+					ï¿½e kovovï¿½ objekty nie sï¿½ nevybuchnutï¿½mi mï¿½nami a tak sa na demontï¿½ï¿½i mohlo pokraï¿½ovaï¿½. Pï¿½vodnï¿½ plï¿½n sa vï¿½ak neï¿½nosne natiahol a s bï¿½ranï¿½m dvoch
+					pilierov sa zaï¿½alo aï¿½ v septembri 2014. Tï¿½to skutoï¿½nosï¿½ ï¿½elila obrovskej kritike verejnosti, podï¿½a ktorej doï¿½lo k vï¿½raznï¿½mu ï¿½asovï¿½mu sklzu,
+					ktorï¿½ mohol ohroziï¿½ plï¿½novanï¿½ dokonï¿½enie stavby mostu a spojazdnenia trate do Petrï¿½alky v stanovenom termï¿½ne. Koncom januï¿½ra 2015 stavba meï¿½kala
+					uï¿½ 10 tï¿½ï¿½dï¿½ov a tak mestu hrozï¿½, ï¿½e 70 miliï¿½novï¿½ nï¿½klady bude musieï¿½ hradiï¿½ samo. 85% rozpoï¿½tu pochï¿½dza z Kohï¿½zneho fondu Eurï¿½pskej ï¿½nie.<br>
+					S vysï¿½vanï¿½m novej konï¿½trukcie mostu sa zaï¿½alo v marci 2015 z petrï¿½alskej strany a sï¿½beï¿½ne dostï¿½va aj ï¿½edo-zelenï¿½ nï¿½ter. Predbeï¿½nï¿½ plï¿½n dokonï¿½enia
+					mostu je plï¿½novanï¿½ na oktï¿½ber 2015. Novï¿½ most bude slï¿½ï¿½iï¿½ elektriï¿½kovej doprave a v prï¿½pade potreby ho tieï¿½ budï¿½ mï¿½cï¿½ vyuï¿½iï¿½ zï¿½chrannï¿½ zloï¿½ky.
+					Elektriï¿½kovï¿½ traï¿½ bude na sï¿½ï¿½asnï¿½ sieï¿½ napojenï¿½ na ï¿½afï¿½rikovom nï¿½mestï¿½ (zï¿½roveï¿½ bude zdvojkoï¿½ajnenï¿½ existujï¿½ca traï¿½ na ï¿½tï¿½rovej), na petrï¿½alskej
+					strane bude vedenï¿½ v prvej etape po Jantï¿½rovï¿½ cestu, neskï¿½r sa plï¿½nuje predï¿½ï¿½enie do Janï¿½kovho dvora na juhu Petrï¿½alky. Elektriï¿½kovï¿½ traï¿½ bude
+					vybudovanï¿½ ako tram-train s dvomi rozchodmi a v budï¿½cnosti by mala umoï¿½niï¿½ podï¿½a potreby aj prevï¿½dzku duï¿½lnych vozidiel, ktorï¿½ by mohli prechï¿½dzaï¿½
+					z elektriï¿½kovej siete na ï¿½elezniï¿½nï¿½ a naopak.<br>Oficiï¿½lne prï¿½ce na moste skonï¿½ili uï¿½ 15. decembra 2015, ale na moste sa pracovalo eï¿½te aj potom.
+					Prï¿½ce na viac neï¿½ stovke objektov mali byï¿½ podï¿½a mesta ukonï¿½nï¿½ 21. januï¿½ra 2016. K predoï¿½lï¿½mu dï¿½u sa zaï¿½ala kolaudï¿½cia mosta. Predchï¿½dzajï¿½ci
+					vï¿½kend sa na moste uskutoï¿½nila dynamickï¿½ skï¿½ï¿½ka.[2] V polovici februï¿½ra preï¿½la v rï¿½mci kolaudï¿½cie mostom prvï¿½ elektriï¿½ka. Most bol otvorenï¿½ pre verejnosï¿½ 19. mï¿½ja 2016.
+					Sprï¿½stupnenï¿½ je vï¿½ak len pre peï¿½iu a cyklistickï¿½ dopravu. Elektriï¿½ky zaï¿½ali premï¿½vaï¿½ po Starom moste 8. jï¿½la 2016.
 				</div>
-				<img src="../../Images/novyStaryMost.jpg" alt="Starı most po rekonštrukcií" class="images" />
+				<img src="../../Images/novyStaryMost.jpg" alt="Starï¿½ most po rekonï¿½trukciï¿½" class="images" />
 				<p class="articleText">Zdroj: <a href="https://sk.wikipedia.org/wiki/Star%C3%BD_most_(Bratislava)">tu</a>.</p>
-			</div>
+			</div>-->
 		</div>
 	</div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script src="../Menu/jQueryScripts.js"></script>
+	<script src="../../Menu/jQueryScripts.js"></script>
 </body>
 </html>
