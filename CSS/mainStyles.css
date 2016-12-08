@@ -33,6 +33,26 @@ header{
 }
 
 footer{
+    background-color: #2d2d30;
+    color: #f5f5f5;
+    padding: 32px;
+}
 
+footer a {
+    color: yellow;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+#skImg{
+    height: 20px;
+}
+
+hr{
+    background: #f5f5f5;
+    -webkit-mask-image: radial-gradient(circle,#f5f5f5 50%,transparent);
 }
 
