@@ -49,6 +49,56 @@
 					"alt": "Starý most po rekonštrukcií"
 				}
 			]
+		},
+		{
+			"tag": 3,
+			"nazov": "Rožňavská mestská veža",
+			"rokVzniku": "1654",
+			"poloha": "Rožňava, Baníkov nám.",
+			"Nadpis1": "História",
+			"Nadpis2": "Súčastný stav",
+			"paragrafs": [
+				"Renesančná mestská veža uprostred námestia bola súčasťou pôvodnej gotickej radnice. Stavbu veže ako dôležitého prvku ochrany proti tureckému nebezpečenstvu začali v roku 1643 za richtára Martina Weiszera. Jej dokončenie sa v dôsledku rôznych nepredvídaných okolností oddialilo až do roku 1654, kedy rožňavský richtár Matej Bakoš pozval do mesta spišského staviteľa Juraja Gerscheuera, ktorý si za svojho pomocníka zvolil miestneho majstra Daniela Mosszena. Stavba bola ešte toho roku dokončená",
+				"Na južnej strane veže umiestnili vzácnu renesančnú pamätnú tabuľu s menami dvoch richtárov, datovaním stavby a erbom mesta a do jej strechy uložili pamätnú listinu, v ktorej Ján Althuem Missnico podrobne opísal všetky udalosti uplynulých 11 rokov. Nad tabuľou sa nachádza turecká kamenná delová guľa. Na ôsmom podlaží 38m vysokej veže bola miestnosť pre stráž, ktorá z pavlače kontrolovala mesto a okolie. V roku 1766 vyhorela a počas opravy dostala dnešnú barokovú šindľovú strechu.",
+				"Pamiatkou na obliehanie Rožňavy Turkami je turecká delová guľa zamurovaná do južnej fasády veže. V l9. storočí tu pribudli slnečné hodiny, ktoré boli obnovené počas komplexnej pamiatkovej obnovy veže začiatkom 90. rokov 20. storočia za primátora Istvána Mátyusa.",
+				"V súčastnosti veža má za sebou prvú fázu rekonštrukcie. Rozsah prác zahŕňal opravu strechy – výmenu poškodených drevených konštrukcií krovu a ošetrenie prvkov impregnačným náterom proti hubám, škodcom a plesniam, ako aj opravu bleskozvodu, výmenu latovania a výmenu šindľovej krytiny za drevenú šindľovú. Vymenené boli aj klampiarske oplechovania na streche, opravený a ošetrený bol kovový kríž s baníckymi kladivami a makovicou ukončujúcou vežu. Mesto už pripravuje projektovú dokumentáciu aj na druhú etapu rekonštrukcie, v rámci ktorej má byť obnovená drevená konštrukcia ochodze podľa zachovaných historických fotografií a výsledkov pamiatkového výskumu z roku 1988. Na ňu však zatiaľ samospráva nemá vyčlenené financie, prostriedky sa pokúsia získať z dotácií."				
+			],
+			"source": "http://www.pamiatkynaslovensku.sk/roznava-mestska-veza",
+			"imgs": [
+				{
+					"src": "../../Images/roznavaMestskaVeza.jpg",
+					"alt": "Rožňavská mestská veža"
+				},
+				{
+					"src": "../../Images/roznavaVezaVnoci.jpg",
+					"alt": "Rožňavská veža v noci"
+				}
+			]
+		},
+		{
+			"tag": 4,
+			"nazov": "Gymnázium P.J.Šafárika",
+			"rokVzniku": "1906",
+			"poloha": "Rožňava, Hronca akademika ul.",
+			"Nadpis1": "História",
+			"Nadpis2": "Súčastný stav",
+			"paragrafs": [
+				"Gymnázium Pavla Jozefa Šafárika je stredná škola v Rožňave, zameraná na všeobecné vzdelanie v štvorročnom a osemročnom štúdiu. Nachádza sa na ulici Akademika Hronca 1.",
+				"Prvé gymnázium v Rožňave založili jezuiti v roku 1688. Otvorili 1. – 3. triedu latinskej školy a nazvali ju Gymnasium Archiepiscopale (Arcibiskupské gymnázium). V 1705 – 1714 bola jezuitská škola zatvorená. Od r. 1790 sa stala základom kráľovského vyššieho gymnázia Regium gymnasium maius Rosnaviense. Kvôli zrušeniu jezuitskej rehole v roku 1713 bolo gymnázium prevzaté františkáni, po nich premonštrátmi. Po rozpustení premonštrátskej rehole, na škole vyučovali svetskí kňazi. Niektorí z profesorov gymnázia boli členmi vedeckých a umeleckých spoločností v Budapešti a mnohí z nich boli aj významnými osobnosťami kultúry.",
+				"V rokoch 1904 – 1906 bola postavená nová budova Rímskokatolíckeho gymnázia (dnešného sídla Gymnázia P. J. Šafárika) podľa návrhov architekta M. Ungára. V roku 1920 sa Rímskokatolícke gymnázium premenovalo na Štátne reálne gymnázium. Dňa 2. júna 1945 bola budova zoštátnená a po oslobodení Slovenska bolo na škole štvorročné gymnázium, ktoré sa v roku 1953 pretransformovalo na Jedenásťročnú strednú školu. V roku 1961 sa škola premenovala na Strednú všeobecnovzdelávaciu školu a boli pridané aj triedy s vyučovacím jazykom maďarským. Od školského roku 1968/69 škola fungovala ako štvorročné gymnázium a v školskom roku 1997/1998 na škole pribudlo osemročné gymnázium.",
+				"V súčasnosti je na škole 16 tried, z toho 7 tried osemročného gymnázia, 5 tried štvorročného gymnázia s vyučovacím jazykom slovenským a 4 triedy štvorročného gymnázia s vyučovacím jazykom maďarským. Školu navštevuje viac ako 400 žiakov."								
+			],
+			"source": "https://sk.wikipedia.org/wiki/Gymn%C3%A1zium_Pavla_Jozefa_%C5%A0af%C3%A1rika_-_Pavol_Jozef_%C5%A0af%C3%A1rik_Gimn%C3%A1zium",
+			"imgs": [
+				{
+					"src": "../../Images/gymPjNew.jpg",
+					"alt": "Gymnázium P.J Šafárika v Rožňave"
+				},
+				{
+					"src": "../../Images/gymPjOld.jpg",
+					"alt": "Gymnázium P.J Šafárika v Rožňave stará fotka"
+				}
+			]
 		}
     ]
 }
