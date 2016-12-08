@@ -1,0 +1,3319 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Autor suboru: Katarina Zakova -->
+<!-- Posledna aktualizacia: marec 2012 -->
+<meniny>
+	<zaznam>
+		<den>0101</den>
+		<SKsviatky>Deň vzniku Slovenskej republiky</SKsviatky>
+		<CZsviatky>Den obnovy samostatného českého státu</CZsviatky>
+		<HU>Fruzsina</HU>
+		<PL>Mieszka, Mieczyslawa</PL>
+		<AT>Neujahr</AT>
+	</zaznam>
+	<zaznam>
+		<den>0102</den>
+		<SK>Alexandra, Karina</SK>
+		<SKd>Alexandra, Karina, Ábel, Makar, Karin, Kara, Sandra, Saša</SKd>
+		<CZ>Karina</CZ>
+		<HU>Ábel</HU>
+		<PL>Izydora, Grzegorza</PL>
+		<AT>Basilius</AT>
+	</zaznam>
+	<zaznam>
+		<den>0103</den>
+		<SK>Daniela</SK>
+		<SKd>Daniela, Danila, Danuta, Genovéva, Radmila</SKd>
+		<CZ>Radmila</CZ>
+		<HU>Genovéva, Benjámin</HU>
+		<PL>Danuty, Zdzislawa</PL>
+		<AT>Genoveva</AT>
+	</zaznam>
+	<zaznam>
+		<den>0104</den>
+		<SK>Drahoslav</SK>
+		<SKd>Drahoslav, Drahoľub, Drahomil, Drahoň, Drahoš, Duchoslav, León, Títus, Drahoľuba, Drahomila, Duchoslava, Leóna, Leónia</SKd>
+		<CZ>Diana</CZ>
+		<HU>Titusz, Leóna</HU>
+		<PL>Elzbiety, Anieli</PL>
+		<AT>Angela</AT>
+	</zaznam>
+	<zaznam>
+		<den>0105</den>
+		<SK>Andrea</SK>
+		<SKd>Andrea, Artúr</SKd>
+		<CZ>Dalimil</CZ>
+		<HU>Simon</HU>
+		<PL>Hanny, Edwarda, Szymona</PL>
+		<AT>Emilie</AT>
+	</zaznam>
+	<zaznam>
+		<den>0106</den>
+		<SK>Antónia</SK>
+		<SKd>Antónia, Melchior, Melichar, Menhard</SKd>
+		<SKsviatky>Zjavenie Pána (Traja králi a vianočný sviatok pravoslávnych kresťanov)</SKsviatky>
+		<HU>Boldizsár</HU>
+		<PL>Kacpra, Mekchiora, Baltazara</PL>
+		<AT>Heilige 3 Könige</AT>
+	</zaznam>
+	<zaznam>
+		<den>0107</den>
+		<SK>Bohuslava</SK>
+		<SKd>Bohuslava, Attila, Lucián, Bohuna, Boleslava, Božislava, Luciána</SKd>
+		<CZ>Vilma</CZ>
+		<HU>Attila, Ramóna</HU>
+		<PL>Lucjana, Juliana</PL>
+		<AT>Raimund v. P.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0108</den>
+		<SK>Severín</SK>
+		<SKd>Severín, Čestmír, Pravomil, Čestmíra, Pravomila, Severína</SKd>
+		<CZ>Čestmir</CZ>
+		<HU>Gyöngyvér</HU>
+		<PL>Seweryna, Juliusza</PL>
+		<AT>Severin, Erhard</AT>
+	</zaznam>
+	<zaznam>
+		<den>0109</den>
+		<SK>Alexej</SK>
+		<SKd>Alexej, Alex, Domoľub, Julián, Pravoľub, Vladan, Vladen, Alexia, Pravoľuba, Vladana, Vladena</SKd>
+		<CZ>Vladan</CZ>
+		<HU>Marcell</HU>
+		<PL>Adriana, Marceliny</PL>
+		<AT>Julian, Eberhard</AT>
+	</zaznam>
+	<zaznam>
+		<den>0110</den>
+		<SK>Dáša</SK>
+		<SKd>Dáša, Agatón, Dalimil, Dalimír, Dalimila, Dalimíra</SKd>
+		<CZ>Břetislav</CZ>
+		<HU>Melánia</HU>
+		<PL>Danuty, Wilhelma</PL>
+		<AT>Gregor X.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0111</den>
+		<SK>Malvína</SK>
+		<SKd>Malvína, Honorát, Tasilo, Honoráta</SKd>
+		<CZ>Bohdana</CZ>
+		<HU>Ágota</HU>
+		<PL>Honoraty, Matyldy</PL>
+		<AT>Taufe Jesu</AT>
+	</zaznam>
+	<zaznam>
+		<den>0112</den>
+		<SK>Ernest</SK>
+		<SKd>Ernest, Arkád, Arnošt, Arkádia, Arnoštka, Erna, Ernestína</SKd>
+		<CZ>Pravoslav</CZ>
+		<HU>Ernő</HU>
+		<PL>Ady, Benedykta, Arkadiusza</PL>
+		<AT>Ernst</AT>
+	</zaznam>
+	<zaznam>
+		<den>0113</den>
+		<SK>Rastislav</SK>
+		<SKd>Rastislav, Čistomil, Čistoslav, Rastic, Rastimír, Ratislav, Vidor, Čistomila, Čistoslava, Rastislava, Ratislava</SKd>
+		<CZ>Edita</CZ>
+		<HU>Veronika</HU>
+		<PL>Bogumily, Weroniki</PL>
+		<AT>Jutta, Gottfried</AT>
+	</zaznam>
+	<zaznam>
+		<den>0114</den>
+		<SK>Radovan</SK>
+		<SKd>Radovan, Hilár, Uriáš, Uriel, Hilária, Radovana,</SKd>
+		<CZ>Radovan</CZ>
+		<HU>Bódog</HU>
+		<PL>Feliksa, Niny</PL>
+		<AT>Felix v. N.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0115</den>
+		<SK>Dobroslav</SK>
+		<SKd>Dobroslav, Dobrotín, Domoslav, Loránt, Múdroslav, Domoslava,</SKd>
+		<CZ>Alice</CZ>
+		<HU>Lóránd, Lóránt</HU>
+		<PL>Pawla, Arnolda, Izydora</PL>
+		<AT>Gabriel v. F.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0116</den>
+		<SK>Kristína</SK>
+		<SKd>Kristína</SKd>
+		<CZ>Ctirad</CZ>
+		<HU>Gusztáv</HU>
+		<PL>Marcelego, Wlodzimierza</PL>
+		<AT>Theobald</AT>
+	</zaznam>
+	<zaznam>
+		<den>0117</den>
+		<SK>Nataša</SK>
+		<SKd>Nataša,Aneta, Sofia, Marta, Anna</SKd>
+		<CZ>Drahoslav</CZ>
+		<HU>Antal, Antónia</HU>
+		<PL>Antoniego, Jana</PL>
+		<AT>Antonius</AT>
+	</zaznam>
+	<zaznam>
+		<den>0118</den>
+		<SK>Bohdana</SK>
+		<SKd>Bohdana, Priskus, Piroška, Priska</SKd>
+		<CZ>Vladislav</CZ>
+		<HU>Piroska</HU>
+		<PL>Malgorzaty, Piotra</PL>
+		<AT>Regina</AT>
+	</zaznam>
+	<zaznam>
+		<den>0119</den>
+		<SK>Drahomíra, Mário</SK>
+		<SKd>Drahomíra, Mário, Sára, Márius, Dúbravka</SKd>
+		<CZ>Doubravka</CZ>
+		<HU>Sára, Márió</HU>
+		<PL>Henryka, Marty</PL>
+		<AT>Marius, Mario</AT>
+	</zaznam>
+	<zaznam>
+		<den>0120</den>
+		<SK>Dalibor</SK>
+		<SKd>Dalibor, Fabián, Fábius, Sebastián, Šebastián, Fábia, Fabiána, Fabiola, Sebastiána,</SKd>
+		<CZ>Ilona</CZ>
+		<HU>Fábián, Sebestyén</HU>
+		<PL>Fabiana, Sebastiana</PL>
+		<AT>Fabian, Sebastian</AT>
+	</zaznam>
+	<zaznam>
+		<den>0121</den>
+		<SK>Vincent</SK>
+		<SKd>Vincent, Vincencia</SKd>
+		<CZ>Běla</CZ>
+		<HU>Ágnes</HU>
+		<PL>Agnieszki, Jaroslawa</PL>
+		<AT>Agnes</AT>
+	</zaznam>
+	<zaznam>
+		<den>0122</den>
+		<SK>Zora</SK>
+		<SKd>Zora, Dorián, Sírius, Slavoľub, Slavomil, Zoran, Auróra, Cyntia, Doriána, Sinda, Slavomila, Zorana, Zara</SKd>
+		<CZ>Slavomir</CZ>
+		<HU>Vince, Artúr</HU>
+		<PL>Anastazego, Wincentego</PL>
+		<AT>Vinzenz, Walter</AT>
+	</zaznam>
+	<zaznam>
+		<den>0123</den>
+		<SK>Miloš</SK>
+		<SKd>Miloš, Miloň, Selma,</SKd>
+		<CZ>Zdeněk</CZ>
+		<HU>Zelma, Rajmund</HU>
+		<PL>Ildefonsas, Rajmunda</PL>
+		<AT>Heinrich S.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0124</den>
+		<SK>Timotej</SK>
+		<SKd>Timotej, Ctiboh, Timotea</SKd>
+		<CZ>Milena</CZ>
+		<HU>Timót</HU>
+		<PL>Rafala, Felicji, Franciszska</PL>
+		<AT>Franz v. S.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0125</den>
+		<SK>Gejza</SK>
+		<SKd>Gejza, Saul, Šavol,</SKd>
+		<CZ>Miloš</CZ>
+		<HU>Pál</HU>
+		<PL>Pawla, Milosza</PL>
+		<AT>Pauli Bekehrung</AT>
+	</zaznam>
+	<zaznam>
+		<den>0126</den>
+		<SK>Tamara</SK>
+		<SKd>Tamara, Tamia, Polykarp, Slavibor, Slavislav, Slaviboj, Slavoboj, Svätoboj, Svätobor, Xenofón, Žarko, Polykarpa,</SKd>
+		<CZ>Zora</CZ>
+		<HU>Vanda, Paula</HU>
+		<PL>Tymoteusza, Michala</PL>
+		<AT>Timotheus, Titus</AT>
+	</zaznam>
+	<zaznam>
+		<den>0127</den>
+		<SK>Bohuš</SK>
+		<SKd>Bohuš, Pribislav, Pribiš,</SKd>
+		<CZ>Ingrid</CZ>
+		<HU>Angelika</HU>
+		<PL>Anieli, Jerzego</PL>
+		<AT>Angela M.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0128</den>
+		<SK>Alfonz</SK>
+		<SKd>Alfonz, Manfréd, Alfonzia,</SKd>
+		<CZ>Otýlie</CZ>
+		<HU>Károly, Karola</HU>
+		<PL>Walerego, Karola</PL>
+		<AT>Thomas v. A.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0129</den>
+		<SK>Gašpar</SK>
+		<SKd>Gašpar, Pribina</SKd>
+		<CZ>Zdislava</CZ>
+		<HU>Adél</HU>
+		<PL>Franciszka, Jozefa</PL>
+		<AT>Valerius</AT>
+	</zaznam>
+	<zaznam>
+		<den>0130</den>
+		<SK>Ema</SK>
+		<SKd>Ema, Jasna</SKd>
+		<CZ>Robin</CZ>
+		<HU>Martina</HU>
+		<PL>Macieja, Martyny</PL>
+		<AT>Martina</AT>
+	</zaznam>
+	<zaznam>
+		<den>0131</den>
+		<SK>Emil</SK>
+		<SKd>Emil, Emilián, Emiliána, Marika</SKd>
+		<CZ>Marika</CZ>
+		<HU>Marcella, Gerda</HU>
+		<PL>Jana, Marceli, Ludwiki</PL>
+		<AT>Johannes Bosco</AT>
+	</zaznam>
+	<zaznam>
+		<den>0201</den>
+		<SK>Tatiana</SK>
+		<SKd>Tatiana, Hynek, Trifon, Táňa, Girron</SKd>
+		<CZ>Hynek</CZ>
+		<HU>Ignác</HU>
+		<PL>Brygidy, Ignacego</PL>
+		<AT>Brigitta v. K.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0202</den>
+		<SK>Erika, Erik</SK>
+		<SKd>Erik, Erika, Aida</SKd>
+		<CZ>Nela</CZ>
+		<HU>Karolina, Aida</HU>
+		<PL>Marii, Miroslawa</PL>
+		<AT>Mariä Lichtmess</AT>
+	</zaznam>
+	<zaznam>
+		<den>0203</den>
+		<SK>Blažej</SK>
+		<SKd>Blažej, Celerín, Celerína</SKd>
+		<CZ>Blažej</CZ>
+		<HU>Balázs</HU>
+		<PL>Blazeja, Oskara</PL>
+		<AT>Blasius</AT>
+	</zaznam>
+	<zaznam>
+		<den>0204</den>
+		<SK>Veronika</SK>
+		<SKd>Veronika, Nika, Verena, Verona</SKd>
+		<CZ>Jarmila</CZ>
+		<HU>Ráhel, Csenge</HU>
+		<PL>Andrzeja, Jozefa, Tytusa</PL>
+		<AT>Andreas C.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0205</den>
+		<SK>Agáta</SK>
+		<SKd>Agáta, Moderát, Modest, Leda, Moderáta, Modesta</SKd>
+		<CZ>Dobromila</CZ>
+		<HU>Ágota, Ingrid</HU>
+		<PL>Agaty, Adelajdy</PL>
+		<AT>Agatha</AT>
+	</zaznam>
+	<zaznam>
+		<den>0206</den>
+		<SK>Dorota</SK>
+		<SKd>Dorota, Dorisa, Titanila</SKd>
+		<CZ>Vanda</CZ>
+		<HU>Dorottya, Dóra</HU>
+		<PL>Doroty, Bogdana, Pawla</PL>
+		<AT>Dorothea</AT>
+	</zaznam>
+	<zaznam>
+		<den>0207</den>
+		<SK>Vanda</SK>
+		<SKd>Vanda, Romuald</SKd>
+		<CZ>Veronika</CZ>
+		<HU>Tódor, Rómeó</HU>
+		<PL>Ryszarda, Teodora</PL>
+		<AT>Richard K.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0208</den>
+		<SK>Zoja</SK>
+		<SKd>Zoja, Aranka, Zoe</SKd>
+		<CZ>Milada</CZ>
+		<HU>Aranka</HU>
+		<PL>Hieronima, Sebastiana</PL>
+		<AT>Hieronymus</AT>
+	</zaznam>
+	<zaznam>
+		<den>0209</den>
+		<SK>Zdenko</SK>
+		<SKd>Zdenko, Rainold, Rinaldo, Zdeno, Apolena, Apoliena, Apolónia</SKd>
+		<CZ>Apolena</CZ>
+		<HU>Abigél, Alex</HU>
+		<PL>Apoliny, Eryki, Cyryla</PL>
+		<AT>Apollonia, Erich</AT>
+	</zaznam>
+	<zaznam>
+		<den>0210</den>
+		<SK>Gabriela</SK>
+		<SKd>Gabriela, Scholastika, Školastika</SKd>
+		<CZ>Mojmir</CZ>
+		<HU>Elvira</HU>
+		<PL>Elwiry, Jacka</PL>
+		<AT>Wilhelm d. Gr.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0211</den>
+		<SK>Dezider</SK>
+		<SKd>Dezider, Želislav, Dezidera, Želislava</SKd>
+		<CZ>Božena</CZ>
+		<HU>Bertold, Marietta</HU>
+		<PL>Grzegorza, Lucjana</PL>
+		<AT>Theodor</AT>
+	</zaznam>
+	<zaznam>
+		<den>0212</den>
+		<SK>Perla</SK>
+		<SKd>Perla, Ron, Ronald, Zoro, Zoroslav, Eulália, Slavena, Solveiga, Zoroslava</SKd>
+		<CZ>Slavěna</CZ>
+		<HU>Livia, Lidia</HU>
+		<PL>Radoslawa, Damiana</PL>
+		<AT>Reginald</AT>
+	</zaznam>
+	<zaznam>
+		<den>0213</den>
+		<SK>Arpád</SK>
+		<SKd>Arpád, Jordán, Jordána</SKd>
+		<CZ>Věnceslav</CZ>
+		<HU>Ella, Linda</HU>
+		<PL>Grzegorza, Katarzyny</PL>
+		<AT>Gerlinde</AT>
+	</zaznam>
+	<zaznam>
+		<den>0214</den>
+		<SK>Valentín</SK>
+		<SKd>Valentín, Velimír</SKd>
+		<CZ>Valentýn</CZ>
+		<HU>Bálint, Valentin</HU>
+		<PL>Cyryla, Metodego</PL>
+		<AT>Valentin</AT>
+	</zaznam>
+	<zaznam>
+		<den>0215</den>
+		<SK>Pravoslav</SK>
+		<SKd>Pravoslav, Faust, Faustína, Georgia, Georgína, Pravoslava</SKd>
+		<CZ>Jiřina</CZ>
+		<HU>Kolos, Georgina</HU>
+		<PL>Jowity, Faustyna</PL>
+		<AT>Siegfried</AT>
+	</zaznam>
+	<zaznam>
+		<den>0216</den>
+		<SK>Ida, Liana</SK>
+		<SKd>Ida, Liana, Pamfil, Pamfília</SKd>
+		<CZ>Ljuba</CZ>
+		<HU>Julianna, Lilla</HU>
+		<PL>Danuty, Juliana</PL>
+		<AT>Philippa</AT>
+	</zaznam>
+	<zaznam>
+		<den>0217</den>
+		<SK>Miloslava</SK>
+		<SKd>Miloslava, Flavián, Flávius, Silván, Silvín, Flávia, Milomíra, Miluša, Silvána</SKd>
+		<CZ>Miloslava</CZ>
+		<HU>Donát</HU>
+		<PL>Aleksego, Lukasza</PL>
+		<AT>Alexius</AT>
+	</zaznam>
+	<zaznam>
+		<den>0218</den>
+		<SK>Jaromír</SK>
+		<SKd>Jaromír, Simeon, Jaromíra, Konkordia, Bernadetta</SKd>
+		<CZ>Gizela</CZ>
+		<HU>Bernadett</HU>
+		<PL>Szymona, Konstancji</PL>
+		<AT>Konstantia</AT>
+	</zaznam>
+	<zaznam>
+		<den>0219</den>
+		<SK>Vlasta</SK>
+		<SKd>Vlasta, Konrád, Kurt</SKd>
+		<CZ>Patrik</CZ>
+		<HU>Zsuzsanna</HU>
+		<PL>Arnolda, Jozefa, Konrada</PL>
+		<AT>Bonifatius</AT>
+	</zaznam>
+	<zaznam>
+		<den>0220</den>
+		<SK>Lívia</SK>
+		<SKd>Lívia, Aladár, Lívio, Lívius, Udo, Ulrich, Alma, Ulrika, Ulriška</SKd>
+		<CZ>Oldřich</CZ>
+		<HU>Aladár, Álmos</HU>
+		<PL>Leona, Ludomira</PL>
+		<AT>Leo d. W.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0221</den>
+		<SK>Eleonóra</SK>
+		<SKd>Eleonóra</SKd>
+		<CZ>Lenka</CZ>
+		<HU>Eleonóra</HU>
+		<PL>Roberta, Eleonory</PL>
+		<AT>Petrus Dam.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0222</den>
+		<SK>Etela</SK>
+		<SKd>Etela</SKd>
+		<CZ>Petr</CZ>
+		<HU>Gerzson</HU>
+		<PL>Marty, Malgorzaty</PL>
+		<AT>Petri Stuhlfeier</AT>
+	</zaznam>
+	<zaznam>
+		<den>0223</den>
+		<SK>Roman, Romana</SK>
+		<SKd>Roman, Romana, Romina</SKd>
+		<CZ>Svatopluk</CZ>
+		<HU>Alfréd</HU>
+		<PL>Romany, Damiana</PL>
+		<AT>Romana</AT>
+	</zaznam>
+	<zaznam>
+		<den>0224</den>
+		<SK>Matej</SK>
+		<SKd>Matej, Jazmína, Goran, Mateja, Matias, Mateo,Matiáš</SKd>
+		<CZ>Matěj</CZ>
+		<HU>Elemér</HU>
+		<PL>Macieja, Marka</PL>
+		<AT>Mathias</AT>
+	</zaznam>
+	<zaznam>
+		<den>0225</den>
+		<SK>Frederik, Frederika</SK>
+		<SKd>Frederik, Frederika, Taras, Federika</SKd>
+		<CZ>Liliana</CZ>
+		<HU>Mátyás</HU>
+		<PL>Cezarego, Donata</PL>
+		<AT>Walpurga</AT>
+	</zaznam>
+	<zaznam>
+		<den>0226</den>
+		<SK>Viktor</SK>
+		<SKd>Viktor, Porfýr, Edina</SKd>
+		<CZ>Dorota</CZ>
+		<HU>Géza</HU>
+		<PL>Miroslawa, Aleksandra</PL>
+		<AT>Alexander</AT>
+	</zaznam>
+	<zaznam>
+		<den>0227</den>
+		<SK>Alexander</SK>
+		<SKd>Alexander, Leander, Sandro, Skender, Drahotína, Dražica, Leandra</SKd>
+		<CZ>Alexandr</CZ>
+		<HU>Edina</HU>
+		<PL>Gabriela, Anastazji</PL>
+		<AT>Leander, Gabriel</AT>
+	</zaznam>
+	<zaznam>
+		<den>0228</den>
+		<SK>Zlatica</SK>
+		<SKd>Zlatica, Elemír, Elo, Lumír, Zlata</SKd>
+		<CZ>Lumir</CZ>
+		<HU>Ákos, Bátor</HU>
+		<PL>Romana, Ludomira</PL>
+		<AT>Roman</AT>
+	</zaznam>
+	<zaznam>
+		<den>0229</den>
+		<SK>Radomír</SK>
+		<SKd>Radomír, Radomíra</SKd>
+	</zaznam>
+	<zaznam>
+		<den>0301</den>
+		<SK>Albín</SK>
+		<SKd>Albín</SKd>
+		<CZ>Bedřich</CZ>
+		<HU>Albin</HU>
+		<PL>Albina, Antoniego</PL>
+		<AT>Albin, Rüdiger</AT>
+	</zaznam>
+	<zaznam>
+		<den>0302</den>
+		<SK>Anežka</SK>
+		<SKd>Anežka</SKd>
+		<CZ>Anežka</CZ>
+		<HU>Lujza</HU>
+		<PL>Heleny, Halszki</PL>
+		<AT>Karl, Agnes</AT>
+	</zaznam>
+	<zaznam>
+		<den>0303</den>
+		<SK>Bohumil, Bohumila</SK>
+		<SKd>Bohumil, Bohumila, Ticián, Ginda, Kunigunda, Ticiána</SKd>
+		<CZ>Kamil</CZ>
+		<HU>Kornélia</HU>
+		<PL>Maryny, Kunegundy</PL>
+		<AT>Friedrich</AT>
+	</zaznam>
+	<zaznam>
+		<den>0304</den>
+		<SK>Kazimír</SK>
+		<SKd>Kazimír, Kevin, Gerazim, Romeo, Jadrana, Kazimíra</SKd>
+		<CZ>Stela</CZ>
+		<HU>Kázmér</HU>
+		<PL>Arkadiusza, Eugeniusza, Kazimi</PL>
+		<AT>Kasimir</AT>
+	</zaznam>
+	<zaznam>
+		<den>0305</den>
+		<SK>Fridrich</SK>
+		<SKd>Fridrich, Lucius, Teofil, Friderika, Teofila</SKd>
+		<CZ>Kazimír</CZ>
+		<HU>Adorján, Adrián</HU>
+		<PL>Adryjana, Fryderyka</PL>
+		<AT>Gerda, Diemar</AT>
+	</zaznam>
+	<zaznam>
+		<den>0306</den>
+		<SK>Radoslav, Radoslava</SK>
+		<SKd>Radoslav, Radoslava, Fridolín, Koriolán, Radislav, Radovan, Felícia, Fridolína, Radislava</SKd>
+		<CZ>Miroslav</CZ>
+		<HU>Leonóra, Inez</HU>
+		<PL>Rozy, Wiktora</PL>
+		<AT>Coletta, Fridolin</AT>
+	</zaznam>
+	<zaznam>
+		<den>0307</den>
+		<SK>Tomáš</SK>
+		<SKd>Tomáš, Tomislav, Tomáška, Tomislava</SKd>
+		<CZ>Tomáš</CZ>
+		<HU>Tamás</HU>
+		<PL>Tomasza, Felicyty</PL>
+		<AT>Reinhard</AT>
+	</zaznam>
+	<zaznam>
+		<den>0308</den>
+		<SK>Alan, Alana</SK>
+		<SKd>Alan, Alana</SKd>
+		<CZ>Gabriela</CZ>
+		<HU>Zoltán</HU>
+		<PL>Beaty, Wincentego</PL>
+		<AT>Johannes v. G.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0309</den>
+		<SK>Františka</SK>
+		<SKd>Františka, Erhard</SKd>
+		<CZ>Františka</CZ>
+		<HU>Franciska, Fanni</HU>
+		<PL>Franciszki, Dominiki</PL>
+		<AT>Franziska v. R.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0310</den>
+		<SK>Bruno, Branislav</SK>
+		<SKd>Branislav, Bruno, Bratislav, Bronislav, Bratislava, Taras</SKd>
+		<CZ>Viktorie</CZ>
+		<HU>Ildikó</HU>
+		<PL>Cypriana, Aleksandra</PL>
+		<AT>Emil, Gustav</AT>
+	</zaznam>
+	<zaznam>
+		<den>0311</den>
+		<SK>Angela, Angelika</SK>
+		<SKd>Angela, Angelika, Angel, Volfram, Algelína, Jurina</SKd>
+		<CZ>Anděla</CZ>
+		<HU>Szilárd</HU>
+		<PL>Benedykta, Konstantego</PL>
+		<AT>Theresia R.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0312</den>
+		<SK>Gregor</SK>
+		<SKd>Gregor, Teofan, Gregora, Gregoria, Gregorína</SKd>
+		<CZ>Řehoř</CZ>
+		<HU>Gergely</HU>
+		<PL>Alojzego, Bernarda</PL>
+		<AT>Maximilian</AT>
+	</zaznam>
+	<zaznam>
+		<den>0313</den>
+		<SK>Vlastimil</SK>
+		<SKd>Vlastimil, Kira, Rozína</SKd>
+		<CZ>Růžena</CZ>
+		<HU>Krisztián, Ajtony</HU>
+		<PL>Bozeny, Krystyny</PL>
+		<AT>Gerald, Paulina</AT>
+	</zaznam>
+	<zaznam>
+		<den>0314</den>
+		<SK>Matilda</SK>
+		<SKd>Matilda, Metaneta</SKd>
+		<CZ>Matylda, Růt</CZ>
+		<HU>Matild</HU>
+		<PL>Leona, Martyny</PL>
+		<AT>Mathilde</AT>
+	</zaznam>
+	<zaznam>
+		<den>0315</den>
+		<SK>Svetlana</SK>
+		<SKd>Svetlana, Agap, Belomír, Rodan, Roderich, Roderik, Torkvát, Agapa, Agapia, Rodana, Roderika</SKd>
+		<CZ>Ida</CZ>
+		<HU>Kristóf</HU>
+		<PL>Longina, Klemensa</PL>
+		<AT>Klemens M. H.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0316</den>
+		<SK>Boleslav</SK>
+		<SKd>Boleslav, Amos, Bolemír, Heribert, Bolemíra</SKd>
+		<CZ>Elena, Herbert</CZ>
+		<HU>Henrietta</HU>
+		<PL>Izabeli, Oktawii</PL>
+		<AT>Hilarius v. A.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0317</den>
+		<SK>Ľubica</SK>
+		<SKd>Ľubica, Ľuban, Ľuben, Zbignev, Zbyšek, Ľuba</SKd>
+		<CZ>Vlastimil</CZ>
+		<HU>Gertrúd, Patrik</HU>
+		<PL>Patryka, Zbigniewa</PL>
+		<AT>Getrud</AT>
+	</zaznam>
+	<zaznam>
+		<den>0318</den>
+		<SK>Eduard</SK>
+		<SKd>Eduard, Ctislav, Salvátor, Ctislava, Eduarda</SKd>
+		<CZ>Eduard</CZ>
+		<HU>Sándor, Ede</HU>
+		<PL>Cyryla, Edwarda</PL>
+		<AT>Eduard</AT>
+	</zaznam>
+	<zaznam>
+		<den>0319</den>
+		<SK>Jozef</SK>
+		<SKd>Jozef, Sibyla</SKd>
+		<CZ>Josef</CZ>
+		<HU>József, Bánk</HU>
+		<PL>Jozefa, Bogdana</PL>
+		<AT>Josev, Nährv. Jesu</AT>
+	</zaznam>
+	<zaznam>
+		<den>0320</den>
+		<SK>Víťazoslav, Klaudius</SK>
+		<SKd>Víťazoslav, Klaudián, Klaudín, Klaudio, Klaudius, Víťazoslava</SKd>
+		<CZ>Světlana</CZ>
+		<HU>Klaudia</HU>
+		<PL>Klaudii, Eufemii</PL>
+		<AT>Claudia, Irmgard</AT>
+	</zaznam>
+	<zaznam>
+		<den>0321</den>
+		<SK>Blahoslav</SK>
+		<SKd>Blahoslav, Blahoboj, Blahosej, Radek, Radko</SKd>
+		<CZ>Radek</CZ>
+		<HU>Benedek</HU>
+		<PL>Ludomira, Benedykta</PL>
+		<AT>Alexandra</AT>
+	</zaznam>
+	<zaznam>
+		<den>0322</den>
+		<SK>Beňadik</SK>
+		<SKd>Beňadik, Benedikt, Oktavián, Oktávius, Benedikta, Benilda, Benita, Izolda, Oktávia</SKd>
+		<CZ>Leona</CZ>
+		<HU>Beáta, Izolda</HU>
+		<PL>Katarzyny, Boguslawa</PL>
+		<AT>Lea, Elmar</AT>
+	</zaznam>
+	<zaznam>
+		<den>0323</den>
+		<SK>Adrián</SK>
+		<SKd>Adrián, Apián, Dárius, Viktorián, Apia</SKd>
+		<CZ>Ivona</CZ>
+		<HU>Emőke</HU>
+		<PL>Pelagii, Feliksa</PL>
+		<AT>Otto v. A.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0324</den>
+		<SK>Gabriel</SK>
+		<SKd>Gabriel</SKd>
+		<CZ>Gabriel</CZ>
+		<HU>Gábor, Karina</HU>
+		<PL>Marka, Gabriela</PL>
+		<AT>Katharina v. Schw.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0325</den>
+		<SK>Marián</SK>
+		<SKd>Marián, Humbert, Anunciáta, Irida, Irisa</SKd>
+		<SKdni>Deň zápasu za ľudské práva</SKdni>
+		<CZ>Marián</CZ>
+		<HU>Irén, Irisz</HU>
+		<PL>Marioli, Wienczyslawa</PL>
+		<AT>Verkündung des Herrn</AT>
+	</zaznam>
+	<zaznam>
+		<den>0326</den>
+		<SK>Emanuel</SK>
+		<SKd>Emanuel, Eman, Manuel, Emanuela, Manuela</SKd>
+		<CZ>Emanuel</CZ>
+		<HU>Emánuel</HU>
+		<PL>Emanuela, Larysy, Teodora</PL>
+		<AT>Emmanuel</AT>
+	</zaznam>
+	<zaznam>
+		<den>0327</den>
+		<SK>Alena</SK>
+		<SKd>Alena, Rupert, Ruprecht, Dita</SKd>
+		<CZ>Dita</CZ>
+		<HU>Hajnalka</HU>
+		<PL>Lidii, Ernesta</PL>
+		<AT>Frowin, Haimo</AT>
+	</zaznam>
+	<zaznam>
+		<den>0328</den>
+		<SK>Soňa</SK>
+		<SKd>Soňa, Ilarion</SKd>
+		<CZ>Soňa</CZ>
+		<HU>Gedeon, Johanna</HU>
+		<PL>Anieli, Jana</PL>
+		<AT>Johanna v. M.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0329</den>
+		<SK>Miroslav</SK>
+		<SKd>Miroslav, Mieroslav, Bertold, Bertolda, Mieroslava</SKd>
+		<CZ>Taťána</CZ>
+		<HU>Auguszta</HU>
+		<PL>Viktoryna, Helmuta</PL>
+		<AT>Berthold v. K.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0330</den>
+		<SK>Vieroslava</SK>
+		<SKd>Vieroslava, Vieroľub, Vieromil, Vieroslav,</SKd>
+		<CZ>Arnošt</CZ>
+		<HU>Zalán</HU>
+		<PL>Anieli, Leonarda</PL>
+		<AT>Amadeus v. S.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0331</den>
+		<SK>Benjamín</SK>
+		<SKd>Benjamín, Kvído, Balbína</SKd>
+		<CZ>Kvido</CZ>
+		<HU>Árpád</HU>
+		<PL>Beniamina, Balbiny</PL>
+		<AT>Cornelia</AT>
+	</zaznam>
+	<zaznam>
+		<den>0401</den>
+		<SK>Hugo</SK>
+		<SKd>Hugo, Hugolín</SKd>
+		<CZ>Hugo</CZ>
+		<HU>Hugó</HU>
+		<PL>Grazyny, Ireny</PL>
+		<AT>Hugo, Irene</AT>
+	</zaznam>
+	<zaznam>
+		<den>0402</den>
+		<SK>Zita</SK>
+		<SKd>Zita, Áron</SKd>
+		<CZ>Erika</CZ>
+		<HU>Áron</HU>
+		<PL>Wladyslawa, Franciszka</PL>
+		<AT>Sandra</AT>
+	</zaznam>
+	<zaznam>
+		<den>0403</den>
+		<SK>Richard</SK>
+		<SKd>Richard, Richarda</SKd>
+		<CZ>Richard</CZ>
+		<HU>Buda, Richard</HU>
+		<PL>Ryszarda, Ireny</PL>
+		<AT>Richard</AT>
+	</zaznam>
+	<zaznam>
+		<den>0404</den>
+		<SK>Izidor</SK>
+		<SKd>Izidor, Izidora</SKd>
+		<CZ>Ivana</CZ>
+		<HU>Izidor</HU>
+		<PL>Benedykta, Izydora</PL>
+		<AT>Isidor</AT>
+	</zaznam>
+	<zaznam>
+		<den>0405</den>
+		<SK>Miroslava</SK>
+		<SKd>Miroslava, Mira</SKd>
+		<CZ>Miroslava</CZ>
+		<HU>Vince</HU>
+		<PL>Katarzyny, Wincentego</PL>
+		<AT>Vinzenz Ferr.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0406</den>
+		<SK>Irena</SK>
+		<SKd>Irena, Irína, Celestín, Ruben, Sixtus, Celestína, Venuša</SKd>
+		<CZ>Vendula</CZ>
+		<HU>Vilmos, Biborka</HU>
+		<PL>Izoldy, Ireneusza</PL>
+		<AT>Sixtus I. Cölestin</AT>
+	</zaznam>
+	<zaznam>
+		<den>0407</den>
+		<SK>Zoltán</SK>
+		<SKd>Zoltán, Armand, Herman, Rufínus, Rúfus, Armanda, Rufína, Rumjana</SKd>
+		<CZ>Heřman, Hermína</CZ>
+		<HU>Herman</HU>
+		<PL>Rufina, Donata</PL>
+		<AT>Johann Bapt. de la Salle</AT>
+	</zaznam>
+	<zaznam>
+		<den>0408</den>
+		<SK>Albert</SK>
+		<SKd>Albert, Albertín, Albrecht, Valter, Alberta, Albertína, Albrechta</SKd>
+		<CZ>Ema</CZ>
+		<HU>Dénes</HU>
+		<PL>Dionizego, Julii</PL>
+		<AT>Walter, Beate</AT>
+	</zaznam>
+	<zaznam>
+		<den>0409</den>
+		<SK>Milena</SK>
+		<SKd>Milena, Erhard, Mileva</SKd>
+		<CZ>Dušan</CZ>
+		<HU>Erhard</HU>
+		<PL>Marii, Dymitra</PL>
+		<AT>Waltraud</AT>
+	</zaznam>
+	<zaznam>
+		<den>0410</den>
+		<SK>Igor</SK>
+		<SKd>Igor, Ezechiel, Ivar, Ivor, Radomil, Igora, Radomila</SKd>
+		<CZ>Darja</CZ>
+		<HU>Zsolt</HU>
+		<PL>Michala, Makarego</PL>
+		<AT>Engelbert v. A.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0411</den>
+		<SK>Július</SK>
+		<SKd>Július, Antip, Ariel, Ariela, Arleta, Leo, Lev,</SKd>
+		<CZ>Izabela</CZ>
+		<HU>Leó, Szaniszló</HU>
+		<PL>Filipa, Leona</PL>
+		<AT>Stanislaus</AT>
+	</zaznam>
+	<zaznam>
+		<den>0412</den>
+		<SK>Estera</SK>
+		<SKd>Estera, Aster, Davorín, Zenon, Astéria</SKd>
+		<CZ>Julius</CZ>
+		<HU>Gyula</HU>
+		<PL>Damiana, Juliusza</PL>
+		<AT>Julius, Hertha</AT>
+	</zaznam>
+	<zaznam>
+		<den>0413</den>
+		<SK>Aleš</SK>
+		<SKd>Aleš, Artem, Artemon, Artemia, Artemida, Norma</SKd>
+		<SKdni>Deň nespravodlivo stíhaných</SKdni>
+		<CZ>Aleš</CZ>
+		<HU>Ida</HU>
+		<PL>Przemyslawa, Idy</PL>
+		<AT>Martin I., Ida v B.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0414</den>
+		<SK>Justina</SK>
+		<SKd>Justína, Hrdoslav, Hrdoš, Justín, Davorína, Hrdoslava, Justa</SKd>
+		<CZ>Vincenc</CZ>
+		<HU>Tibor</HU>
+		<PL>Bereniki, Waleriana</PL>
+		<AT>Tiburtius</AT>
+	</zaznam>
+	<zaznam>
+		<den>0415</den>
+		<SK>Fedor</SK>
+		<SKd>Fedor, Fedora</SKd>
+		<CZ>Anastázie</CZ>
+		<HU>Anasztázia, Tas</HU>
+		<PL>Ludwiny, Waclawy</PL>
+		<AT>Waltmann</AT>
+	</zaznam>
+	<zaznam>
+		<den>0416</den>
+		<SK>Dana, Danica</SK>
+		<SKd>Dana, Danica</SKd>
+		<CZ>Irena</CZ>
+		<HU>Csongor</HU>
+		<PL>Cecyliana, Bernadety</PL>
+		<AT>Bernadette</AT>
+	</zaznam>
+	<zaznam>
+		<den>0417</den>
+		<SK>Rudolf</SK>
+		<SKd>Rudolf, Ralf, Rolf, Rudolfa, Rudolfína,Rudko</SKd>
+		<CZ>Rudolf</CZ>
+		<HU>Rudolf</HU>
+		<PL>Roberta, Rudolfa</PL>
+		<AT>Eberhard</AT>
+	</zaznam>
+	<zaznam>
+		<den>0418</den>
+		<SK>Valér</SK>
+		<SKd>Valér, Apolón, Erich, Verner, Ilma</SKd>
+		<CZ>Valérie</CZ>
+		<HU>Andrea, Ilma</HU>
+		<PL>Alicji, Boguslawy</PL>
+		<AT>Aja Apollonius</AT>
+	</zaznam>
+	<zaznam>
+		<den>0419</den>
+		<SK>Jela</SK>
+		<SKd>Jela, Krescenc, Krescencia</SKd>
+		<CZ>Rostislav</CZ>
+		<HU>Emma</HU>
+		<PL>Adolfa, Tymona</PL>
+		<AT>Leo IX., Gerold</AT>
+	</zaznam>
+	<zaznam>
+		<den>0420</den>
+		<SK>Marcel</SK>
+		<SKd>Marcel, Hvezdoň</SKd>
+		<CZ>Marcela</CZ>
+		<HU>Tivadar</HU>
+		<PL>Czeslawa, Agnieszki</PL>
+		<AT>Simon v. T.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0421</den>
+		<SK>Ervín</SK>
+		<SKd>Ervín, Abelard, Adelard, Anzelm, Žitoslav, Anzelma, Ervína, Saskia, Žitoslava, Elissa</SKd>
+		<CZ>Alexandra</CZ>
+		<HU>Konrád</HU>
+		<PL>Bartosza, Feliksa</PL>
+		<AT>Konrad v. P., Anselm</AT>
+	</zaznam>
+	<zaznam>
+		<den>0422</den>
+		<SK>Slavomír</SK>
+		<SKd>Slavomír, Slávo, Tvrdomír, Jelena, Noema</SKd>
+		<CZ>Evžénie</CZ>
+		<HU>Csilla, Noémi</HU>
+		<PL>Kai, Lukasza</PL>
+		<AT>Wolfhelm</AT>
+	</zaznam>
+	<zaznam>
+		<den>0423</den>
+		<SK>Vojtech</SK>
+		<SKd>Vojtech, Adalbert, Roger, Adalberta, Vojtecha, Vojteška</SKd>
+		<CZ>Vojtěch</CZ>
+		<HU>Béla</HU>
+		<PL>Jerzego, Wojciecha, Idziego</PL>
+		<AT>Georg, Gerhard</AT>
+	</zaznam>
+	<zaznam>
+		<den>0424</den>
+		<SK>Juraj</SK>
+		<SKd>Juraj, Fidél, Gaston, Georg, Helmut, Jorik, Jürgen, Deora, Fidélia, Jorga, Jorika, Juraja</SKd>
+		<CZ>Jiří</CZ>
+		<HU>György</HU>
+		<PL>Aleksego, Horacego</PL>
+		<AT>Wilfried</AT>
+	</zaznam>
+	<zaznam>
+		<den>0425</den>
+		<SK>Marek</SK>
+		<SKd>Marek, Izmael, Marko, Markus, Marco</SKd>
+		<CZ>Marek</CZ>
+		<HU>Márk</HU>
+		<PL>Marka, Jaroslawa</PL>
+		<AT>Markus, Erwin, Ev.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0426</den>
+		<SK>Jaroslava</SK>
+		<SKd>Jaroslava</SKd>
+		<CZ>Oto</CZ>
+		<HU>Ervin</HU>
+		<PL>Marzeny, Marii, Klaudiusza</PL>
+		<AT>Trudpert</AT>
+	</zaznam>
+	<zaznam>
+		<den>0427</den>
+		<SK>Jaroslav</SK>
+		<SKd>Jaroslav, Aristid, Tulius, Aristída, Tulia</SKd>
+		<CZ>Jaroslav</CZ>
+		<HU>Zita</HU>
+		<PL>Ludwika, Piotra</PL>
+		<AT>Petrus Can.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0428</den>
+		<SK>Jarmila</SK>
+		<SKd>Jarmila, Prudencius, Prudencia</SKd>
+		<CZ>Vlastislav</CZ>
+		<HU>Valéria</HU>
+		<PL>Pawla, Walerii</PL>
+		<AT>Ludwig v. M.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0429</den>
+		<SK>Lea</SK>
+		<SKd>Lea, Timon</SKd>
+		<CZ>Robert</CZ>
+		<HU>Péter</HU>
+		<PL>Rity, Donaty</PL>
+		<AT>Roswitha</AT>
+	</zaznam>
+	<zaznam>
+		<den>0430</den>
+		<SK>Anastázia</SK>
+		<SKd>Anastázia, Anastáz, Blahomil, Asia, Blahomila, Nasťa, Nastasia</SKd>
+		<CZ>Blahoslav</CZ>
+		<HU>Katalin, Kitti</HU>
+		<PL>Mariana, Katarzyny</PL>
+		<AT>Hildegard</AT>
+	</zaznam>
+	<zaznam>
+		<den>0501</den>
+		<SKd>-, Amarila, Pamela</SKd>
+		<SKsviatky>Sviatok práce</SKsviatky>
+		<CZsviatky>Svátek práce</CZsviatky>
+		<HU>Fülöp, Jakab</HU>
+		<PL>Jozefa, Jeremiasza</PL>
+	</zaznam>
+	<zaznam>
+		<den>0502</den>
+		<SK>Žigmund</SK>
+		<SKd>Žigmund, Atanáz, Atanázia, Aténa</SKd>
+		<CZ>Zigmund</CZ>
+		<HU>Zsigmond</HU>
+		<PL>Zygmunta, Atanazego</PL>
+		<AT>Athanasius, Boris</AT>
+	</zaznam>
+	<zaznam>
+		<den>0503</den>
+		<SK>Galina</SK>
+		<SKd>Galina,Timea, Horác, Desana, Halina</SKd>
+		<CZ>Alexej</CZ>
+		<HU>Timea, Irma</HU>
+		<PL>Marii, Marioli</PL>
+		<AT>Philipp, Jakob</AT>
+	</zaznam>
+	<zaznam>
+		<den>0504</den>
+		<SK>Florián</SK>
+		<SKd>Florián, Flór, Aglája, Floriána, Florína, Pelagia</SKd>
+		<SKdni>Výročie úmrtia M.R. Štefánika</SKdni>
+		<CZ>Květoslav</CZ>
+		<HU>Mónika, Flórián</HU>
+		<PL>Moniki, Floriana</PL>
+		<AT>Florian</AT>
+	</zaznam>
+	<zaznam>
+		<den>0505</den>
+		<SK>Lesia, Lesana</SK>
+		<SKd>Lesana, Gothard, Pius, Lesia, Pia, Toska</SKd>
+		<CZ>Klaudie</CZ>
+		<HU>Györgyi, Adrián</HU>
+		<PL>Ireny, Waldemara</PL>
+		<AT>Gotthard</AT>
+	</zaznam>
+	<zaznam>
+		<den>0506</den>
+		<SK>Hermína</SK>
+		<SKd>Hermína, Ovídius, Radivoj, Tankréd, Elfrída, Frída, Herina, Mineta</SKd>
+		<CZ>Radoslav</CZ>
+		<HU>Ivett, Frida</HU>
+		<PL>Filipa, Judyty</PL>
+		<AT>Valerian</AT>
+	</zaznam>
+	<zaznam>
+		<den>0507</den>
+		<SK>Monika</SK>
+		<SKd>Monika, Napoleon, Stanimír, Mona</SKd>
+		<CZ>Stanislav</CZ>
+		<HU>Gizella</HU>
+		<PL>Benedykta, Gizeli</PL>
+		<AT>Gisela</AT>
+	</zaznam>
+	<zaznam>
+		<den>0508</den>
+		<SK>Ingrida</SK>
+		<SKd>Ingrida, Ina, Inga</SKd>
+		<SKsviatky>Deň víťazstva nad fašizmom</SKsviatky>
+		<CZsviatky>Den osvobození od fašismu - 1945</CZsviatky>
+		<HU>Mihály</HU>
+		<PL>Ilzy, Stanislawa, Wiktora</PL>
+		<AT>Ida, Désiré</AT>
+	</zaznam>
+	<zaznam>
+		<den>0509</den>
+		<SK>Roland</SK>
+		<SKd>Roland, Rolanda, Christopher</SKd>
+		<CZ>Ctibor</CZ>
+		<HU>Gergely</HU>
+		<PL>Bozydara, Grzegorza</PL>
+		<AT>Volkmar</AT>
+	</zaznam>
+	<zaznam>
+		<den>0510</den>
+		<SK>Viktória</SK>
+		<SKd>Viktória, Armín, Armína, Beatrica</SKd>
+		<CZ>Blažena</CZ>
+		<HU>Ármin, Pálma</HU>
+		<PL>Izydora, Antoniny</PL>
+		<AT>Antonin</AT>
+	</zaznam>
+	<zaznam>
+		<den>0511</den>
+		<SK>Blažena</SK>
+		<SKd>Blažena, Miranda, Svatava</SKd>
+		<CZ>Svatava</CZ>
+		<HU>Ferenc</HU>
+		<PL>Igi,, Ignacego</PL>
+		<AT>Gangolf</AT>
+	</zaznam>
+	<zaznam>
+		<den>0512</den>
+		<SK>Pankrác</SK>
+		<SKd>Pankrác, Achiles</SKd>
+		<CZ>Pankrác</CZ>
+		<HU>Pongrác</HU>
+		<PL>Joanny, Achillesa</PL>
+		<AT>Pankratius</AT>
+	</zaznam>
+	<zaznam>
+		<den>0513</den>
+		<SK>Servác</SK>
+		<SKd>Servác, Chraniboj, Chranibor, Chranislav, Servián, Chranislava, Imelda, Konzuela</SKd>
+		<CZ>Servác</CZ>
+		<HU>Szervác, Imola</HU>
+		<PL>Glori, Gerwazego</PL>
+		<AT>Servatius</AT>
+	</zaznam>
+	<zaznam>
+		<den>0514</den>
+		<SK>Bonifác</SK>
+		<SKd>Bonifác</SKd>
+		<CZ>Bonifác</CZ>
+		<HU>Bonifác</HU>
+		<PL>Bonifacego, Dobieslawa</PL>
+		<AT>Bonifatius</AT>
+	</zaznam>
+	<zaznam>
+		<den>0515</den>
+		<SK>Žofia, Sofia</SK>
+		<SKd>Žofia, Brenda, Raisa, Sofia, Zosia, Sophia, Sophie</SKd>
+		<CZ>Žofie</CZ>
+		<HU>Zsófia, Szonja</HU>
+		<PL>Zofii, Nadziei</PL>
+		<AT>Rupert, Sophie</AT>
+	</zaznam>
+	<zaznam>
+		<den>0516</den>
+		<SK>Svetozár</SK>
+		<SKd>Svetozár, Peregrín, Peregrína</SKd>
+		<CZ>Přemysl</CZ>
+		<HU>Mózes, Botond</HU>
+		<PL>Andrzeja, Jedrzeja</PL>
+		<AT>Johannes</AT>
+	</zaznam>
+	<zaznam>
+		<den>0517</den>
+		<SK>Gizela</SK>
+		<SKd>Gizela, Andronik, Ditmar, Paskal, Andronika, Paskália, Aneta</SKd>
+		<CZ>Aneta</CZ>
+		<HU>Paszkál</HU>
+		<PL>Brunona, Paschalisa</PL>
+		<AT>Walter, Pascal</AT>
+	</zaznam>
+	<zaznam>
+		<den>0518</den>
+		<SK>Viola</SK>
+		<SKd>Viola</SKd>
+		<CZ>Nataša</CZ>
+		<HU>Alexandra, Erik</HU>
+		<PL>Eryka, Feliksa</PL>
+		<AT>Erich</AT>
+	</zaznam>
+	<zaznam>
+		<den>0519</den>
+		<SK>Gertrúda</SK>
+		<SKd>Gertrúda, Gerda</SKd>
+		<CZ>Ivo</CZ>
+		<HU>Ivó, Milán</HU>
+		<PL>Piotra, Iwa</PL>
+		<AT>Cölestin V., Ivo</AT>
+	</zaznam>
+	<zaznam>
+		<den>0520</den>
+		<SK>Bernard</SK>
+		<SKd>Bernard, Bernardín, Hviezdoslav, Bernadeta, Bernarda, Bernardína, Hviezdoslava</SKd>
+		<CZ>Zbyšek</CZ>
+		<HU>Bernát, Felicia</HU>
+		<PL>Aleksandra, Bazylego</PL>
+		<AT>Elfriede</AT>
+	</zaznam>
+	<zaznam>
+		<den>0521</den>
+		<SK>Zina</SK>
+		<SKd>Zina, Dobromír, Hostimil, Hostirad, Hostislav, Hostisvit, Teobald, Dobromíra, Hostimila, Hostislava</SKd>
+		<CZ>Monika</CZ>
+		<HU>Konstantin</HU>
+		<PL>Jana, Wiktora</PL>
+		<AT>Hermann, Josef</AT>
+	</zaznam>
+	<zaznam>
+		<den>0522</den>
+		<SK>Júlia, Juliana</SK>
+		<SKd>Júlia, Juliana, Liana, Rita</SKd>
+		<CZ>Emil</CZ>
+		<HU>Júlia, Rita</HU>
+		<PL>Heleny, Wieslawy</PL>
+		<AT>Rita, Julia</AT>
+	</zaznam>
+	<zaznam>
+		<den>0523</den>
+		<SK>Želmíra</SK>
+		<SKd>Želmíra, Želmír, Želimír</SKd>
+		<CZ>Vladimír</CZ>
+		<HU>Dezső</HU>
+		<PL>Emilii, Iwony</PL>
+		<AT>Renate</AT>
+	</zaznam>
+	<zaznam>
+		<den>0524</den>
+		<SK>Ela</SK>
+		<SKd>Ela</SKd>
+		<CZ>Jana, Vanesa</CZ>
+		<HU>Eszter, Eliza</HU>
+		<PL>Joanny, Zuzanny</PL>
+		<AT>Vinzenz, Dagmar</AT>
+	</zaznam>
+	<zaznam>
+		<den>0525</den>
+		<SK>Urban</SK>
+		<SKd>Urban, Vanesa</SKd>
+		<CZ>Viola</CZ>
+		<HU>Orbán</HU>
+		<PL>Boryslawa, Grzegorza</PL>
+		<AT>Gregor VII.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0526</den>
+		<SK>Dušan</SK>
+		<SKd>Dušan</SKd>
+		<CZ>Filip</CZ>
+		<HU>Fülöp, Evelin</HU>
+		<PL>Filipa, Pauliny</PL>
+		<AT>Philip N.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0527</den>
+		<SK>Iveta</SK>
+		<SKd>Iveta, Vadim, Valdemar, Valdemara</SKd>
+		<CZ>Valdemar</CZ>
+		<HU>Hella</HU>
+		<PL>Augustyna, Juliana</PL>
+		<AT>Augustin v. C.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0528</den>
+		<SK>Viliam</SK>
+		<SKd>Viliam, Vilhelm, Elektra, Elma, Vilhelmína, William</SKd>
+		<CZ>Vilém</CZ>
+		<HU>Emil, Csanád</HU>
+		<PL>Jaromira, Justa</PL>
+		<AT>Wilhelm</AT>
+	</zaznam>
+	<zaznam>
+		<den>0529</den>
+		<SK>Vilma</SK>
+		<SKd>Vilma, Elmar, Maxim, Maxima</SKd>
+		<CZ>Maxmilián</CZ>
+		<HU>Magdolna</HU>
+		<PL>Magdaleny, Bogumily</PL>
+		<AT>Maximin</AT>
+	</zaznam>
+	<zaznam>
+		<den>0530</den>
+		<SK>Ferdinand</SK>
+		<SKd>Ferdinand, Neander, Ferdinanda</SKd>
+		<CZ>Ferdinand</CZ>
+		<HU>Janka, Zsanett</HU>
+		<PL>Karola, Ferdynanda</PL>
+		<AT>Ferdinand</AT>
+	</zaznam>
+	<zaznam>
+		<den>0531</den>
+		<SK>Petrana, Petronela</SK>
+		<SKd>Petrana, Petronela, Petrónius, Blahoslav, Nela, Petrónia, Nelly</SKd>
+		<CZ>Kamila</CZ>
+		<HU>Angéla, Petronella</HU>
+		<PL>Anieli, Petroneli</PL>
+		<AT>Petronilla, Aldo</AT>
+	</zaznam>
+	<zaznam>
+		<den>0601</den>
+		<SK>Žaneta</SK>
+		<SKd>Žaneta</SKd>
+		<CZ>Laura</CZ>
+		<HU>Tünde</HU>
+		<PL>Jakuba, Justyna</PL>
+		<AT>Konrad, Silke</AT>
+	</zaznam>
+	<zaznam>
+		<den>0602</den>
+		<SK>Xénia, Oxana</SK>
+		<SKd>Oxana, Xénia,Karmen, Karmena, Erazim, Erazmus, Jaromil, Vlastimila</SKd>
+		<CZ>Jarmil</CZ>
+		<HU>Kármen, Anita</HU>
+		<PL>Erazma, Marianny</PL>
+		<AT>Armin, Eugen</AT>
+	</zaznam>
+	<zaznam>
+		<den>0603</den>
+		<SK>Karolína</SK>
+		<SKd>Karolína, Kevin, Lino, Linus, Palmíro, Kaja, Klotilda, Lina, Lineta, Palmíra</SKd>
+		<CZ>Tamara</CZ>
+		<HU>Klotild</HU>
+		<PL>Leszka, Tamary</PL>
+		<AT>Karl L., Silvia</AT>
+	</zaznam>
+	<zaznam>
+		<den>0604</den>
+		<SK>Lenka</SK>
+		<SKd>Lenka, Lena</SKd>
+		<CZ>Dalibor</CZ>
+		<HU>Bulcsú</HU>
+		<PL>Franciszka, Karola</PL>
+		<AT>Franz C., Klothilde</AT>
+	</zaznam>
+	<zaznam>
+		<den>0605</den>
+		<SK>Laura</SK>
+		<SKd>Laura, Dorotej, Fatima, Laurencia, Loreta, Loriána</SKd>
+		<CZ>Dobroslav</CZ>
+		<HU>Fatime</HU>
+		<PL>Bonifacego, Waltera</PL>
+		<AT>Bonifaz</AT>
+	</zaznam>
+	<zaznam>
+		<den>0606</den>
+		<SK>Norbert</SK>
+		<SKd>Norbert, Norman, Romulus, Adolfína, Norberta, Perzida</SKd>
+		<CZ>Norbert</CZ>
+		<HU>Norbert, Cintia</HU>
+		<PL>Norberta, Laurentego</PL>
+		<AT>Norbert</AT>
+	</zaznam>
+	<zaznam>
+		<den>0607</den>
+		<SK>Róbert</SK>
+		<SKd>Róbert, Borislav, Robin, Teodot, Dalma, Oriána, Róberta, Robina, Silver</SKd>
+		<SKdni>Výročie Memoranda národa slovenského</SKdni>
+		<CZ>Iveta, Slavoj</CZ>
+		<HU>Róbert</HU>
+		<PL>Roberta, Wieslawa</PL>
+		<AT>Robert</AT>
+	</zaznam>
+	<zaznam>
+		<den>0608</den>
+		<SK>Medard</SK>
+		<SKd>Medard</SKd>
+		<CZ>Medard</CZ>
+		<HU>Medárd</HU>
+		<PL>Maksyma, Medarda</PL>
+		<AT>Medardus, Ilga</AT>
+	</zaznam>
+	<zaznam>
+		<den>0609</den>
+		<SK>Stanislava</SK>
+		<SKd>Stanislava, Felicián, Prímus, Vojeslav, Berenika, Vojeslava</SKd>
+		<CZ>Stanislava</CZ>
+		<HU>Félix</HU>
+		<PL>Anny, Felicjana</PL>
+		<AT>Ephräm, Gratia</AT>
+	</zaznam>
+	<zaznam>
+		<den>0610</den>
+		<SK>Margaréta</SK>
+		<SKd>Margaréta, Gréta</SKd>
+		<CZ>Gita</CZ>
+		<HU>Margit, Gréta</HU>
+		<PL>Bogumila, Malgorzaty</PL>
+		<AT>Heinrich v. B., Diana</AT>
+	</zaznam>
+	<zaznam>
+		<den>0611</den>
+		<SK>Dobroslava</SK>
+		<SKd>Dobroslava, Barnabáš, Dobrava, Dobrota, Dobrotína, Flóra, Pavoslava</SKd>
+		<CZ>Bruno</CZ>
+		<HU>Barnabás</HU>
+		<PL>Barnaby, Radomila</PL>
+		<AT>Barnabas, Alice</AT>
+	</zaznam>
+	<zaznam>
+		<den>0612</den>
+		<SK>Zlatko</SK>
+		<SKd>Zlatko, Svätoslav, Svetislav, Svetoslav, Zlatan, Zlatomír, Zlatoň, Zlatoš, Svätoslava, Svetislava, Svetoslava, Zlatana, Zlatomíra</SKd>
+		<CZ>Antonie</CZ>
+		<HU>Villő</HU>
+		<PL>Janiny, Jana</PL>
+		<AT>Leo III., Johann v. S. F.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0613</den>
+		<SK>Anton</SK>
+		<SKd>Anton, Genadij, Tobiáš, Tobias</SKd>
+		<CZ>Antonin</CZ>
+		<HU>Antal, Anett</HU>
+		<PL>Lucjana, Antoniego</PL>
+		<AT>Antonius v. P.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0614</den>
+		<SK>Vasil</SK>
+		<SKd>Vasil, Bazil, Elizej, Kvintilián, Kvintín, Kvintus, Herta, Kvinta, Kvintiliána</SKd>
+		<CZ>Roland</CZ>
+		<HU>Vazul</HU>
+		<PL>Bazylego, Elizy</PL>
+		<AT>Burkhard, Gottschalk</AT>
+	</zaznam>
+	<zaznam>
+		<den>0615</den>
+		<SK>Vít</SK>
+		<SKd>Vít, Jolana</SKd>
+		<CZ>Vít</CZ>
+		<HU>Jolán, Vid</HU>
+		<PL>Wita, Jolanty</PL>
+		<AT>Vitus, Veit</AT>
+	</zaznam>
+	<zaznam>
+		<den>0616</den>
+		<SK>Blanka, Bianka</SK>
+		<SKd>Bianka, Blanka, Benon, Božetech, Alina, Božetecha</SKd>
+		<CZ>Zbyněk</CZ>
+		<HU>Jusztin</HU>
+		<PL>Aliny, Benona</PL>
+		<AT>Benno v. M.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0617</den>
+		<SK>Adolf</SK>
+		<SKd>Adolf, Adolfína</SKd>
+		<CZ>Adolf</CZ>
+		<HU>Laura, Alida</HU>
+		<PL>Alberta, Ignacego</PL>
+		<AT>Rainer, Adolf v. M.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0618</den>
+		<SK>Vratislav</SK>
+		<SKd>Vratislav, Leontín, Milovan, Milovín, Sedrik, Leontína, Milovana</SKd>
+		<CZ>Milan</CZ>
+		<HU>Arnold, Levente</HU>
+		<PL>Marka, Elzbiety</PL>
+		<AT>Markus, Marcellianus</AT>
+	</zaznam>
+	<zaznam>
+		<den>0619</den>
+		<SK>Alfréd</SK>
+		<SKd>Alfréd, Leonid, Leonídas, Leoš, Ruslan, Alfréda</SKd>
+		<CZ>Leoš</CZ>
+		<HU>Gyárfás</HU>
+		<PL>Gerwazego, Protazego</PL>
+		<AT>Juliana v. F.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0620</den>
+		<SK>Valéria</SK>
+		<SKd>Valéria, Florencián, Florentín, Silver, Florencia, Florentína</SKd>
+		<CZ>Květa</CZ>
+		<HU>Rafael</HU>
+		<PL>Diny, Bogny</PL>
+		<AT>Adalbert, Florentina</AT>
+	</zaznam>
+	<zaznam>
+		<den>0621</den>
+		<SK>Alojz</SK>
+		<SKd>Alojz, Elvis, Lejla</SKd>
+		<CZ>Alois</CZ>
+		<HU>Alajos, Leila</HU>
+		<PL>Alicji, Alojzego</PL>
+		<AT>Aloisius v. G.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0622</den>
+		<SK>Paulína</SK>
+		<SKd>Paulína, Achác, Eberhard, Paulín, Paula, Rozvita, Zaira</SKd>
+		<CZ>Pavla</CZ>
+		<HU>Paulina</HU>
+		<PL>Pauliny, Tomasza</PL>
+		<AT>Thomas M.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0623</den>
+		<SK>Sidónia</SK>
+		<SKd>Sidónia, Sidón</SKd>
+		<CZ>Zdeňka</CZ>
+		<HU>Zoltán</HU>
+		<PL>Wandy, Zenona</PL>
+		<AT>Edeltraud</AT>
+	</zaznam>
+	<zaznam>
+		<den>0624</den>
+		<SK>Ján</SK>
+		<SKd>Ján, Janis, Jaško, Jens, Johan, Jovan, Nino, Sean</SKd>
+		<CZ>Jan</CZ>
+		<HU>Iván</HU>
+		<PL>Jana, Danuty</PL>
+		<AT>Johannes der Täufer</AT>
+	</zaznam>
+	<zaznam>
+		<den>0625</den>
+		<SK>Olívia, Tadeáš</SK>
+		<SKd>Tadeáš, Olívia, Olívius, Prosper, Febrónia, Oliva</SKd>
+		<CZ>Ivan</CZ>
+		<HU>Vilmos</HU>
+		<PL>Lucji, Wilhelma</PL>
+		<AT>Dorothea, Eleonore</AT>
+	</zaznam>
+	<zaznam>
+		<den>0626</den>
+		<SK>Adriána</SK>
+		<SKd>Adriána, Stojan, Adriena, Ria, Riana, Stojana</SKd>
+		<CZ>Adriana</CZ>
+		<HU>János, Pál</HU>
+		<PL>Jana, Pawla</PL>
+		<AT>Johann, Paul</AT>
+	</zaznam>
+	<zaznam>
+		<den>0627</den>
+		<SK>Ladislav, Ladislava</SK>
+		<SKd>Ladislav, Ladislava, Samson, Sulamita</SKd>
+		<CZ>Ladislav</CZ>
+		<HU>László</HU>
+		<PL>Maryli, Wladyslawa</PL>
+		<AT>Cyrill v. A., Harald</AT>
+	</zaznam>
+	<zaznam>
+		<den>0628</den>
+		<SK>Beáta</SK>
+		<SKd>Beáta, Beátus, Slavoj, Bea</SKd>
+		<CZ>Lubomir</CZ>
+		<HU>Levente, Irén</HU>
+		<PL>Leona, Ireneusza</PL>
+		<AT>Irenäus, Diethild</AT>
+	</zaznam>
+	<zaznam>
+		<den>0629</den>
+		<SK>Peter, Pavol, Petra</SK>
+		<SKd>Peter, Pavol, Petra, Pavel, Pavla, Petula</SKd>
+		<CZ>Petr, Pavel</CZ>
+		<HU>Péter, Pál</HU>
+		<PL>Piotra, Pawla</PL>
+		<AT>Peter, Paul Judith</AT>
+	</zaznam>
+	<zaznam>
+		<den>0630</den>
+		<SK>Melánia</SK>
+		<SKd>Melánia, Vlastibor, Vlastimír, Šárka, Vlastimíra</SKd>
+		<CZ>Šárka</CZ>
+		<HU>Pál</HU>
+		<PL>Emilii, Lucycy</PL>
+		<AT>Otto, Ernst v. P.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0701</den>
+		<SK>Diana</SK>
+		<SKd>Diana, Dean, Dejan, Dina, Zian, Dajana, Deana, Kalina, Tabita</SKd>
+		<CZ>Jaroslava</CZ>
+		<HU>Tihamér, Annamária</HU>
+		<PL>Haliny, Mariana</PL>
+		<AT>Theobald</AT>
+	</zaznam>
+	<zaznam>
+		<den>0702</den>
+		<SK>Berta</SK>
+		<SKd>Berta, Bertín, Bertína</SKd>
+		<CZ>Patricie</CZ>
+		<HU>Ottó</HU>
+		<PL>Jagody, Urbana</PL>
+		<AT>Mariä, Heimsuchung</AT>
+	</zaznam>
+	<zaznam>
+		<den>0703</den>
+		<SK>Miloslav</SK>
+		<SKd>Miloslav, Irenej, Miliduch, Milomír, Milorad, Radimír, Rodimír, Radimíra</SKd>
+		<CZ>Radomir</CZ>
+		<HU>Kornél, Soma</HU>
+		<PL>Jacka, Anatola</PL>
+		<AT>Thomas, Raimund</AT>
+	</zaznam>
+	<zaznam>
+		<den>0704</den>
+		<SK>Prokop</SK>
+		<SKd>Prokop, Procius, Prokopa</SKd>
+		<CZ>Prokop</CZ>
+		<HU>Ulrik</HU>
+		<PL>Malwiny, Odona</PL>
+		<AT>Elisabeth v. P.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0705</den>
+		<SK>Cyril, Metod</SK>
+		<SKd>Cyril, Metod, Cyrus, Cyrila</SKd>
+		<SKsviatky>Sviatok svätého Cyrila a Metoda</SKsviatky>
+		<SKdni>Deň zahraničných Slovákov</SKdni>
+		<CZ>Cyril, Metoděj</CZ>
+		<CZsviatky>Den slovanských věrozvestú Cyrila a Metodeje</CZsviatky>
+		<HU>Emese, Sarolta</HU>
+		<PL>Marii, Antoniego</PL>
+		<AT>Anton M. Zacc.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0706</den>
+		<SK>Patrik, Patrícia</SK>
+		<SKd>Patrik, Patrícia, Patrokles</SKd>
+		<CZsviatky>Den upálení mistra Jana Husa - 1415</CZsviatky>
+		<HU>Csaba</HU>
+		<PL>Dominiki, Gotarda</PL>
+		<AT>Maria Goretti</AT>
+	</zaznam>
+	<zaznam>
+		<den>0707</den>
+		<SK>Oliver</SK>
+		<SKd>Oliver, Donald, Kastor, Veleslav, Velislav, Valibals, Veleslava, Velislava</SKd>
+		<CZ>Bohuslava</CZ>
+		<HU>Apollónia</HU>
+		<PL>Benedykta, Cyryla</PL>
+		<AT>Willibald</AT>
+	</zaznam>
+	<zaznam>
+		<den>0708</den>
+		<SK>Ivan</SK>
+		<SKd>Ivan, Ivo, Kilián, Perikles</SKd>
+		<CZ>Nora</CZ>
+		<HU>Ellák</HU>
+		<PL>Adryiany, Eugeniusza</PL>
+		<AT>Eugen III., Edgar K.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0709</den>
+		<SK>Lujza</SK>
+		<SKd>Lujza, Lukrécius, Lizelota, Lukrécia</SKd>
+		<CZ>Drahoslava</CZ>
+		<HU>Lukrécia</HU>
+		<PL>Lukrecji, Weroniki</PL>
+		<AT>Gottfried, Veronika</AT>
+	</zaznam>
+	<zaznam>
+		<den>0710</den>
+		<SK>Amália</SK>
+		<SKd>Amália, Amína, Lada</SKd>
+		<CZ>Libuše, Amálie</CZ>
+		<HU>Amália</HU>
+		<PL>Olafa, Witalisa</PL>
+		<AT>Knud, Engelbert</AT>
+	</zaznam>
+	<zaznam>
+		<den>0711</den>
+		<SK>Milota</SK>
+		<SKd>Milota, Milutín</SKd>
+		<CZ>Olga</CZ>
+		<HU>Nóra, Lili</HU>
+		<PL>Olgi, Kaliny</PL>
+		<AT>Benedikt v. N., Oliver</AT>
+	</zaznam>
+	<zaznam>
+		<den>0712</den>
+		<SK>Nina</SK>
+		<SKd>Nina, Fortunát, Fortunáta</SKd>
+		<CZ>Bořek</CZ>
+		<HU>Izabella, Dalma</HU>
+		<PL>Jana, Brunona</PL>
+		<AT>Nabor, Felix</AT>
+	</zaznam>
+	<zaznam>
+		<den>0713</den>
+		<SK>Margita</SK>
+		<SKd>Margita, Arne, Borivoj, Merkéta,</SKd>
+		<CZ>Markéta</CZ>
+		<HU>Jenő</HU>
+		<PL>Ernesta, Malgorzaty</PL>
+		<AT>Heinrich II.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0714</den>
+		<SK>Kamil</SK>
+		<SKd>Kamil</SKd>
+		<CZ>Karolína</CZ>
+		<HU>Ors, Stella</HU>
+		<PL>Bonawentury, Stelii</PL>
+		<AT>Roland</AT>
+	</zaznam>
+	<zaznam>
+		<den>0715</den>
+		<SK>Henrich</SK>
+		<SKd>Henrich, Egon, Enrik, Enriko, Henrik, Henrika, Lota, Šarlota</SKd>
+		<CZ>Jindřich</CZ>
+		<HU>Henrik, Roland</HU>
+		<PL>Dawida, Henryka</PL>
+		<AT>Egon, Balduin</AT>
+	</zaznam>
+	<zaznam>
+		<den>0716</den>
+		<SK>Drahomír</SK>
+		<SKd>Drahomír, Karmela, Rút, Rúta</SKd>
+		<CZ>Luboš</CZ>
+		<HU>Valter</HU>
+		<PL>Eustachego, Marii</PL>
+		<AT>Maria v. B. K., Carmen</AT>
+	</zaznam>
+	<zaznam>
+		<den>0717</den>
+		<SK>Bohuslav</SK>
+		<SKd>Bohuslav, Božislav, Svorad</SKd>
+		<SKdni>Výročie Deklarácie o zvrchovanosti Slovenskej republiky</SKdni>
+		<CZ>Martina</CZ>
+		<HU>Endre, Elek</HU>
+		<PL>Anety, Bogdana</PL>
+		<AT>Alexius</AT>
+	</zaznam>
+	<zaznam>
+		<den>0718</den>
+		<SK>Kamila</SK>
+		<SKd>Kamila, Rowa</SKd>
+		<CZ>Drahomira</CZ>
+		<HU>Frigyes</HU>
+		<PL>Emila, Erwina</PL>
+		<AT>Friedrich, Arnold</AT>
+	</zaznam>
+	<zaznam>
+		<den>0719</den>
+		<SK>Dušana</SK>
+		<SKd>Dušana</SKd>
+		<CZ>Čeněk</CZ>
+		<HU>Emilia</HU>
+		<PL>Wincentego, Wodzislawa</PL>
+		<AT>Justa, Bernulf</AT>
+	</zaznam>
+	<zaznam>
+		<den>0720</den>
+		<SK>Iľja, Eliáš</SK>
+		<SKd>Eliáš, Iľja, Ilia, Eliána, Iliana, Elisa</SKd>
+		<CZ>Ilja</CZ>
+		<HU>Illés</HU>
+		<PL>Czeslawa, Fryderyka</PL>
+		<AT>Margareta</AT>
+	</zaznam>
+	<zaznam>
+		<den>0721</den>
+		<SK>Daniel</SK>
+		<SKd>Daniel, Dan, Dalina</SKd>
+		<CZ>Vítězslav</CZ>
+		<HU>Dániel, Daniella</HU>
+		<PL>Daniela, Dalidy</PL>
+		<AT>Daniel</AT>
+	</zaznam>
+	<zaznam>
+		<den>0722</den>
+		<SK>Magdaléna</SK>
+		<SKd>Magdaléna, Magda, Mahuliena, Majda</SKd>
+		<CZ>Magdaléna</CZ>
+		<HU>Magdolna</HU>
+		<PL>Marii, Magdaleny</PL>
+		<AT>Maria Magdalena</AT>
+	</zaznam>
+	<zaznam>
+		<den>0723</den>
+		<SK>Oľga</SK>
+		<SKd>Oľga, Apolinár, Libérius, Libor, Liborius, Apolinára, Libora, Lilien</SKd>
+		<CZ>Libor</CZ>
+		<HU>Lenke</HU>
+		<PL>Bogny, Apolinarego</PL>
+		<AT>Brigitta</AT>
+	</zaznam>
+	<zaznam>
+		<den>0724</den>
+		<SK>Vladimír</SK>
+		<SKd>Vladimír, Kinga</SKd>
+		<CZ>Kristýna</CZ>
+		<HU>Kinga, Kincső</HU>
+		<PL>Kingi, Krystyny</PL>
+		<AT>Christophorus</AT>
+	</zaznam>
+	<zaznam>
+		<den>0725</den>
+		<SK>Jakub</SK>
+		<SKd>Jakub, Žakelína</SKd>
+		<CZ>Jakub</CZ>
+		<HU>Kristóf, Jakab</HU>
+		<PL>Walentyny, Krzysztofa</PL>
+		<AT>Jakob, Thea, Ap.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0726</den>
+		<SK>Anna, Hana</SK>
+		<SKd>Anna, Hana, Aneta, Anica, Anita, Annamária, Naneta, Joachim</SKd>
+		<CZ>Anna</CZ>
+		<HU>Anna, Anikó</HU>
+		<PL>Anny, Miroslawy</PL>
+		<AT>Anna, Joachim</AT>
+	</zaznam>
+	<zaznam>
+		<den>0727</den>
+		<SK>Božena</SK>
+		<SKd>Božena, Gorazd, Pantaleon</SKd>
+		<CZ>Věroslav</CZ>
+		<HU>Olga, Liliána</HU>
+		<PL>Celestyna, Lilii</PL>
+		<AT>Rudolf A.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0728</den>
+		<SK>Krištof</SK>
+		<SKd>Krištof, Inocent, Svätomír, Svätoš, Inocencia, Nausika, Svätomíra</SKd>
+		<CZ>Viktor</CZ>
+		<HU>Szabolcs</HU>
+		<PL>Aidy, Innocentego</PL>
+		<AT>Samuel, Viktor</AT>
+	</zaznam>
+	<zaznam>
+		<den>0729</den>
+		<SK>Marta</SK>
+		<SKd>Marta, Olaf, Serafín, Serafa, Serafína</SKd>
+		<CZ>Marta</CZ>
+		<HU>Márta, Flóra</HU>
+		<PL>Olafa, Marty</PL>
+		<AT>Martha, Lucilla</AT>
+	</zaznam>
+	<zaznam>
+		<den>0730</den>
+		<SK>Libuša</SK>
+		<SKd>Libuša, Abdon, Ingemar, Ingeborga, Ľubuša, Rowena</SKd>
+		<CZ>Bořivoj</CZ>
+		<HU>Judit, Xénia</HU>
+		<PL>Julity, Piotra</PL>
+		<AT>Ingeborg</AT>
+	</zaznam>
+	<zaznam>
+		<den>0731</den>
+		<SK>Ignác</SK>
+		<SKd>Ignác, Ignát, Vatroslav, Ignácia</SKd>
+		<CZ>Ignác</CZ>
+		<HU>Oszkár</HU>
+		<PL>Ignacego, Lubomira</PL>
+		<AT>Ignatius v. L.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0801</den>
+		<SK>Božidara</SK>
+		<SKd>Božidara, Božidar, Ľudomír, Božica, Kleopatra, Ľudomíra, Penelopa</SKd>
+		<CZ>Oskar</CZ>
+		<HU>Boglárka</HU>
+		<PL>Alfonsa, Nadii</PL>
+		<AT>Alfons v. L.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0802</den>
+		<SK>Gustáv</SK>
+		<SKd>Gustáv, Gustáva</SKd>
+		<CZ>Gustav</CZ>
+		<HU>Lehel</HU>
+		<PL>Kariny, Gustawa</PL>
+		<AT>Eusebius v. V., Stefan</AT>
+	</zaznam>
+	<zaznam>
+		<den>0803</den>
+		<SK>Jerguš</SK>
+		<SKd>Jerguš, Nikodém, Nikodéma</SKd>
+		<CZ>Miluše</CZ>
+		<HU>Hermina</HU>
+		<PL>Lidii, augusta</PL>
+		<AT>Lydia, Benno v. E.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0804</den>
+		<SK>Dominika, Dominik</SK>
+		<SKd>Dominik, Dominika, Krasoslav, Rainer, Krasoslava, Donna</SKd>
+		<SKdni>Deň Matice slovenskej</SKdni>
+		<CZ>Dominik</CZ>
+		<HU>Domonkos, Dominika</HU>
+		<PL>Dominika, Jana</PL>
+		<AT>Johannes M. V., Rainer</AT>
+	</zaznam>
+	<zaznam>
+		<den>0805</den>
+		<SK>Hortenzia</SK>
+		<SKd>Hortenzia, Hortenz, Milivoj, Osvald, Snežana</SKd>
+		<CZ>Kristián</CZ>
+		<HU>Krisztina</HU>
+		<PL>Marii, Oswalda</PL>
+		<AT>Oswald, Dominika</AT>
+	</zaznam>
+	<zaznam>
+		<den>0806</den>
+		<SK>Jozefína</SK>
+		<SKd>Jozefína, Nehoslav, Jozefa</SKd>
+		<CZ>Oldriška</CZ>
+		<HU>Bertabettina</HU>
+		<PL>Slawy, Jakuba</PL>
+		<AT>Christi Verklärung</AT>
+	</zaznam>
+	<zaznam>
+		<den>0807</den>
+		<SK>Štefánia</SK>
+		<SKd>Štefánia, Kajetán, Afra, Afrodita, Kajetána, Štefana</SKd>
+		<CZ>Lada</CZ>
+		<HU>Ibolya</HU>
+		<PL>Klaudii, Kajetana</PL>
+		<AT>Albert</AT>
+	</zaznam>
+	<zaznam>
+		<den>0808</den>
+		<SK>Oskar</SK>
+		<SKd>Oskar, Donát, Hartvig, Virgín, Donáta, Virgínia</SKd>
+		<CZ>Soběslav</CZ>
+		<HU>László</HU>
+		<PL>Cypriana, Dominika</PL>
+		<AT>Dominikus, Gustav</AT>
+	</zaznam>
+	<zaznam>
+		<den>0809</den>
+		<SK>Ľubomíra</SK>
+		<SKd>Ľubomíra, Rastic</SKd>
+		<CZ>Roman</CZ>
+		<HU>Emőd</HU>
+		<PL>Romana, Ryszarda</PL>
+		<AT>Edith</AT>
+	</zaznam>
+	<zaznam>
+		<den>0810</den>
+		<SK>Vavrinec</SK>
+		<SKd>Vavrinec, Lars, Laurenc, Laurus, Lorenc, Vavro</SKd>
+		<CZ>Vavřinec</CZ>
+		<HU>Lőrinc</HU>
+		<PL>Bogdana, Borysa</PL>
+		<AT>Laurentius, Astrid</AT>
+	</zaznam>
+	<zaznam>
+		<den>0811</den>
+		<SK>Zuzana</SK>
+		<SKd>Zuzana, Trojan, Dulcia, Dulcinela, Dulcínia</SKd>
+		<CZ>Zuzana</CZ>
+		<HU>Zsuzsanna, Tiborc</HU>
+		<PL>Klary, Lidii</PL>
+		<AT>Klara, Susanna</AT>
+	</zaznam>
+	<zaznam>
+		<den>0812</den>
+		<SK>Darina</SK>
+		<SKd>Darina, Dárius, Dária</SKd>
+		<CZ>Klára</CZ>
+		<HU>Klára</HU>
+		<PL>Lecha, Euzebii</PL>
+		<AT>Hilaria</AT>
+	</zaznam>
+	<zaznam>
+		<den>0813</den>
+		<SK>Ľubomír</SK>
+		<SKd>Ľubomír, Hypolit, Kasián, Kasius, Belinda</SKd>
+		<CZ>Alena</CZ>
+		<HU>Ipoly</HU>
+		<PL>Diany, Hipolita</PL>
+		<AT>Gertrud v. A., Marco</AT>
+	</zaznam>
+	<zaznam>
+		<den>0814</den>
+		<SK>Mojmír</SK>
+		<SKd>Mojmír, Eusébius, Mojtech, Eusébia</SKd>
+		<CZ>Alan</CZ>
+		<HU>Marcell</HU>
+		<PL>Alfreda, Euzebiusza</PL>
+		<AT>Maximilian</AT>
+	</zaznam>
+	<zaznam>
+		<den>0815</den>
+		<SK>Marcela</SK>
+		<SKd>Marcela</SKd>
+		<CZ>Hana</CZ>
+		<HU>Mária</HU>
+		<PL>Marii, Napoleona</PL>
+		<AT>Mariä Himmelfahrt</AT>
+	</zaznam>
+	<zaznam>
+		<den>0816</den>
+		<SK>Leonard</SK>
+		<SKd>Leonard, Jáchim, Joachim, Linhart, Rochus, Leonarda</SKd>
+		<CZ>Jáchym</CZ>
+		<HU>Ábrahám</HU>
+		<PL>Stefana, Rocha</PL>
+		<AT>Stefan v. U., Theodor</AT>
+	</zaznam>
+	<zaznam>
+		<den>0817</den>
+		<SK>Milica</SK>
+		<SKd>Milica, Bertram, Bertrand, Hyacint, Libert, Miron, Hyacinta</SKd>
+		<CZ>Petra</CZ>
+		<HU>Jácint</HU>
+		<PL>Anity, Elizy</PL>
+		<AT>Hyazinth</AT>
+	</zaznam>
+	<zaznam>
+		<den>0818</den>
+		<SK>Elena, Helena</SK>
+		<SKd>Elena, Helena, Ilona</SKd>
+		<CZ>Helena</CZ>
+		<HU>Ilona</HU>
+		<PL>Ilony, Klary</PL>
+		<AT>Helene, Claudia</AT>
+	</zaznam>
+	<zaznam>
+		<den>0819</den>
+		<SK>Lýdia</SK>
+		<SKd>Lýdia, Vratislava, Lilien</SKd>
+		<CZ>Ludvík</CZ>
+		<HU>Huba</HU>
+		<PL>Jana, Boleslawa</PL>
+		<AT>Emilia B.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0820</den>
+		<SK>Anabela</SK>
+		<SKd>Anabela, Arabela, Liliana</SKd>
+		<CZ>Bernard</CZ>
+		<HU>István</HU>
+		<PL>Bernarda, Samuela</PL>
+		<AT>Bernhard v. Cl.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0821</den>
+		<SK>Jana</SK>
+		<SKd>Jana, Johana, Jovana</SKd>
+		<CZ>Johana</CZ>
+		<HU>Sémuel, Hajna</HU>
+		<PL>Franciszka, Joanny</PL>
+		<AT>Pius X.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0822</den>
+		<SK>Tichomír</SK>
+		<SKd>Tichomír, Sigfríd, Tichomil, Tichomíra</SKd>
+		<CZ>Bohuslav</CZ>
+		<HU>Menyhért, Mirjam</HU>
+		<PL>Marii, Cezarego</PL>
+		<AT>Regina, Siegfried A.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0823</den>
+		<SK>Filip</SK>
+		<SKd>Filip, Vlastislav, Filipa, Filipína, Vlastislava</SKd>
+		<CZ>Sandra</CZ>
+		<HU>Bence</HU>
+		<PL>Rozy, Apolinarego</PL>
+		<AT>Rosa v. L., Philipp B.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0824</den>
+		<SK>Bartolomej</SK>
+		<SKd>Bartolomej, Bartolomea</SKd>
+		<CZ>Bartoloměj</CZ>
+		<HU>Bertalan</HU>
+		<PL>Emilii, Jerzego</PL>
+		<AT>Isolde, Michaela</AT>
+	</zaznam>
+	<zaznam>
+		<den>0825</den>
+		<SK>Ľudovít</SK>
+		<SKd>Ľudovít, Ludvig, Radim, Ľudovíta</SKd>
+		<CZ>Radim</CZ>
+		<HU>Lajos, Patricia</HU>
+		<PL>Luizy, Ludwika</PL>
+		<AT>Ludwig IX., Patricia</AT>
+	</zaznam>
+	<zaznam>
+		<den>0826</den>
+		<SK>Samuel</SK>
+		<SKd>Samuel, Samo, Zemfír, Samuela, Tália, Zemfíra</SKd>
+		<CZ>Luděk</CZ>
+		<HU>Izsó</HU>
+		<PL>Marii, Zefiryny</PL>
+		<AT>Margareta v. F.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0827</den>
+		<SK>Silvia</SK>
+		<SKd>Silvia, Silvio, Silvius</SKd>
+		<CZ>Otakar</CZ>
+		<HU>Gáspár</HU>
+		<PL>Moniki, Cezarego</PL>
+		<AT>Monika</AT>
+	</zaznam>
+	<zaznam>
+		<den>0828</den>
+		<SK>Augustín</SK>
+		<SKd>Augustín, August, Augusta, Augustína, Gustína</SKd>
+		<CZ>Augustýn</CZ>
+		<HU>Ágoston</HU>
+		<PL>Patrycji, Wyszomira</PL>
+		<AT>Augustin</AT>
+	</zaznam>
+	<zaznam>
+		<den>0829</den>
+		<SK>Nikola, Nikolaj</SK>
+		<SKd>Nikola, Nikolaj, Koleta, Nikoleta</SKd>
+		<SKsviatky>Výročie Slovenského národného povstania</SKsviatky>
+		<CZ>Evelína</CZ>
+		<HU>Beatrix, Erna</HU>
+		<PL>Beaty, Jana</PL>
+		<AT>Sabine, Beatrix v. A.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0830</den>
+		<SK>Ružena</SK>
+		<SKd>Ružena, Ružica</SKd>
+		<CZ>Vladěna</CZ>
+		<HU>Rózsa</HU>
+		<PL>Rozy, Szczesnego</PL>
+		<AT>Herbert v. K., Felix</AT>
+	</zaznam>
+	<zaznam>
+		<den>0831</den>
+		<SK>Nora</SK>
+		<SKd>Nora, Rajmund, Ramón, Rajmunda, Ramona</SKd>
+		<CZ>Pavlína</CZ>
+		<HU>Erika, Bella</HU>
+		<PL>Izabeli, Ramony</PL>
+		<AT>Raimund N.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0901</den>
+		<SK>Drahoslava</SK>
+		<SKd>Drahoslava, Egid, Egídius, Deborah</SKd>
+		<SKsviatky>Deň ústavy Slovenskej republiky</SKsviatky>
+		<CZ>Linda, Samuel</CZ>
+		<HU>Egyed, Egon</HU>
+		<PL>Bronislawy, Idziego</PL>
+		<AT>Verena, Ruth</AT>
+	</zaznam>
+	<zaznam>
+		<den>0902</den>
+		<SK>Linda, Rebeka</SK>
+		<SKd>Linda, Absolón, Axel, Justus, Ermelinda, Melinda, Rebeka</SKd>
+		<CZ>Adéla</CZ>
+		<HU>Rebeka, Dorina</HU>
+		<PL>Juliana, Stefana</PL>
+		<AT>René, Ingrid</AT>
+	</zaznam>
+	<zaznam>
+		<den>0903</den>
+		<SK>Belo</SK>
+		<SKd>Belo, Antim, Klélia</SKd>
+		<CZ>Bronislav</CZ>
+		<HU>Hilda</HU>
+		<PL>Izabeli, Szymona</PL>
+		<AT>Gregor d. Gr.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0904</den>
+		<SK>Rozália</SK>
+		<SKd>Rozália, Kandid, Mojžiš, Rozalín, Rozálio, Kandida, Róza, Rozeta, Rozita, Rusalka</SKd>
+		<CZ>Jindřiška</CZ>
+		<HU>Rozália</HU>
+		<PL>Jdy, Lilianny</PL>
+		<AT>Rosalia, Ida</AT>
+	</zaznam>
+	<zaznam>
+		<den>0905</den>
+		<SK>Regina</SK>
+		<SKd>Regína, Bojan, Bojimír, Bojislav, Borimír, Branimír, Chotimír, Justinián, Otakar, Regan, Regulus, Viktorín, Bojana, Bojimíra, Boislava, Branimíra, Budislava, Chotimíra, Larisa</SKd>
+		<CZ>Boris</CZ>
+		<HU>Viktor, Lőrinc</HU>
+		<PL>Doroty, Wawrzynca</PL>
+		<AT>Laurentius, Albert</AT>
+	</zaznam>
+	<zaznam>
+		<den>0906</den>
+		<SK>Alica</SK>
+		<SKd>Alica, Brian, Magnus, Mansvét, Zachariáš, Bria, Larisa</SKd>
+		<CZ>Boleslav</CZ>
+		<HU>Zakariás</HU>
+		<PL>Beaty, Eugeniusza</PL>
+		<AT>Magnus, Beata</AT>
+	</zaznam>
+	<zaznam>
+		<den>0907</den>
+		<SK>Marianna</SK>
+		<SKd>Marianna, Mariana</SKd>
+		<CZ>Regína</CZ>
+		<HU>Regina</HU>
+		<PL>Reginy, Melchiora</PL>
+		<AT>Regina, Ralph</AT>
+	</zaznam>
+	<zaznam>
+		<den>0908</den>
+		<SK>Miriama</SK>
+		<SKd>Miriama, Miriana</SKd>
+		<CZ>Mariana</CZ>
+		<HU>Mária, Adrienn</HU>
+		<PL>Marii, Adriany</PL>
+		<AT>Mariä Geburt</AT>
+	</zaznam>
+	<zaznam>
+		<den>0909</den>
+		<SK>Martina</SK>
+		<SKd>Martina, Gordan, Gordián, Gordon, Omar, Gordana, Rea, Tina</SKd>
+		<CZ>Daniela</CZ>
+		<HU>Ádám</HU>
+		<PL>Piotra, Sergiusza</PL>
+		<AT>Grogonius</AT>
+	</zaznam>
+	<zaznam>
+		<den>0910</den>
+		<SK>Oleg</SK>
+		<SKd>Oleg, Honór, Vitold, Honóra, Krasava, Vitolda</SKd>
+		<CZ>Irma</CZ>
+		<HU>Nikolett, Hunor</HU>
+		<PL>Lukasza, Mikolaja</PL>
+		<AT>Nikolaus v. T., Diethard</AT>
+	</zaznam>
+	<zaznam>
+		<den>0911</den>
+		<SK>Bystrík</SK>
+		<SKd>Bystrík, Prótus, Zdislav, Helga, Zdislava</SKd>
+		<CZ>Denisa, Denis</CZ>
+		<HU>Teodóra</HU>
+		<PL>Jacka, Dagny</PL>
+		<AT>Helga</AT>
+	</zaznam>
+	<zaznam>
+		<den>0912</den>
+		<SK>Mária</SK>
+		<SKd>Mária, Maja, Manon, Manona, Marica, Mariela, Marieta, Marika, Marila, Mariola, Marlena, Marusia, Jessica, Mia</SKd>
+		<CZ>Marie</CZ>
+		<HU>Mária</HU>
+		<PL>Radzimira, Gwidona</PL>
+		<AT>Eberhard, Guido</AT>
+	</zaznam>
+	<zaznam>
+		<den>0913</den>
+		<SK>Ctibor</SK>
+		<SKd>Ctibor, Amát, Amátus, Stibor, Sven, Amáta, Tobias</SKd>
+		<CZ>Lubor</CZ>
+		<HU>Kornél</HU>
+		<PL>Eugeni, Aureliusza</PL>
+		<AT>Tobias</AT>
+	</zaznam>
+	<zaznam>
+		<den>0914</den>
+		<SK>Ľudomil</SK>
+		<SKd>Ľudomil, Dragan, Dragutín, Drahan, Drahotín, Ľudomila, Radka, Serena</SKd>
+		<CZ>Radka</CZ>
+		<HU>Szeréna, Roxána</HU>
+		<PL>Roksana, Bernarda</PL>
+		<AT>Kreuz-Erhöhung</AT>
+	</zaznam>
+	<zaznam>
+		<den>0915</den>
+		<SK>Jolana</SK>
+		<SKd>Jolana, Melissa, Melisa, Melita</SKd>
+		<SKsviatky>Sedembolestná Panna Mária</SKsviatky>
+		<CZ>Jolana</CZ>
+		<HU>Enikő, Melitta</HU>
+		<PL>Albina, Nikodema</PL>
+		<AT>Dolores, Melitta</AT>
+	</zaznam>
+	<zaznam>
+		<den>0916</den>
+		<SK>Ľudmila</SK>
+		<SKd>Ľudmila, Dunja</SKd>
+		<CZ>Ludmila</CZ>
+		<HU>Edit</HU>
+		<PL>Edyty, Kornela</PL>
+		<AT>Ludmilla, Edith</AT>
+	</zaznam>
+	<zaznam>
+		<den>0917</den>
+		<SK>Olympia</SK>
+		<SKd>Olympia, Lambert, Záviš</SKd>
+		<CZ>Naděžda</CZ>
+		<HU>Zsófia</HU>
+		<PL>Franciszka, Hildegardy</PL>
+		<AT>Robert B., Lambert</AT>
+	</zaznam>
+	<zaznam>
+		<den>0918</den>
+		<SK>Eugénia</SK>
+		<SKd>Eugénia, Ariadna</SKd>
+		<CZ>Kryštof</CZ>
+		<HU>Diána</HU>
+		<PL>Irmy, Jozefa</PL>
+		<AT>Josef v. C.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0919</den>
+		<SK>Konštantín</SK>
+		<SKd>Konštantín, Trofín, Konstancia, Konštantína</SKd>
+		<SKdni>Deň prvého verejného vystúpenia Slovenskej národnej rady</SKdni>
+		<CZ>Zita</CZ>
+		<HU>Vilhelmina</HU>
+		<PL>Januarego, Konstancji</PL>
+		<AT>Wilma, Arnulf</AT>
+	</zaznam>
+	<zaznam>
+		<den>0920</den>
+		<SK>Ľuboslav, Ľuboslava</SK>
+		<SKd>Ľuboslav, Ľuboslava, Eustach, Filibert, Liboslav, Eustachia, Liboslava</SKd>
+		<CZ>Oleg</CZ>
+		<HU>Friderika</HU>
+		<PL>Filipiny, Eustachego</PL>
+		<AT>Fausta, Candida</AT>
+	</zaznam>
+	<zaznam>
+		<den>0921</den>
+		<SK>Matúš</SK>
+		<SKd>Matúš, Ifigénia, Mirela</SKd>
+		<CZ>Matouš</CZ>
+		<HU>Máté, Mirella</HU>
+		<PL>Jonasza, Mateusza</PL>
+		<AT>Matthäus</AT>
+	</zaznam>
+	<zaznam>
+		<den>0922</den>
+		<SK>Móric</SK>
+		<SKd>Móric, Maurícius, Maurus</SKd>
+		<CZ>Darina</CZ>
+		<HU>Móric</HU>
+		<PL>Tomasza, Maurycego</PL>
+		<AT>Moritz</AT>
+	</zaznam>
+	<zaznam>
+		<den>0923</den>
+		<SK>Zdenka</SK>
+		<SKd>Zdenka, Polyxénia, Tekla, Zdena</SKd>
+		<CZ>Berta</CZ>
+		<HU>Tekla</HU>
+		<PL>Boguslawa, Tekli</PL>
+		<AT>Helene D., Thekla</AT>
+	</zaznam>
+	<zaznam>
+		<den>0924</den>
+		<SK>Ľuboš, Ľubor</SK>
+		<SKd>Ľubor, Ľuboš, Terenc</SKd>
+		<CZ>Jaromír</CZ>
+		<HU>Gellért, Mercédesz</HU>
+		<PL>Gerarda, Teodora</PL>
+		<AT>Rupert v. S.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0925</den>
+		<SK>Vladislav</SK>
+		<SKd>Vladislav, Vladivoj, Eufrozina, Fruzína, Vladislava, Jesika</SKd>
+		<CZ>Zlata</CZ>
+		<HU>Eufrozina, Kende</HU>
+		<PL>Aurelii, Ladyslawa</PL>
+		<AT>Nikolaus v. Fl.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0926</den>
+		<SK>Edita</SK>
+		<SKd>Edita, Damián, Kozmas, Damiána,</SKd>
+		<CZ>Andrea</CZ>
+		<HU>Jusztina, Pál</HU>
+		<PL>Justyny, Cypriana</PL>
+		<AT>Eugenia</AT>
+	</zaznam>
+	<zaznam>
+		<den>0927</den>
+		<SK>Cyprián</SK>
+		<SKd>Cyprián,Mirabela</SKd>
+		<CZ>Jonáš</CZ>
+		<HU>Adalbert</HU>
+		<PL>Damiana, Amadeusza</PL>
+		<AT>Vinzenz v. P.</AT>
+	</zaznam>
+	<zaznam>
+		<den>0928</den>
+		<SK>Václav</SK>
+		<SKd>Václav, Chariton, Kariton, Václava</SKd>
+		<CZ>Václav</CZ>
+		<CZsviatky>Den české státnosti</CZsviatky>
+		<HU>Vencel</HU>
+		<PL>Luby, Waclawa</PL>
+		<AT>Wenzel v. B., Dietmar</AT>
+	</zaznam>
+	<zaznam>
+		<den>0929</den>
+		<SK>Michal, Michaela</SK>
+		<SKd>Michal, Michaela, Michael, Michala</SKd>
+		<CZ>Michal</CZ>
+		<HU>Mihály</HU>
+		<PL>Michala, Michaliny</PL>
+		<AT>Michael, Gabriel</AT>
+	</zaznam>
+	<zaznam>
+		<den>0930</den>
+		<SK>Jarolím</SK>
+		<SKd>Jarolím, Hieronym, Jeremiáš, Jarolíma, Ráchel, Ráchela, Una</SKd>
+		<CZ>Jeroným</CZ>
+		<HU>Jeromos</HU>
+		<PL>Wery, Honoriusza</PL>
+		<AT>Hieronymus</AT>
+	</zaznam>
+	<zaznam>
+		<den>1001</den>
+		<SK>Arnold</SK>
+		<SKd>Arnold, Remig, Remus, Arnolda, Belina</SKd>
+		<CZ>Igor</CZ>
+		<HU>Malvin</HU>
+		<PL>Danuty, Remigiusza</PL>
+		<AT>Theresia v. K. J.</AT>
+	</zaznam>
+	<zaznam>
+		<den>1002</den>
+		<SK>Levoslav</SK>
+		<SKd>Levoslav, Leodegar, Levoslava</SKd>
+		<CZ>Olívie, Oliver</CZ>
+		<HU>Petra</HU>
+		<PL>Teofila, Dinozji</PL>
+		<AT>Schutzengelfest</AT>
+	</zaznam>
+	<zaznam>
+		<den>1003</den>
+		<SK>Stela</SK>
+		<SKd>Stela, Amadeus, Evald, Amadea</SKd>
+		<CZ>Bohumil</CZ>
+		<HU>Helga</HU>
+		<PL>Teresy, Heliodora</PL>
+		<AT>Ewald, Udo</AT>
+	</zaznam>
+	<zaznam>
+		<den>1004</den>
+		<SK>František</SK>
+		<SKd>František, Edvin, Fraňo</SKd>
+		<CZ>František</CZ>
+		<HU>ferenc</HU>
+		<PL>Rozalii, Edwina</PL>
+		<AT>Franz v. Assisi, Edwin</AT>
+	</zaznam>
+	<zaznam>
+		<den>1005</den>
+		<SK>Viera</SK>
+		<SKd>Viera, Blahomír, Placid, Blahomíra, Karitína, Placida</SKd>
+		<CZ>Eliška</CZ>
+		<HU>Aurél</HU>
+		<PL>Igora, Flawii</PL>
+		<AT>Attila, Placidus</AT>
+	</zaznam>
+	<zaznam>
+		<den>1006</den>
+		<SK>Natália</SK>
+		<SKd>Natália</SKd>
+		<SKdni>Deň obetí Dukly</SKdni>
+		<CZ>Hanuš</CZ>
+		<HU>Brúnó, Renáta</HU>
+		<PL>Artura, Brunona</PL>
+		<AT>Bruno d. Karth.</AT>
+	</zaznam>
+	<zaznam>
+		<den>1007</den>
+		<SK>Eliška</SK>
+		<SKd>Eliška</SKd>
+		<CZ>Justýna</CZ>
+		<HU>Amália</HU>
+		<PL>Marii, Marka</PL>
+		<AT>Markus I.</AT>
+	</zaznam>
+	<zaznam>
+		<den>1008</den>
+		<SK>Brigita</SK>
+		<SKd>Brigita, Brit, Brita</SKd>
+		<CZ>Věra</CZ>
+		<HU>Koppány</HU>
+		<PL>Pelagii, Brygidy</PL>
+		<AT>Simeon</AT>
+	</zaznam>
+	<zaznam>
+		<den>1009</den>
+		<SK>Dionýz</SK>
+		<SKd>Dionýz, Dionýzia</SKd>
+		<CZ>Štefan, Sára</CZ>
+		<HU>Dénes</HU>
+		<PL>Arnolda, Dionizego</PL>
+		<AT>Dionysius</AT>
+	</zaznam>
+	<zaznam>
+		<den>1010</den>
+		<SK>Slavomíra</SK>
+		<SKd>Slavomíra, Gedeon, Záboj, Krasomila</SKd>
+		<CZ>Marina</CZ>
+		<HU>Gedeon</HU>
+		<PL>Pauliny, Franciszka</PL>
+		<AT>Viktor v. X.</AT>
+	</zaznam>
+	<zaznam>
+		<den>1011</den>
+		<SK>Valentína</SK>
+		<SKd>Valentína, Belín, Zvonimír, Zvonislav, Bruna, Brunhilda, Luneta, Selena, Zvonimíra, Zvonislava</SKd>
+		<CZ>Andrej</CZ>
+		<HU>Brigitta</HU>
+		<PL>Emila, Aldony</PL>
+		<AT>Bruno v. K.</AT>
+	</zaznam>
+	<zaznam>
+		<den>1012</den>
+		<SK>Maximilián</SK>
+		<SKd>Maximilián, Max, Maximiliána</SKd>
+		<CZ>Marcel</CZ>
+		<HU>Miksa</HU>
+		<PL>Eustachego, Maksymiliana</PL>
+		<AT>Maximilian, Horst</AT>
+	</zaznam>
+	<zaznam>
+		<den>1013</den>
+		<SK>Koloman</SK>
+		<SKd>Koloman, Edgar</SKd>
+		<CZ>Renáta</CZ>
+		<HU>Kálmán, Ede</HU>
+		<PL>Gerarda, Edwarda</PL>
+		<AT>Eduard</AT>
+	</zaznam>
+	<zaznam>
+		<den>1014</den>
+		<SK>Boris</SK>
+		<SKd>Boris, Borislav, Kalist, Borislava, Kalista</SKd>
+		<CZ>Agáta</CZ>
+		<HU>Helén</HU>
+		<PL>Alana, Kaliksta</PL>
+		<AT>Burkhard</AT>
+	</zaznam>
+	<zaznam>
+		<den>1015</den>
+		<SK>Terézia</SK>
+		<SKd>Terézia, Tereza</SKd>
+		<CZ>Tereza</CZ>
+		<HU>Teréz</HU>
+		<PL>Teresy, Jadwigi</PL>
+		<AT>Theresia v. A.</AT>
+	</zaznam>
+	<zaznam>
+		<den>1016</den>
+		<SK>Vladimíra</SK>
+		<SKd>Vladimíra, Gál, Havel, Havla</SKd>
+		<CZ>Havel</CZ>
+		<HU>Gál</HU>
+		<PL>Gawla, Florentyny</PL>
+		<AT>Hedwig</AT>
+	</zaznam>
+	<zaznam>
+		<den>1017</den>
+		<SK>Hedviga</SK>
+		<SKd>Hedviga, Jadviga</SKd>
+		<CZ>Hedvika</CZ>
+		<HU>Hedvig</HU>
+		<PL>Malgorzaty, Wiktora</PL>
+		<AT>Ignatuis v. A., Rudolf</AT>
+	</zaznam>
+	<zaznam>
+		<den>1018</den>
+		<SK>Lukáš</SK>
+		<SKd>Lukáš</SKd>
+		<CZ>Lukáš</CZ>
+		<HU>Lukács</HU>
+		<PL>Juliusza, Lukasza</PL>
+		<AT>Lukas</AT>
+	</zaznam>
+	<zaznam>
+		<den>1019</den>
+		<SK>Kristián</SK>
+		<SKd>Kristián, Christián, Izák, Christiána, Kristiána</SKd>
+		<CZ>Michaela</CZ>
+		<HU>Nándor</HU>
+		<PL>Pelagii, Piotra</PL>
+		<AT>Paul v. Kr., Frieda</AT>
+	</zaznam>
+	<zaznam>
+		<den>1020</den>
+		<SK>Vendelín</SK>
+		<SKd>Vendelín, Eunika, Vendelína</SKd>
+		<CZ>Vendelin</CZ>
+		<HU>Vendel</HU>
+		<PL>Ireny, Jana</PL>
+		<AT>Wendelin</AT>
+	</zaznam>
+	<zaznam>
+		<den>1021</den>
+		<SK>Uršuľa</SK>
+		<SKd>Uršuľa, Anatol, Anatólia, Antília</SKd>
+		<CZ>Brigita</CZ>
+		<HU>Orsolya</HU>
+		<PL>Urszuli, Hilarego</PL>
+		<AT>Ursula</AT>
+	</zaznam>
+	<zaznam>
+		<den>1022</den>
+		<SK>Sergej</SK>
+		<SKd>Sergej, Dobromil, Sergius, Zdravomil, Kordula, Korduľa, Pribislava, Saloma, Saloména, Solomia</SKd>
+		<CZ>Sabina</CZ>
+		<HU>Előd</HU>
+		<PL>Filipa, Korduli</PL>
+		<AT>Kordula</AT>
+	</zaznam>
+	<zaznam>
+		<den>1023</den>
+		<SK>Alojzia</SK>
+		<SKd>Alojzia, Žitomír</SKd>
+		<CZ>Teodora</CZ>
+		<HU>Gyöngyi</HU>
+		<PL>Marleny, Seweryna</PL>
+		<AT>Oda</AT>
+	</zaznam>
+	<zaznam>
+		<den>1024</den>
+		<SK>Kvetoslava</SK>
+		<SKd>Kvetoslava, Aretas, Cvetan, Gilbert, Harold, Herald, Krasomil, Kvetoň, Kvetoslav, Rafael, Šalamún, Areta, Cvetana, Gilberta, Kveta, Kvetana, Kvetava, Rafaela</SKd>
+		<CZ>Nina</CZ>
+		<HU>Salamon</HU>
+		<PL>Rafala, Marcina</PL>
+		<AT>Anton M. Cl.</AT>
+	</zaznam>
+	<zaznam>
+		<den>1025</den>
+		<SK>Aurel</SK>
+		<SKd>Aurel, Krišpín, Vojmír, Zosim, Živan, Živko, Dália, Vojmíra, Živa, Živana</SKd>
+		<CZ>Beáta</CZ>
+		<HU>Blanka, Bianka</HU>
+		<PL>Darii, Wilhelminy</PL>
+		<AT>Krispin</AT>
+	</zaznam>
+	<zaznam>
+		<den>1026</den>
+		<SK>Demeter</SK>
+		<SKd>Demeter, Amand, Dimitrij, Evarist, Amanda, Demetria</SKd>
+		<CZ>Erik</CZ>
+		<HU>Dömötör</HU>
+		<PL>Lucjana, Ewarysta</PL>
+		<AT>Nationalfeiertag</AT>
+	</zaznam>
+	<zaznam>
+		<den>1027</den>
+		<SK>Sabína</SK>
+		<SKd>Sabína, Horislav, Hromislav, Horislava, Hromislava, Sabrina, Zoa, Zoana</SKd>
+		<SKdni>Deň černovskej tragédie</SKdni>
+		<CZ>Šarlota</CZ>
+		<HU>Szabina</HU>
+		<PL>Jwony, Sabiny</PL>
+		<AT>Wolfhard</AT>
+	</zaznam>
+	<zaznam>
+		<den>1028</den>
+		<SK>Dobromila</SK>
+		<SKd>Dobromila,Kevin</SKd>
+		<CZsviatky>Den vzniku samostatného Československého státu - 1918</CZsviatky>
+		<HU>Simon, Szimonetta</HU>
+		<PL>Szymona, Tadeusza</PL>
+		<AT>Simon, Judas, Thadd.</AT>
+	</zaznam>
+	<zaznam>
+		<den>1029</den>
+		<SK>Klára</SK>
+		<SKd>Klára, Narcis, Zenob, Klarisa, Narcisa, Zenóbia, Chiara</SKd>
+		<SKdni>Deň narodenia Ľudovíta Štúra</SKdni>
+		<CZ>Silvie</CZ>
+		<HU>Nárcisz</HU>
+		<PL>Euzebii, Wioletty</PL>
+		<AT>Hermelindis</AT>
+	</zaznam>
+	<zaznam>
+		<den>1030</den>
+		<SK>Šimon, Simona</SK>
+		<SKd>Šimon, Simona, Arzen, Asen, Simon, Asena, Simoneta, Šimona</SKd>
+		<SKdni>Výročie Deklarácie slovenského národa</SKdni>
+		<CZ>Tadeáš</CZ>
+		<HU>Alfonz</HU>
+		<PL>Zenobii, Przemyslawa</PL>
+		<AT>Alfons Rodr.</AT>
+	</zaznam>
+	<zaznam>
+		<den>1031</den>
+		<SK>Aurélia</SK>
+		<SKd>Aurélia, Stacho, Volfgang</SKd>
+		<SKdni>Deň reformácie</SKdni>
+		<CZ>Štěpánka</CZ>
+		<HU>Farkas</HU>
+		<PL>Urbana, Saturnina</PL>
+		<AT>Wolfgang, Christoph</AT>
+	</zaznam>
+	<zaznam>
+		<den>1101</den>
+		<SK>Denis, Denisa</SK>
+		<SKd>Denis, Denisa</SKd>
+		<SKsviatky>Sviatok všetkých svätých</SKsviatky>
+		<CZ>Felix</CZ>
+		<HU>Marianna</HU>
+		<PL>Juliana, Lukasza</PL>
+		<AT>Allerheiligen</AT>
+	</zaznam>
+	<zaznam>
+		<den>1102</den>
+		<SKd>-, Cézar, Cezária</SKd>
+		<HU>Achilles</HU>
+		<PL>Bohdany, Tobiasza</PL>
+		<AT>Allerseelen</AT>
+	</zaznam>
+	<zaznam>
+		<den>1103</den>
+		<SK>Hubert</SK>
+		<SKd>Hubert</SKd>
+		<CZ>Hubert</CZ>
+		<HU>Győző</HU>
+		<PL>Sylwii, Huberta</PL>
+		<AT>Hubert, Silvia</AT>
+	</zaznam>
+	<zaznam>
+		<den>1104</den>
+		<SK>Karol</SK>
+		<SKd>Karol, Džesika, Jesika, Karola, Skarleta, Jessica</SKd>
+		<CZ>Karel</CZ>
+		<HU>Károly</HU>
+		<PL>Karola, Olgierda</PL>
+		<AT>Karl Borr.</AT>
+	</zaznam>
+	<zaznam>
+		<den>1105</den>
+		<SK>Imrich</SK>
+		<SKd>Imrich, Emerich, Imriška</SKd>
+		<CZ>Miriam</CZ>
+		<HU>Imre</HU>
+		<PL>Elzbiety, Slawomira</PL>
+		<AT>Emmerich</AT>
+	</zaznam>
+	<zaznam>
+		<den>1106</den>
+		<SK>Renáta</SK>
+		<SKd>Renáta, Renát, Renáto, Renátus</SKd>
+		<CZ>Liběna</CZ>
+		<HU>Lénárd</HU>
+		<PL>Feliksa, Leonarda</PL>
+		<AT>Christina d. K.</AT>
+	</zaznam>
+	<zaznam>
+		<den>1107</den>
+		<SK>René</SK>
+		<SKd>René, Engelbert</SKd>
+		<CZ>Saskia</CZ>
+		<HU>Rezső</HU>
+		<PL>Antoniego, Zytomira</PL>
+		<AT>Engelbert</AT>
+	</zaznam>
+	<zaznam>
+		<den>1108</den>
+		<SK>Bohumír</SK>
+		<SKd>Bohumír, Bohumíra</SKd>
+		<CZ>Bohumir</CZ>
+		<HU>Zsombor</HU>
+		<PL>Sewera, Hadriany</PL>
+		<AT>Gottfried</AT>
+	</zaznam>
+	<zaznam>
+		<den>1109</den>
+		<SK>Teodor</SK>
+		<SKd>Teodor, Orest, Teo, Teodorik, Teodoz, Deodata, Tea, Teodora, Teodózia</SKd>
+		<CZ>Bohdan</CZ>
+		<HU>Tivadar</HU>
+		<PL>Ursyna, Todora</PL>
+		<AT>Theodor</AT>
+	</zaznam>
+	<zaznam>
+		<den>1110</den>
+		<SK>Tibor</SK>
+		<SKd>Tibor, Tiber, Meluzína, Tibora</SKd>
+		<CZ>Evžen</CZ>
+		<HU>Réka</HU>
+		<PL>Leny, Ludomira</PL>
+		<AT>Leo d. Gr., Andreas Av.</AT>
+	</zaznam>
+	<zaznam>
+		<den>1111</den>
+		<SK>Martin, Maroš</SK>
+		<SKd>Maroš, Martin, Martinián</SKd>
+		<CZ>Martin</CZ>
+		<HU>Márton</HU>
+		<PL>Marcina, Bartlomieja</PL>
+		<AT>Martin v. T.</AT>
+	</zaznam>
+	<zaznam>
+		<den>1112</den>
+		<SK>Svätopluk</SK>
+		<SKd>Svätopluk, Astrid, Jonáš, Astrida</SKd>
+		<CZ>Benedikt</CZ>
+		<HU>Jónás, Renátó</HU>
+		<PL>Renaty, Witolda</PL>
+		<AT>Emil, Christian</AT>
+	</zaznam>
+	<zaznam>
+		<den>1113</den>
+		<SK>Stanislav</SK>
+		<SKd>Stanislav</SKd>
+		<CZ>Tibor</CZ>
+		<HU>Szilvia</HU>
+		<PL>Mikolaja, Stanislawa</PL>
+		<AT>Eugen</AT>
+	</zaznam>
+	<zaznam>
+		<den>1114</den>
+		<SK>Irma</SK>
+		<SKd>Irma, Juventín, Mladen, Mladoň, Mladotín, Ima, Juventína, Mladena, Mladotína</SKd>
+		<CZ>Sáva</CZ>
+		<HU>Aliz</HU>
+		<PL>Rogera, Serafiny</PL>
+		<AT>Alberich</AT>
+	</zaznam>
+	<zaznam>
+		<den>1115</den>
+		<SK>Leopold</SK>
+		<SKd>Leopold, Leopolda, Leopoldína</SKd>
+		<CZ>Leopold</CZ>
+		<CZsviatky>Den boje studentů za svobodu a demokracii - 1989</CZsviatky>
+		<HU>Albert, Lipót</HU>
+		<PL>Alberta, Leopolda</PL>
+		<AT>Leopold von Österreich</AT>
+	</zaznam>
+	<zaznam>
+		<den>1116</den>
+		<SK>Agnesa</SK>
+		<SKd>Agnesa, Otmar, Agneša, Inéza</SKd>
+		<CZ>Otmar, Maulena</CZ>
+		<HU>Ödön</HU>
+		<PL>Gertrudy, Edmunda</PL>
+		<AT>Othmar, Edmund</AT>
+	</zaznam>
+	<zaznam>
+		<den>1117</den>
+		<SK>Klaudia</SK>
+		<SKd>Klaudia, Klodeta</SKd>
+		<SKsviatky>Deň boja za slobodu a demokraciu</SKsviatky>
+		<CZ>Mahulena</CZ>
+		<HU>Hortenzia, Gergő</HU>
+		<PL>Grzegorza, Salomei</PL>
+		<AT>Gertrud, Hilda</AT>
+	</zaznam>
+	<zaznam>
+		<den>1118</den>
+		<SK>Eugen</SK>
+		<SKd>Eugen, Platón</SKd>
+		<CZ>Romana</CZ>
+		<HU>Jenő</HU>
+		<PL>Romana, Klaudyny</PL>
+		<AT>Odo, Roman</AT>
+	</zaznam>
+	<zaznam>
+		<den>1119</den>
+		<SK>Alžbeta</SK>
+		<SKd>Alžbeta, Betina, Elizabeta, Lila, Liliana, Líza, Lili, Lilly</SKd>
+		<CZ>Alžběta</CZ>
+		<HU>Erzsébet</HU>
+		<PL>Elzbiety, Seweryna</PL>
+		<AT>Elisabeth von Th.</AT>
+	</zaznam>
+	<zaznam>
+		<den>1120</den>
+		<SK>Félix</SK>
+		<SKd>Félix, Filemon, Homér</SKd>
+		<CZ>Nikol, Nikola</CZ>
+		<HU>Jolán</HU>
+		<PL>Anatola, Sedzimira</PL>
+		<AT>Edmund K.</AT>
+	</zaznam>
+	<zaznam>
+		<den>1121</den>
+		<SK>Elvíra</SK>
+		<SKd>Elvíra, Ctirad, Ctirada</SKd>
+		<CZ>Albert</CZ>
+		<HU>Olivér</HU>
+		<PL>Janusza, Konrada</PL>
+		<AT>Gelasius I.</AT>
+	</zaznam>
+	<zaznam>
+		<den>1122</den>
+		<SK>Cecília</SK>
+		<SKd>Cecília, Cecilián, Šejla</SKd>
+		<CZ>Cecílie</CZ>
+		<HU>Cecilia</HU>
+		<PL>Marka, Cecylii</PL>
+		<AT>Cäcilia</AT>
+	</zaznam>
+	<zaznam>
+		<den>1123</den>
+		<SK>Klement</SK>
+		<SKd>Klement, Klementín, Kliment, Kolumbín, Klementína, Kolumbína</SKd>
+		<CZ>Klement</CZ>
+		<HU>Kelemen, Klementina</HU>
+		<PL>Adeli, Klemensa</PL>
+		<AT>Klemens I., Felicitas</AT>
+	</zaznam>
+	<zaznam>
+		<den>1124</den>
+		<SK>Emília</SK>
+		<SKd>Emília, Milín, Milina</SKd>
+		<CZ>Emílie</CZ>
+		<HU>Emma</HU>
+		<PL>Flory, Emmy</PL>
+		<AT>Chrysogonus, Flora</AT>
+	</zaznam>
+	<zaznam>
+		<den>1125</den>
+		<SK>Katarína</SK>
+		<SKd>Katarína, Katrina</SKd>
+		<CZ>Kateřina</CZ>
+		<HU>Katalin</HU>
+		<PL>Katarzyny, Erazma</PL>
+		<AT>Katharina v. A.</AT>
+	</zaznam>
+	<zaznam>
+		<den>1126</den>
+		<SK>Kornel</SK>
+		<SKd>Kornel, Valerián</SKd>
+		<CZ>Artur</CZ>
+		<HU>Virág</HU>
+		<PL>Delfiny, Sylwestra</PL>
+		<AT>Konrad</AT>
+	</zaznam>
+	<zaznam>
+		<den>1127</den>
+		<SK>Milan</SK>
+		<SKd>Milan, Nestor, Virgil, Milana</SKd>
+		<CZ>Xenie</CZ>
+		<HU>Virgil</HU>
+		<PL>Waleriana, Wilgiusza</PL>
+		<AT>Oda, Modestus</AT>
+	</zaznam>
+	<zaznam>
+		<den>1128</den>
+		<SK>Henrieta</SK>
+		<SKd>Henrieta, Gerhard, Tristan, Desdemona, Eta</SKd>
+		<CZ>René</CZ>
+		<HU>Stefánia</HU>
+		<PL>Leslawa, Zdzislawa</PL>
+		<AT>Gunther, Stephan d. J.</AT>
+	</zaznam>
+	<zaznam>
+		<den>1129</den>
+		<SK>Vratko</SK>
+		<SKd>Vratko, Saturnín, Zaida</SKd>
+		<CZ>Zina</CZ>
+		<HU>Taksony</HU>
+		<PL>Blazeja, Saturnina</PL>
+		<AT>Friedrich v. R.</AT>
+	</zaznam>
+	<zaznam>
+		<den>1130</den>
+		<SK>Ondrej, Andrej</SK>
+		<SKd>Andrej, Ondrej, Andreas</SKd>
+		<CZ>Ondřej</CZ>
+		<HU>András, Andor</HU>
+		<PL>Maury, Andrzeja</PL>
+		<AT>Andreas</AT>
+	</zaznam>
+	<zaznam>
+		<den>1201</den>
+		<SK>Edmund</SK>
+		<SKd>Edmund, Edmunda</SKd>
+		<CZ>Iva</CZ>
+		<HU>Elza</HU>
+		<PL>Natalii, Eligiusza</PL>
+		<AT>Blanka, Natalie</AT>
+	</zaznam>
+	<zaznam>
+		<den>1202</den>
+		<SK>Bibiána</SK>
+		<SKd>Bibiána, Budimír, Budislav, Budimíra, Viviána, Vivien</SKd>
+		<CZ>Blanka</CZ>
+		<HU>Melinda, Vivien</HU>
+		<PL>Balbiny, Bibianny</PL>
+		<AT>Bibiana</AT>
+	</zaznam>
+	<zaznam>
+		<den>1203</den>
+		<SK>Oldrich</SK>
+		<SKd>Oldrich, Sofron, Xavér, Sofrónia, Xavéria</SKd>
+		<CZ>Svatoslav</CZ>
+		<HU>Ferenc, Olivia</HU>
+		<PL>Franciszka, Ksawerego</PL>
+		<AT>Franz, Xaver</AT>
+	</zaznam>
+	<zaznam>
+		<den>1204</den>
+		<SK>Barbora, Barbara</SK>
+		<SKd>Barbora, Babeta, Barbara, Barica</SKd>
+		<CZ>Barbora</CZ>
+		<HU>Borbála, Barbara</HU>
+		<PL>Barbary, Krystiana</PL>
+		<AT>Barbara</AT>
+	</zaznam>
+	<zaznam>
+		<den>1205</den>
+		<SK>Oto</SK>
+		<SKd>Oto, Gerald, Otakar, Otokar, Geralda, Geraldína, Jitka, Ota, Sáva</SKd>
+		<CZ>Jitka</CZ>
+		<HU>Vilma</HU>
+		<PL>Saby, Kryspina</PL>
+		<AT>Gerald</AT>
+	</zaznam>
+	<zaznam>
+		<den>1206</den>
+		<SK>Mikuláš</SK>
+		<SKd>Mikuláš, Nikita, Niko, Nikolas, Mikuláška, Nikoleta</SKd>
+		<CZ>Mikuláš</CZ>
+		<HU>Miklós</HU>
+		<PL>Mikolaja, Jaremy</PL>
+		<AT>Nikolaus v. M.</AT>
+	</zaznam>
+	<zaznam>
+		<den>1207</den>
+		<SK>Ambróz</SK>
+		<SKd>Ambróz, Amarant, Amaranta, Ambrózia</SKd>
+		<CZ>Benjamín</CZ>
+		<HU>Ambrus</HU>
+		<PL>Marcina, Ambrozy</PL>
+		<AT>Ambrosius</AT>
+	</zaznam>
+	<zaznam>
+		<den>1208</den>
+		<SK>Marína</SK>
+		<SKd>Marína</SKd>
+		<CZ>Květoslava</CZ>
+		<HU>Mária</HU>
+		<PL>Marii, Swiatozara</PL>
+		<AT>Mariä Empfängnis</AT>
+	</zaznam>
+	<zaznam>
+		<den>1209</den>
+		<SK>Izabela</SK>
+		<SKd>Izabela, Dalila, Leokádia</SKd>
+		<CZ>Vratislav</CZ>
+		<HU>Natália</HU>
+		<PL>Wieslawa, Leokadii</PL>
+		<AT>Valerie</AT>
+	</zaznam>
+	<zaznam>
+		<den>1210</den>
+		<SK>Radúz</SK>
+		<SKd>Radúz, Herbert</SKd>
+		<CZ>Julie</CZ>
+		<HU>Judit</HU>
+		<PL>Julii, Danieli</PL>
+		<AT>Diethard</AT>
+	</zaznam>
+	<zaznam>
+		<den>1211</den>
+		<SK>Hilda</SK>
+		<SKd>Hilda, Hildegard, Hildegarda</SKd>
+		<CZ>Dana</CZ>
+		<HU>Árpád</HU>
+		<PL>Damazego, Waldemara</PL>
+		<AT>David, Daniel</AT>
+	</zaznam>
+	<zaznam>
+		<den>1212</den>
+		<SK>Otília</SK>
+		<SKd>Otília, Spiridon, Dília, Odeta</SKd>
+		<CZ>Simona</CZ>
+		<HU>Gabriella</HU>
+		<PL>Dagmary, Aleksandry</PL>
+		<AT>Johanna F. v. Ch.</AT>
+	</zaznam>
+	<zaznam>
+		<den>1213</den>
+		<SK>Lucia</SK>
+		<SKd>Lucia, Rosan, Rosana, Roxana</SKd>
+		<CZ>Lucie</CZ>
+		<HU>Luca, Otilia</HU>
+		<PL>Lucji, Otylii</PL>
+		<AT>Lucia, Ottilie</AT>
+	</zaznam>
+	<zaznam>
+		<den>1214</den>
+		<SK>Branislava, Bronislava</SK>
+		<SKd>Branislava, Bronislava, Broňa</SKd>
+		<CZ>Lýdie</CZ>
+		<HU>Szilárda</HU>
+		<PL>Alfreda, Izydora</PL>
+		<AT>Franziska</AT>
+	</zaznam>
+	<zaznam>
+		<den>1215</den>
+		<SK>Ivica</SK>
+		<SKd>Ivica, Detrich, Radan, Radana</SKd>
+		<CZ>Radana</CZ>
+		<HU>Valér</HU>
+		<PL>Niny, Celiny</PL>
+		<AT>Christiana, Nina</AT>
+	</zaznam>
+	<zaznam>
+		<den>1216</den>
+		<SK>Albína</SK>
+		<SKd>Albína, Bela, Teofánia</SKd>
+		<CZ>Albína</CZ>
+		<HU>Etelka, Aletta</HU>
+		<PL>Albiny, Zdzislawy</PL>
+		<AT>Adelheid</AT>
+	</zaznam>
+	<zaznam>
+		<den>1217</den>
+		<SK>Kornélia</SK>
+		<SKd>Kornélia, Lazár, Kora, Korina</SKd>
+		<CZ>Daniel</CZ>
+		<HU>Lázár, Olimpia</HU>
+		<PL>Olimpii, Lazarza</PL>
+		<AT>Lazarus, Jolanda</AT>
+	</zaznam>
+	<zaznam>
+		<den>1218</den>
+		<SK>Sláva</SK>
+		<SKd>Sláva, Slávka, Gracián, Grácia, Graciána, Slavislava</SKd>
+		<CZ>Miloslav</CZ>
+		<HU>Auguszta</HU>
+		<PL>Gracjana, Boguslawa</PL>
+		<AT>Gatian</AT>
+	</zaznam>
+	<zaznam>
+		<den>1219</den>
+		<SK>Judita</SK>
+		<SKd>Judita, Abrahám, Mstislav, Neméz, Ita, Mstislava, Neméza</SKd>
+		<CZ>Ester</CZ>
+		<HU>Viola</HU>
+		<PL>Gabrieli, Dariusza</PL>
+		<AT>Urban V.</AT>
+	</zaznam>
+	<zaznam>
+		<den>1220</den>
+		<SK>Dagmara</SK>
+		<SKd>Dagmara, Dagmar, Dag, Dagobert, Daga, Damara</SKd>
+		<CZ>Dagmar</CZ>
+		<HU>Teofil</HU>
+		<PL>Bogumily, Dominika</PL>
+		<AT>Eugen v. A.</AT>
+	</zaznam>
+	<zaznam>
+		<den>1221</den>
+		<SK>Bohdan</SK>
+		<SKd>Bohdan</SKd>
+		<CZ>Natálie</CZ>
+		<HU>Tamás</HU>
+		<PL>Tomasza, Tomislawa</PL>
+		<AT>Ingomar</AT>
+	</zaznam>
+	<zaznam>
+		<den>1222</den>
+		<SK>Adela</SK>
+		<SKd>Adela, Ada, Adelaida, Adelgunda, Adelína, Adina, Alida</SKd>
+		<CZ>Šimon</CZ>
+		<HU>Zénó</HU>
+		<PL>Zenona, Honoraty</PL>
+		<AT>Jutta, Marian</AT>
+	</zaznam>
+	<zaznam>
+		<den>1223</den>
+		<SK>Nadežda</SK>
+		<SKd>Nadežda, Naďa</SKd>
+		<CZ>Vlasta</CZ>
+		<HU>Viktória</HU>
+		<PL>Wiktorii, Slawomiry</PL>
+		<AT>Victoria</AT>
+	</zaznam>
+	<zaznam>
+		<den>1224</den>
+		<SK>Adam, Eva</SK>
+		<SKd>Adam, Eva, Evamária, Evelína, Gaja, Gajana, Geja</SKd>
+		<SKsviatky>Štedrý deň</SKsviatky>
+		<CZ>Adam, Eva</CZ>
+		<CZsviatky>Štědrý den</CZsviatky>
+		<HU>Ádám, Éva</HU>
+		<PL>Adama, Ewy</PL>
+		<AT>Heiliger Abend</AT>
+	</zaznam>
+	<zaznam>
+		<den>1225</den>
+		<SKd>-</SKd>
+		<SKsviatky>Prvý sviatok vianočný</SKsviatky>
+		<CZsviatky>Svátek vánoční 1</CZsviatky>
+		<HU>Eugénia</HU>
+		<PL>Anastazji, Eualii</PL>
+		<AT>Christtag</AT>
+	</zaznam>
+	<zaznam>
+		<den>1226</den>
+		<SK>Štefan</SK>
+		<SKd>Štefan</SKd>
+		<SKsviatky>Druhý sviatok vianočný</SKsviatky>
+		<CZ>Štěpán</CZ>
+		<CZsviatky>Svátek vánoční 2</CZsviatky>
+		<HU>István</HU>
+		<PL>Jana, Zanety</PL>
+		<AT>Stefanitag</AT>
+	</zaznam>
+	<zaznam>
+		<den>1227</den>
+		<SK>Filoména</SK>
+		<SKd>Filoména, Filomén</SKd>
+		<CZ>Žaneta</CZ>
+		<HU>János</HU>
+		<PL>Teofili, Godzislawa</PL>
+		<AT>Johannes</AT>
+	</zaznam>
+	<zaznam>
+		<den>1228</den>
+		<SK>Ivana, Ivona</SK>
+		<SKd>Ivana, Ivona, Iva</SKd>
+		<CZ>Bohumila</CZ>
+		<HU>Kamilla</HU>
+		<PL>Jana, Maksyma</PL>
+		<AT>Unschuldige, Kinder</AT>
+	</zaznam>
+	<zaznam>
+		<den>1229</den>
+		<SK>Milada</SK>
+		<SKd>Milada, Jonatán, Miladín, Nátan, Natanel</SKd>
+		<CZ>Judita</CZ>
+		<HU>Tamás, Tamara</HU>
+		<PL>Dawida, Tomasza</PL>
+		<AT>Thomas B., Tamara</AT>
+	</zaznam>
+	<zaznam>
+		<den>1230</den>
+		<SK>Dávid</SK>
+		<SKd>Dávid, Lotar</SKd>
+		<SKdni>Deň vyhlásenia Slovenska za samostatnú cirkevnú provinciu</SKdni>
+		<CZ>David</CZ>
+		<HU>Dávid</HU>
+		<PL>Irminy, Eugeniusza</PL>
+		<AT>Hermine</AT>
+	</zaznam>
+	<zaznam>
+		<den>1231</den>
+		<SK>Silvester</SK>
+		<SKd>Silvester, Horst</SKd>
+		<CZ>Silvestr</CZ>
+		<HU>Szilveszter</HU>
+		<PL>Melanii, Sylwestra</PL>
+		<AT>Silvester</AT>
+	</zaznam>
+</meniny>

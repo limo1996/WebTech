@@ -1,41 +1,35 @@
-  section{
-    margin: 0 auto;
-  }
+
   h1{
    
     text-align: center;
   }
   body {
      background-color:#EEEEEE;
-    padding: 2em;
-    font-size: 150%;    
+     display: block;
+     margin: auto;       
     font-family: "@font-family-sans-serif";
-     max-width: 100%;
+        
   }
   form {
-    width: 35%;
+    
     background: #5cb85c;
     color: black;
     border-radius: 5px;
      padding: 5px 5px;
-     display: block;
-      margin : auto;
+        
    
   }
   #novaUloha {
     width: 60%;
-   margin-left: 10%;
+    margin-left: 10%;
   }
-  #todolist {
-    width: 25%;
+  
+  #todolist li {    
     
-    display: block;
-    margin:auto;
-  }
-  #todolist li {
     border-radius: 2px;
     list-style: none;
-    background:   #FFF;
+     background-color:#EEEEEE;
+    
     padding: 5px 10px;
     margin-bottom: 5px;
     position: relative;

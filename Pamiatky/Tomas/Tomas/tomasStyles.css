@@ -1,0 +1,25 @@
+.markers {
+	color: #7f8c8d;
+	font-size: 16px;
+}
+
+.panel {
+	padding: 50px;
+}
+
+.articleText {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: #7f8c8d;
+	font-size: 16px;
+}
+
+#rightPanel{
+	background-color: #eee;
+}
+
+.images{
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
