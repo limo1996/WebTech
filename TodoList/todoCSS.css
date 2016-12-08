@@ -1,0 +1,54 @@
+  section{
+    margin: 0 auto;
+  }
+  h1{
+   
+    text-align: center;
+  }
+  body {
+     background-color:#EEEEEE;
+    padding: 2em;
+    font-size: 150%;    
+    font-family: "@font-family-sans-serif";
+     max-width: 100%;
+  }
+  form {
+    width: 35%;
+    background: #5cb85c;
+    color: black;
+    border-radius: 5px;
+     padding: 5px 5px;
+     display: block;
+      margin : auto;
+   
+  }
+  #novaUloha {
+    width: 60%;
+   margin-left: 10%;
+  }
+  #todolist {
+    width: 25%;
+    
+    display: block;
+    margin:auto;
+  }
+  #todolist li {
+    border-radius: 2px;
+    list-style: none;
+    background:   #FFF;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    position: relative;
+    
+  }
+  #todolist li:nth-child(2n) {
+    background: #ccc;
+  }
+  #todolist li:hover:after,
+  #todolist li.done:after {
+    content: '✔';
+    color: #060;
+    position: absolute;
+    right: 2%;    
+  }
+  

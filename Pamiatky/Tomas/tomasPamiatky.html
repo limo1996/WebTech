@@ -1,40 +1,41 @@
 <!DOCTYPE html>
 <html lang="sk">
 <head>
-	<title>Pamiatky Bratislavy</title>
+	<title>Pamiatky Rožňava</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
 	<!--Bootstrap linking-->
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 
 	<!--Local files linking-->
-	<link href="limoStyles.css" rel="stylesheet">
-    <link href="../../CSS/mainStyles.css" rel="stylesheet">
-	<script src="../../Menu/menuScripts.js"></script>
-	<script src="limoScripts.js"></script>
-    <script>
-        function Load(){
-            LoadPage('../../Files/pamiatky.json');            
-            LoadMenu('Jakub', '../../Menu/menu.json');
-        }
-    </script>
+	<link href="tomasStyles.css" rel="stylesheet">
+	<script src="../Menu/menuScripts.js"></script>
+	<script src="tomasScripts.js"></script>
 </head>
-<body onload="Load();">
+<body onload="LoadMenu('Jakub', '../Menu/menu.json');">
+	<style>
+		body {
+			padding-top: 50px;
+		}
+
+		.navbar-template {
+			padding: 40px 15px;
+		}
+	</style>
 	<div class="navbar navbar-default navbar-fixed-top" role="navigation" id="menuBar"></div>
 	<div class="jumbotron">
 		<div class="col-sm-6 panel" id="leftPanel">
-			<!--<div class="container">
-				<h1 class="featurette-heading">Bratislavská tepláreň</h1>
+			<div class="container">
+				<h1 class="featurette-heading">Bratislavsk� tepl�re�</h1>
 				<div class="text-left">
-					<p><span class="glyphicon glyphicon-map-marker"></span>&nbsp;Bratislava, Čulenova ulica</p>
-					<p><span class="glyphicon glyphicon-user"></span>&nbsp;Dušan Jurkovič</p>
+					<p><span class="glyphicon glyphicon-map-marker"></span>&nbsp;Bratislava, �ulenova ulica</p>
+					<p><span class="glyphicon glyphicon-user"></span>&nbsp;Du�an Jurkovi�</p>
 					<p><span class="glyphicon glyphicon-flag"></span>&nbsp;Rok vzniku 1941</p>
 				</div>
 				<p class="lead text-info">Hist�ria</p>
 				<div class="articleText text-justify">
-					Budova Teplárne alebo Turbínovej haly je z roku 1941, patrí do záverečného obdobia tvorby architekta Dušana Jurkoviča.
-					Budova je spomenutá v monografii Dany Bošutovej z roku 1993 okrajovo, bez popisu v zozname prác, rok 1940.
-					Bratislavsk� tepl�re� sa nach�dza v zóne Chalúpkova, ktor� sa dnes stala z okrajovej z�ny centra priamo jeho s��as�ou.
+					Budova Tepl�rne,alebo Turb�novej haly je z roku 1941, patr� do z�vere�n�ho obdobia tvorby architekta Du�ana Jurkovi�a.
+					Budova je spomenut� v monografii Dany Bo�utovej z roku 1993 okrajovo, bez popisu v zozname pr�c, rok 1940.
+					Bratislavsk� tepl�re� sa nach�dza v z�ne Chal�pkova, ktor� sa dnes stala z okrajovej z�ny centra priamo jeho s��as�ou.
 				</div>
 				<div class="articleText text-justify">
 					Jadrom tepl�rne je s�bor budov v�robn�ho bloku a kom�n vysok� 120 metrov V�sledn� komplex je dnes zvl��tnym konglomer�tom hm�t a priestorov,
@@ -60,10 +61,10 @@
 				</div>
 				<img src="../../Images/skyPark.jpg" alt="skypark" class="images" />
 				<p class="articleText">Zdroj: <a href="http://www.archinet.sk/magazine/Clanok.asp?ClanokID=15&VydanieKOD=95&Magazine=forum">tu</a>.</p>
-			</div>-->
+			</div>
 		</div>
 		<div class="col-sm-6 panel" id="rightPanel">
-			<!--<div class="container">
+			<div class="container">
 				<h1 class="featurette-heading">Star� most Franti�ka Jozefa I.</h1>
 				<div class="text-left">
 					<p><span class="glyphicon glyphicon-map-marker"></span>&nbsp;Bratislava, Star� mesto</p>
@@ -105,13 +106,13 @@
 				</div>
 				<img src="../../Images/novyStaryMost.jpg" alt="Star� most po rekon�trukci�" class="images" />
 				<p class="articleText">Zdroj: <a href="https://sk.wikipedia.org/wiki/Star%C3%BD_most_(Bratislava)">tu</a>.</p>
-			</div>-->
+			</div>
 		</div>
 	</div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script src="../../Menu/jQueryScripts.js"></script>
+	<script src="../Menu/jQueryScripts.js"></script>
 </body>
 </html>

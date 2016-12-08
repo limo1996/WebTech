@@ -15,10 +15,24 @@
     letter-spacing: 2px;
 }
 
-body{
+body {
+    padding-top: 50px;
+}
+        
+.navbar-template {
+    padding: 40px 15px;
 }
 
 header{
 	background: url('../Images/bg-pattern.png'), linear-gradient(to left, #7b4397,#dc2430);
 	height: 700px;
 }
+
+.btn-outline::hover .btn-outline{
+    color: yellow;
+}
+
+footer{
+
+}
+
