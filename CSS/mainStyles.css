@@ -8,6 +8,7 @@
 .btn-outline {
     color: #fff;
     border: 1px solid;
+	margin-bottom: 50px;
 }
 .btn, .navbar-default .nav>li>a {
     font-family: Lato,Helvetica,Arial,sans-serif;
@@ -25,11 +26,10 @@ body {
 
 header{
 	background: url('../Images/bg-pattern.png'), linear-gradient(to left, #7b4397,#dc2430);
-	height: 700px;
 }
 
-.btn-outline::hover .btn-outline{
-    color: yellow;
+.btn-outline:hover .btn-outline{
+    background-color: yellow;
 }
 
 footer{
@@ -56,3 +56,39 @@ hr{
     -webkit-mask-image: radial-gradient(circle,#f5f5f5 50%,transparent);
 }
 
+.hexaImage{
+
+}
+
+.hexaDiv{
+
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+h1{
+	margin-top: 100px;
+	color: white;
+	font-weight: 500;
+}
+
+.persons{
+	width: 150px;
+	height: 150px;
+}
+
+.mySpan{
+	height: 230px;
+}
+
+@media (max-width: 760){
+	.mySpan{
+		height : 20px;
+	}
+}
