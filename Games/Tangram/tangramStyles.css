@@ -94,8 +94,8 @@ body{
 /*Page layout*/
 #blockTray {
   position:absolute;
-	height: 400px;
-	width: 550px;
+	height: 2000px;
+	width: 2000px;
   padding:5px;
   border: 2px solid black; 
   top:1%;
