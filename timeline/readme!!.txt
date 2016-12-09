@@ -1,1 +1,0 @@
-ak je to fajn , dorobim nacitanie z JSON 
