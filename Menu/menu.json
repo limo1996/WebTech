@@ -2,7 +2,7 @@
 	"MenuItems": [
 		{
 			"displayName": "Home",
-			"href": "index.html",
+			"href": "http://147.175.98.22/~xlichman/fa967d3e-8b79-4700-914e-63b52a4f8e15/WebTech/index.html",
 			"separator": false,
 			"children": [ ]
 		},
@@ -13,31 +13,31 @@
 			"children": [
 				{
 					"displayName": "Jakub",
-					"href": "http://147.175.98.22/~xlichman/fa967d3e-8b79-4700-914e-63b52a4f8e15/WebTech/Hry/Hanoj/hanoj.html",
+					"href": "http://147.175.98.22/~xlichman/fa967d3e-8b79-4700-914e-63b52a4f8e15/WebTech/Games/Hanoj/hanoj.html",
 					"separator": false,
 					"children": [ ]
 				},
 				{
 					"displayName": "Matúš",
-					"href": "#",
+					"href": "http://147.175.98.22/~xlichman/fa967d3e-8b79-4700-914e-63b52a4f8e15/WebTech/Games/Zapalky/index.html",
 					"separator": false,
 					"children": [ ]
 				},
 				{
 					"displayName": "Róbert",
-					"href": "Games/Tangram/tangram.html",
+					"href": "http://147.175.98.22/~xlichman/fa967d3e-8b79-4700-914e-63b52a4f8e15/WebTech/Games/Tangram/tangram.html",
 					"separator": true,
 					"children": [ ]
 				},
 				{
 					"displayName": "Roman",
-					"href": "#",
+					"href": "http://147.175.98.22/~xlichman/fa967d3e-8b79-4700-914e-63b52a4f8e15/WebTech/Games/Recyklator 3000/index.html",
 					"separator": false,
 					"children": [ ]
 				},
 				{
 					"displayName": "Tamás",
-					"href": "#",
+					"href": "http://147.175.98.22/~xlichman/",
 					"separator": true,
 					"children": [ ]
 				}
@@ -60,8 +60,8 @@
 							"children": [ ]
 						},
 						{
-							"displayName": "Matúš",
-							"href": "#",
+							"displayName": "Rožňava",
+							"href": "http://147.175.98.22/~xlichman/fa967d3e-8b79-4700-914e-63b52a4f8e15/WebTech/Pamiatky/Tomas/tomasPamiatky.html",
 							"separator": false,
 							"children": [ ]
 						},
@@ -79,7 +79,7 @@
 						},
 						{
 							"displayName": "Kolárovo a Dunajský Klátov",
-							"href": "#",
+							"href": "http://147.175.98.22/~xlichman/fa967d3e-8b79-4700-914e-63b52a4f8e15/WebTech/Pamiatky/Robert/robertPamiatky.html",
 							"separator": false,
 							"children": [ ]
 						}
@@ -88,7 +88,7 @@
 				},
 				{
 					"displayName": "Mapa Pamiatok",
-					"href": "#",
+					"href": "http://147.175.98.22/~xlichman/fa967d3e-8b79-4700-914e-63b52a4f8e15/WebTech/Maps/maps.html",
 					"separator": true,
 					"children": [ ]
 				},
@@ -102,28 +102,15 @@
 		},
 		{
 			"displayName": "Pripomienkovač úloh",
-			"href": "http://147.175.98.22/~xbaka/novy/WebTech/TodoList/todo.html",
+			"href": "http://147.175.98.22/~xlichman/fa967d3e-8b79-4700-914e-63b52a4f8e15/WebTech/TodoList/todo.html",
 			"separator": false,
 			"children": [ ]
 		},
 		{
-			"displayName": "Menu3",
-			"href": "#",
+			"displayName": "Meniny",
+			"href": "http://147.175.98.22/~xlichman/fa967d3e-8b79-4700-914e-63b52a4f8e15/WebTech/Meniny/meniny.html",
 			"separator": false,
-			"children": [
-				{
-					"displayName": "Menu1.1",
-					"href": "#",
-					"separator": false,
-					"children": [ ]
-				},
-				{
-					"displayName": "Menu1.2",
-					"href": "#",
-					"separator": false,
-					"children": [ ]
-				}
-			]
+			"children": [ ]
 		}
 	]
 }
