@@ -1,0 +1,178 @@
+                       
+<!doctype html>
+<html lang="svk">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+<script type="text/javascript" src= "script.js"></script>
+<style>
+</style>
+</head>
+<body>
+<div class="container">
+<div id ="hra">
+<h1>Recyklátor 3000</h1>
+<h2>Popis hry:</h2>
+<div id="navod">
+<p>Roztrieď jednotlivé predmety do smetiakov(skóre sa počíta na základe času), na dokončenie všetkých šiestich levelov máš 222 sekúnd. Smetiak ti vcucne predmet práve vtedy, keď tam patrí, ináč ti ostatne na smetiaku. Ak to stihneš do časového limitu, vyhral si, ak nie, prehral si a nestaneš sa majstrom recyklátorom  &#9785  &#9785  &#9785  skóre sa ti postupne odčítava <a id="highscore">HIGHSCORE: <a id="best" onload="set()"></a> </a></p>
+</div>
+<button id="but1" onclick="next()">ĎALŠÍ LEVEL</button>
+<button id="but2" onclick="initialize()">HRAJ HRU</button>
+<button id="but3" onclick="restart()">KONIEC/HRAJ ZNOVU</button>
+<a id="level">LEVEL: <a id="lvlnum"></i></a><br>
+<a id="skore">SKÓRE: <a id="score"></a></a><br>
+<img class="smetiaky " id="smet1" src="obrazky/sklo.jpg" width="266" height="150" />
+<img class="smetiaky" id="smet2" src="obrazky/plast.jpg" width="266" height="150"/>
+<img class="smetiaky" id="smet3" src="obrazky/r.jpg" width="266" height="150"/><br>
+<div id="lvl1">
+<a class="papier" id="11">papier</a>
+<a class="papier" id="12">karton od pizze</a>
+<a class="papier" id="13">krabica</a>
+<a class="plast" id="14">Coca-Cola 2l</a>
+<a class="plast" id="15">plastove dvere</a>
+<a class="sklo" id="16">rumova flasa</a>
+</div>
+<div id="lvl1b">
+<a class="papier" id="11b">obálka</a>
+<a class="papier" id="12b">kartón</a>
+<a class="papier" id="13b">kniha</a>
+<a class="plast" id="14b">Fanta 2l</a>
+<a class="plast" id="15b">plastový rám</a>
+<a class="sklo" id="16b">sklenená fľaša</a>
+</div>
+<div id="lvl1c">
+<a class="papier" id="11c">Papier na pecenie</a>
+<a class="papier" id="12c">papierové košíčky na muffiny</a>
+<a class="papier" id="13c">Rolka z toaletného papiera, </a>
+<a class="plast" id="14c">Coca-Cola 2l</a>
+<a class="plast" id="15c">igelitové taška značky tesco</a>
+<a class="sklo" id="16c">rumova flasa</a>
+</div>
+<div id="lvl2">
+<a class="papier" id="21" data-userid="5">Dopité mlieko plnotučné</a>
+<a class="plast" id="22" data-userid="1">plast</a>
+<a class="plast" id="23" data-userid="3">kelímok</a>
+<a class="sklo" id="24" data-userid="3">črepiny</a>
+<a class="sklo" id="25" data-userid="4">pipeta</a>
+<a class="sklo" id="26" data-userid="5">rozbitá Petriho miska</a>
+</div>
+<div id="lvl2b">
+<a class="papier" id="21a">Ukradnutý klasák</a>
+<a class="sklo" id="22a" data-userid="4">rozbité okno</a>
+<a class="sklo" id="23a" data-userid="5">rozbitá Petriho miska</a>
+<a class="plast" id="24a">Rajec 2l</a>
+<a class="plast" id="25a">plastove dvere</a>
+<a class="sklo" id="26a">Coca-Cola 250ml z reštaurácie</a>
+</div>
+<div id="lvl2c">
+<a class="plast" id="21c">igelitové taška značky tesco</a>
+<a class="sklo" id="22c">sklenené oko profesora moodyho</a>
+<a class="papier" id="23c">obal od keksika</a>
+<a class="papier" id="24c">papierové košíčky na muffiny</a>
+<a class="papier" id="25c">Rolka z toaletného papiera, </a>
+<a class="plast" id="26c">Coca-Cola 2l</a>
+</div>
+<div id="lvl4">
+<a class="plast" id="41" data-userid="4">Coca-Cola 2l</a>
+<a class="sklo" id="42" data-userid="6">prázdny BOŽKOV</a>
+<a class="sklo" id="43" data-userid="6">fľaša piva, ktorú nechce pani predavačka zobrať</a>
+<a class="papier" id="44" data-userid="5">Nový Čas</a>
+<a class="sklo" id="45" data-userid="5">fľaša šampánského</a>
+<a class="papier" id="46" data-userid="6">Pracovný zošiť Prvouka 1</a>
+</div>
+<div id="lvl4b">
+<a class="papier" id="31b">ospravedlnenka</a>
+<a class="papier" id="32b">Vysvedčenie</a>
+<a class="papier" id="33b">krabica z džúsu</a>
+<a class="plast" id="34b">Umytá fľaša od octu</a>
+<a class="plast" id="35b">plastove dvere</a>
+<a class="sklo" id="36b">prasknutý poldecák</a>
+</div>
+<div id="lvl4c">
+<a class="plast" id="31c" data-userid="4">umelý tanier</a>
+<a class="plast" id="32c" data-userid="6">Domestos</a>
+<a class="sklo" id="33c" data-userid="6">rozbité sklíčka na okuliaroch</a>
+<a class="papier" id="34c" data-userid="5">origami</a>
+<a class="sklo" id="35c" data-userid="5">fľaša šampánského</a>
+<a class="papier" id="36c" data-userid="6">Pracovný zošiť Prvouka 1</a>
+</div>
+<div id="lvl3">
+<a class="papier" id="31" data-userid="6">Letáčik od jehovistov</a>
+<a class="papier" id="32" data-userid="2">papierové vrecúško</a>
+<a class="plast" id="33" data-userid="5">fólia</a>
+<a class="sklo" id="34" data-userid="4">priehľadný materiál používaný pri výrobe okien</a>
+<a class="sklo" id="35" data-userid="5">rozbité okno</a>
+<a class="sklo" id="36" data-userid="1">črepiny</a>
+</div>
+<div id="lvl3b">
+<a class="papier" id="41b">Bakalárska práca</a>
+<a class="papier" id="42b">Elektrotechnika-ťahák</a>
+<a class="plast" id="43b">Chránič z kolenačiek</a>
+<a class="plast" id="44b">plastove dvere</a>
+<a class="sklo" id="45b">črepiny</a>
+<a class="papier" id="46b">výkresy</a>
+</div>
+<div id="lvl3c">
+<a class="plast" id="41c" data-userid="4">umely tanier</a>
+<a class="plast" id="42c" data-userid="6">obal od cukríku</a>
+<a class="sklo" id="43c" data-userid="6">šošovka z učebni prírodopisu</a>
+<a class="papier" id="44c" data-userid="5">Muhammad Embele: Brušné tance za jeden mesiac</a>
+<a class="sklo" id="45c" data-userid="5">sklenená tabuľa</a>
+<a class="papier" id="46c" data-userid="6">Nezbedná násobilka</a>
+</div>
+<div id="lvl5">
+<a class="papier" id="51">Podpísané výkresy z KPSka</a>
+<a class="plast" id="52">Pohár z kávomatu</a>
+<a class="papier" id="53" data-userid="2">Tetra Pack</a>
+<a class="papier" id="54" data-userid="6">skartované dokumenty GORILA</a>
+<a class="papier" id="55" data-userid="6">Macko Pusík</a>
+<a class="papier" id="56" data-userid="6">Omaľovánky</a>
+</div>
+<div id="lvl5b">
+<a class="papier" id="pprvy">Plus jeden deň</a>
+<a class="papier" id="pdruhy">Martin Jakubec: Ako som sa stal politikom</a>
+<a class="papier" id="ptreti">LIDL letáky</a>
+<a class="plast" id="pstvrty">plastový obal</a>
+<a class="plast" id="ppiaty">plastove dvere</a>
+<a class="sklo" id="psiesty">Zavárinový pohar</a>
+</div>
+<div id="lvl5c">
+<a class="plast" id="pprvyc">odrezaný vrch fľaše</a>
+<a class="sklo" id="pdruhyc">Školská vytrína do ktorej si hodil kameň</a>
+<a class="papier" id="ptretic">LIDL letáky</a>
+<a class="plast" id="pstvrtyc">sáčok od pečiva</a>
+<a class="plast" id="ppiatyc">plastove dvere</a>
+<a class="sklo" id="psiestyc">Prázdna nádoba od lekváru</a>
+</div>
+<div id="lvl6">
+<a class="papier" id="61" data-userid="6">Mária Fábová: Ekonómia pre technikov</a>
+<a class="plast" id="62" data-userid="6">malinovka BRAZIL</a>
+<a class="sklo" id="63" data-userid="6">Dopitá Alpa</a>
+<a class="plast" id="64" data-userid="6">Prasknutá floorbalová loptička</a>
+<a class="papier" id="65" data-userid="6">Plagát hokejového tímu Slovan Bratislava</a>
+<a class="plast" id="66" data-userid="6">Zubná kefka môjho psa</a>
+</div>
+<div id="lvl6b">
+<a class="papier" id="001">Zamilované listy</a>
+<a class="papier" id="002">Zadanie zo zápočtovej písomky</a>
+<a class="papier" id="003">Prazdné krabicové víno</a>
+<a class="plast" id="004">dojedený vlašský šalát</a>
+<a class="plast" id="005">lišta(plastová)</a>
+<a class="sklo" id="006">črepina na ktorej som si rozrezal chodidlo</a>
+</div>
+<div id="lvl6c">
+<a class="papier" id="111c" data-userid="6">Pozvánka na dedkovu 70</a>
+<a class="plast" id="222c" data-userid="6">malinovka BRAZIL</a>
+<a class="sklo" id="333c" data-userid="6">gulička vyrobená zo skla</a>
+<a class="plast" id="444c" data-userid="6">Zlomený hračkársky samopal</a>
+<a class="papier" id="555c" data-userid="6">Plagát nádejnej kapely UKND</a>
+<a class="plast" id="666c" data-userid="6">umelý príbor zo záhradnej oslavy Vladimíra Mečiara</a>
+</div>
+</div>
+</body>
+</html>
+
