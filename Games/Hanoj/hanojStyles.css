@@ -26,6 +26,7 @@
 
 #gameContainer{
     position: relative;
+	height: 320px;
 }
 
 #firstColumn{

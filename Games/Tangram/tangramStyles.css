@@ -10,7 +10,7 @@ body{
 #game{
   position:relative;
   border: 3px solid black; 
-  margin: 10px 10px 10px 10px;
+  margin: 20px 10px 10px 10px;
   padding: 5px 5px 5px 5px;
   height: 600px;
   background-color: #009933;
@@ -94,8 +94,8 @@ body{
 /*Page layout*/
 #blockTray {
   position:absolute;
-	height: 2000px;
-	width: 2000px;
+  height: 400px;
+  width: 550px;
   padding:5px;
   border: 2px solid black; 
   top:1%;

@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="sk">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+<style>
+body{
+    background: #EEE;
+    height: 100%;
+    
+}
+.puzz{
+    height: 500px;
+      width: 555px;
+    float: right;
+    position: absolute;
+}
+.mapa1{
+     height: 615px;
+      width: 1270px;      
+     float :left;
+     position: relative;
+     
+}
+.pr{
+    width:700px;
+    height:400px;
+    float: right;
+    z-index: 1;
+    position: absolute;
+}
+.ke{
+    width:700px;
+    height:400px;
+    float: right;
+    position: absolute;
+}
+.bb{
+    width:700px;
+    height:400px;
+    float: right;
+    position: absolute;
+}
+.nit{
+    width:700px;
+    height:400px;
+    float: right;
+    position: absolute;
+}
+.tr{
+    width:700px;
+    height:400px;
+    float: right;
+    position: absolute;
+}
+
+#Bratislava{
+    position: absolute;
+    height: 500px;
+      width: 555px;
+      z-index: 1;
+      top: -732px;
+      left:-1004px;
+      background: yellow;
+}
+
+#block{
+    position: relative;
+}
+#mapa{
+    
+}
+
+#Kosice{
+    left:-628px;
+    top:112px;
+    height: 300px;
+    width: 300px;
+    z-index: 1;
+    position: absolute;
+       }
+</style>
+
+
+<script>
+$( init );
+ 
+function init() {
+  $('#ba').draggable();
+  $('#tt').draggable();
+  $('#za').draggable();
+  $('#pr').draggable();
+   $('#ke').draggable();
+    $('#bb').draggable();
+    $('#nr').draggable();
+    $('#tr').draggable();
+}
+</script>
+
+</head>
+
+<body>
+
+<div id="hra">
+<div id="mapa"><img src="maps.png"  class="mapa1" alt="mapa">
+<div id="Bratislava"></div>
+<div id="Kosice"></div>
+</div>
+
+<div id="block">
+<div id="ba" > <img src="bra1.png" class="puzz" alt="ba"></div>
+<div id="tt" > <img src="trnavva.png"  class="puzz" alt="tt"></div>
+<div id="za" > <img src="zili.png" class="puzz" alt="zl"></div>
+<div id="pr" > <img src="pre.png"   class="pr" alt="pv"></div>
+<div id="ke" > <img src="kos.png" class="ke" alt="ke"></div>
+<div id="bb" > <img src="byst.png"  class="bb" alt="bb"></div>
+<div id="nr" > <img src="nit.png"  class="nit" alt="nr"></div>
+<div id="tr" > <img src="tren.png" class="tr" alt="tn"></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</body>
+</html>
