@@ -107,6 +107,8 @@
 		{
 			"tag": 5,
 			"nazov": "Schoellerov mlyn",
+			"lat":48.217658,
+			"lon":18.603478,
 			"rokVzniku": "1882",
 			"poloha": "Levice, Mlynská ulica",
 			"Nadpis1": "História",
@@ -132,6 +134,8 @@
 		{
 			"tag": 6,
 			"nazov": "Bývalá radnica (dnes budova Mestského úradu)",
+			"lat": 48.219796,
+			"lon": 18.606493,
 			"rokVzniku": "1902",
 			"poloha": "Levice,Námestie hrdinov",
 			"Nadpis1": "História",
