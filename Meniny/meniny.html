@@ -1,17 +1,87 @@
 <!DOCTYPE html>
 <html>
  <head>
+   
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="css_meniny.css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Bootstrap -->
+	 <link rel="stylesheet" type="text/css" href="css_meniny.css">
     <script type="text/javascript" src= "js_meniny.js"></script>
-
-    <title>ML's Page</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<title>Final project</title>
+	<link href="../Menu/menuStyles.css" type="text/css" rel="stylesheet">
+	<link href="../CSS/mainStyles.css" rel="stylesheet">
+	<script src="../Menu/menuScripts.js"></script>
+	<script>
+        function Load(){
+            loadXMLDoc();            
+            LoadMenu('Meniny','../Menu/menu.json');
+        }
+    </script>
 </head>
-  <body onload = "loadXMLDoc()">
-    <p id ="demo"> </p>
- 	 <input type="text"  id="meno" value="" onchange = "getDate(this.value)" /> 
- 	 <p id = "vypisMeno">  </p>
- 	 <input type="text"  id="datum" value="" onchange = "getName(this.value)" /> 
- 	 <p id = "vypisDatum">  </p>
-  </body>
+  <body onload="Load();">
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation" id="menuBar"></div>
+  <section>
+		<div class="container">
+		</div>
+	</section>
+	<div class="container">
+
+	 <div class="col-sm-3">    </div>
+	 <div class="col-sm-6">
+  		<br><br><br>
+	     <p id ="demo"> </p>
+	     <p id = "omg" >Chcem zistit:</p>
+	 	 <div class="form_group">
+			<div>
+				<input type="text" placeholder="Kedy ma meniny(meno)" class="fields" id="password" name="Password" onchange = "getDate(this.value)"/>
+				 <p id = "vypisMeno">  </p>
+			</div>
+			<div>
+				<input type="text" placeholder="Kto ma meniny(dd.mm)" class="fields" id="password" name="Password" onchange = "getName(this.value)"/>
+				 <p id = "vypisDatum">  </p>
+			 </div>
+			 <br><br><br>
+				 <br><br><br>
+ 	 	  </div>
+ 	 	</div>
+ 	 	<div class="col-sm-3">    </div>
+ 	 </div>
+
+ 	 
+ <footer>
+		<div class="container">
+			<div class="container">
+				<div class="col-sm-4">
+					Jakub Lichman<br>
+					Matúš Lukáč<br>
+					Roman Kvočka<br>
+				</div>
+				<div class="col-sm-4">
+					Róbert Román<br>
+					Tamás Baka
+				</div>
+				<div class="col-sm-4">
+					Source code available <a href="https://github.com/limo1996/WebTech">here</a>
+				</div>
+			</div>
+			<hr>
+			<div class="container">
+				<div class="col-sm-4 text-left">
+					Copyright © 2016 All rights reserved.
+				</div>
+				<div class="col-sm-4" id="visited">Bol si na stránke 0x</div>
+				<div class="col-sm-4 text-left">
+					<img src="../Images/slovak_republic.png" alt="slovakia" id="skImg" /> Slovensko
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="../Menu/jQueryScripts.js"></script>
+</body>
 </html>
