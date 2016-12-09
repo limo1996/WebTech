@@ -45,6 +45,30 @@ function myFunction(xml) {
    actualName();
 }
 
+function convertDate(date){
+    var  tmp = String(date).split(".");
+    var dd = tmp[0];
+    var mm  = tmp[1];
+    console.log(Number(tmp[1]));
+    if(Number(dd)<10) {
+    dd='0'+String(Number(dd));
+    } 
+
+    if(Number(mm)<10) {
+        mm='0'+String(Number(mm));
+    } 
+
+    console.log(mm+dd);
+
+  return  mm+dd;
+}
+
+function ConvertToDate(date){
+    var  tmp = String(date).split("");
+   
+
+  return  tmp[2]+tmp[3]+'.'+tmp[0]+tmp[1];
+}
 
 function getDate(meno){
 
@@ -53,27 +77,23 @@ function getDate(meno){
   for (i = 0; i <menaa.length; i++) {
     if( menaa[i] == b){
       var pole = mena[i].parentNode.childNodes;
-      console.log(pole[1].innerHTML);
       break;
     }
    }
-  document.getElementById("vypisMeno").innerHTML = pole[3].innerHTML + " ma meniny "+ pole[1].innerHTML;
+  document.getElementById("vypisMeno").innerHTML = pole[3].innerHTML + " ma meniny "+ ConvertToDate(pole[1].innerHTML);
 
 
 }
 
 function getName(date){
- // var b = dateConvert(String(date)) ;  
- var b = String(date);
- console.log("zaciatok");
+ var b = convertDate(date);
   for (i = 0; i <dni.length; i++) {
     if(dni[i].childNodes[0].nodeValue == b){
       var pole = dni[i].parentNode.childNodes;
-      console.log(pole[3].innerHTML);
       break;
     }  
    }
-  document.getElementById("vypisDatum").innerHTML = pole[1].innerHTML + " ma meniny "+ pole[3].innerHTML;
+  document.getElementById("vypisDatum").innerHTML = ConvertToDate(pole[1].innerHTML) + " ma meniny "+ pole[3].innerHTML;
 
 }
 
@@ -95,7 +115,6 @@ today = mm+dd;
 for (i = 0; i <dni.length; i++) {
     if(dni[i].childNodes[0].nodeValue == today){
       var pole = dni[i].parentNode.childNodes;
-      console.log(pole[3].innerHTML);
       document.getElementById("demo").innerHTML = "Dnes ma meniny "+ pole[3].innerHTML;
       break;
     }

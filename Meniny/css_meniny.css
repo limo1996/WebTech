@@ -1,14 +1,64 @@
-#background{
-	background-color: #009933;
-	height:  460px;
-	width:  1070px;
+
+
+
+#demo{
+    margin: 30px;
+    text-align: center;
+    color: #2c3e50;
+    font-size: 50px;
+    font-weight: 100;
+    line-height: 1.2;
+    font-style: normal;
+    display: block;
+    font-family: Segoe UI;
 }
-.lineHeight{
-background-color: green;
-	height: 460px;
-	width:  10px;
-	position: absolute;
+
+#omg{
+	 margin: 30px;
+    text-align: center;
+    color: #2c3e50;
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 1.2;
+    font-style: normal;
+    display: block;
+    font-family: Segoe UI;
 }
+p{
+	    text-align: center;
+	    color: #2c3e50;
+	    font-style: normal;
+        font-family: Segoe UI;
+}
+
+
+
+input, select, textarea{
+    border-radius: 4px;
+    border: 1px solid #d6d6d6;
+    color: #333333;
+    background: white;
+    background-clip: padding-box;
+    font-family: "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 15px;
+    line-height: 1.33333;
+    font-weight: 400;
+    letter-spacing: normal;
+}
+
+.fields{
+    
+    margin: auto;
+    display: block;
+    width: 50%;
+}
+
+
+
+ 
+
+
+
 
 
 
