@@ -1,0 +1,133 @@
+{
+	"MenuItems": [
+		{
+			"displayName": "Home",
+			"href": "http://147.175.98.22/~xlichman/fa967d3e-8b79-4700-914e-63b52a4f8e15/WebTech/index.html",
+			"separator": false,
+			"children": [ ]
+		},
+		{
+			"displayName": "Hry",
+			"href": "#",
+			"separator": false,
+			"children": [
+				{
+					"displayName": "Jakub",
+					"href": "http://147.175.98.22/~xlichman/fa967d3e-8b79-4700-914e-63b52a4f8e15/WebTech/Games/Hanoj/hanoj.html",
+					"separator": false,
+					"children": [ ]
+				},
+				{
+					"displayName": "Matúš",
+					"href": "http://147.175.98.22/~xlichman/fa967d3e-8b79-4700-914e-63b52a4f8e15/WebTech/Games/Zapalky/index.html",
+					"separator": false,
+					"children": [ ]
+				},
+				{
+					"displayName": "Róbert",
+<<<<<<< HEAD
+					"href": "http://147.175.98.22/~xlichman/fa967d3e-8b79-4700-914e-63b52a4f8e15/WebTech/Games/Tangram/tangram.html",
+=======
+					"href": "Games/Tangram/tangram.html",
+>>>>>>> 0832e5438fb44992266e3c413580dddd0947e107
+					"separator": true,
+					"children": [ ]
+				},
+				{
+					"displayName": "Roman",
+					"href": "http://147.175.98.22/~xlichman/fa967d3e-8b79-4700-914e-63b52a4f8e15/WebTech/Games/Recyklator 3000/index.html",
+					"separator": false,
+					"children": [ ]
+				},
+				{
+					"displayName": "Tamás",
+					"href": "http://147.175.98.22/~xlichman/",
+					"separator": true,
+					"children": [ ]
+				}
+			]
+		},
+		{
+			"displayName": "Pamiatky",
+			"href": "#",
+			"separator": false,
+			"children": [
+				{
+					"displayName": "Mestá",
+					"href": "#",
+					"separator": false,
+					"children": [
+						{
+							"displayName": "Bratislava",
+							"href": "http://147.175.98.22/~xlichman/fa967d3e-8b79-4700-914e-63b52a4f8e15/WebTech/Pamiatky/Limo/limovePamiatky.html",
+							"separator": false,
+							"children": [ ]
+						},
+						{
+							"displayName": "Rožňava",
+							"href": "http://147.175.98.22/~xlichman/fa967d3e-8b79-4700-914e-63b52a4f8e15/WebTech/Pamiatky/Tomas/tomasPamiatky.html",
+							"separator": false,
+							"children": [ ]
+						},
+						{
+							"displayName": "Tamás",
+							"href": "#",
+							"separator": false,
+							"children": [ ]
+						},
+						{
+							"displayName": "Roman",
+							"href": "#",
+							"separator": false,
+							"children": [ ]
+						},
+						{
+							"displayName": "Kolárovo a Dunajský Klátov",
+							"href": "#",
+							"separator": false,
+							"children": [ ]
+						}
+					]
+
+				},
+				{
+					"displayName": "Mapa Pamiatok",
+					"href": "#",
+					"separator": true,
+					"children": [ ]
+				},
+				{
+					"displayName": "Vznik Pamiatok",
+					"href": "#",
+					"separator": false,
+					"children": [ ]
+				}
+			]
+		},
+		{
+			"displayName": "Pripomienkovač úloh",
+			"href": "http://147.175.98.22/~xlichman/fa967d3e-8b79-4700-914e-63b52a4f8e15/WebTech/TodoList/todo.html",
+			"separator": false,
+			"children": [ ]
+		},
+		{
+			"displayName": "Menu3",
+			"href": "#",
+			"separator": false,
+			"children": [
+				{
+					"displayName": "Menu1.1",
+					"href": "#",
+					"separator": false,
+					"children": [ ]
+				},
+				{
+					"displayName": "Menu1.2",
+					"href": "#",
+					"separator": false,
+					"children": [ ]
+				}
+			]
+		}
+	]
+}
