@@ -65,6 +65,8 @@ function check_res(i,a)
 		{
 			var highscore=$("#best").html()
 			$("#but1").hide();
+			$("#level").html("KONIEC HRY");
+			$("#lvlnum").html("");
 			if(sucet > highscore )
 			{
 				alert("Nový rekord !!!!");
@@ -74,6 +76,9 @@ function check_res(i,a)
 			if(sucet < 0)
 			{
 				alert("Žial, bol si veľmi pomalý, titul majstra recyklátora ti nie je možné udeliť");
+			}
+			else{
+				alert("Gratulujem si majster RECYKLÁTOR");
 			}
 		}
 	}
@@ -96,12 +101,22 @@ function initialize()
 	initialize_sklo();
 	initialize_papier();
 	initialize_plast();
+	var x=Math.floor((Math.random() * 3) + 1);
 	$("#but2").hide();
 	$("#level").show();
+	if(x ==1)
+	{
+		$("#lvl1").show();
+	}
+	else if(x == 2){
+		$("#lvl1b").show();
+	}
+	else{
+		$("#lvl1c").show();
+	}
 	$("#skore").show();
 	$("#lvlnum").html("1");
 	$("#score").html("222");
-	$("#lvl1").show();
 	var a = performance.now();
 	play(a);
 	$("#but1").hide();
@@ -110,7 +125,17 @@ function next()
 {
 	var temp=document.getElementById("lvlnum").innerHTML;
 	temp++;
-	$("#lvl"+temp).show();
+	var x=Math.floor((Math.random() * 3) + 1);
+	if(x ==1)
+	{
+		$("#lvl"+temp).show();
+	}
+	else if(x==2){
+		$("#lvl"+temp+"b").show();
+	}
+	else{
+		$("#lvl"+temp+"c").show();
+	}
 	$("#lvlnum").html(temp);
 	var a = performance.now();
 	play(a);
