@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <style>
+      * {
+    font-family: "Trebuchet MS", Helvetica, sans-serif
+}
+.draggableParent, .droppableParent{
+    float: left;
+}
+.draggableParent div, .droppableParent div{
+    display: block;
+    border: 1px solid grey;
+    margin: 10px;
+}
+.droppableParent div{
+    width: 100px;
+    height: 100px;
+    background: #CCFFFF;
+}
+.droppableParent div img{
+    width: 100px;
+}
+.draggableParent div{
+    width: 100px;
+    height: 25px;
+    color: #006600;
+    background: #CCFFCC;
+    text-align: center;
+    line-height: 25px;
+    vertical-align: middle;
+}
+      </style>
+      <script>
+      $(function () {
+    $(".draggableParent div").draggable({ revert: 'invalid' });
+    $(".droppableParent div").droppable({ 
+        accept: function(drag) {
+            var dropId = $(this).attr('data-id');
+            var dragId = $(drag).attr('data-id');
+            return dropId === dragId;
+        }
+    });
+});
+      </script>
+  </head>  
+<body>
+<p>Drag Text to Correct Picture:<p>
+<div class="draggableParent">
+    <div data-id='potato'>Potato</div>
+    <div data-id='squash'>Squash</div>
+    <div data-id='apple'>Apple</div>
+    <div data-id='lime'>Lime</div>
+    <div data-id='melon'>Melon</div>
+    <div data-id='banana'>Banana</div>
+</div>
+<div class="droppableParent">
+    <div data-id='banana' class="banana">
+        <img src='http://i.imgur.com/vBI5vsB.png' />
+    </div>
+    <div data-id='apple'>
+        <img src='http://i.imgur.com/4Va1P71.png'/>
+    </div>
+    <div data-id='potato'>
+        <img src='http://i.imgur.com/8IHQ5g5.png'/>
+    </div>
+</div>
+
+
+
+
+
+<!-- Post Info -->
+<div style='position:fixed;bottom:0;left:0;    
+            background:lightgray;width:100%;'>About this SO Question: <a href='http://stackoverflow.com/q/19411125/1366033'>jquery drag and drop revert option</a>
+
+    <br/>jQuery API: <a href='http://api.jqueryui.com/droppable/#option-accept'>Droppable Accept</a>
+    <br/>jQuery API: <a href='http://api.jqueryui.com/draggable/#option-revert'>Draggable Revert</a>
+
+    <br/>
+    <div>
+</body>
+        </html>
