@@ -16,8 +16,16 @@
     letter-spacing: 2px;
 }
 
+#breadCrumb{
+    margin-bottom: 0px !important;
+}
+
 body {
     padding-top: 105px;
+}
+
+.navbar{
+    margin-bottom: 0px !important;
 }
         
 .navbar-template {

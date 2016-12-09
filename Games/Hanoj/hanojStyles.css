@@ -132,3 +132,22 @@
     color: white;
     font-size: 25px;
 }
+
+.step{
+    width: 400px;
+}
+
+#navod{
+	font-size: 24px;
+    line-height: 1.33349;
+    font-weight: 300;
+    letter-spacing: 0em;
+    font-style: normal;
+    font-family: "Helvetica Neue";
+    text-align: left;
+    margin-left: 20px;
+}
+
+.lead{
+    margin-left: 20px;
+}
