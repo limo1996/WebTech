@@ -4,12 +4,15 @@
 }
 
 body {
-	background: #222;
+	background: white;
 	font-family: Georgia, serif;
 	color: #fff;
 	font-size: 14px;
 }
-
+#os1{
+	background:#222;
+	margin:20%;
+}
 a {
 	color: #ffffcc;
 	text-decoration: none;
