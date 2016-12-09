@@ -13,6 +13,8 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
               integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" href="hanojStyles.css">
+		<link href="../../Menu/menuStyles.css" type="text/css" rel="stylesheet">
+		<link rel="stylesheet" href="../../CSS/mainStyles.css" />
         <script src="hanojScripts.js"></script>
     </head>
     <body>
@@ -20,7 +22,7 @@
             
         </div>
 
-        <div class="container-fluid" id="gameContainer">
+        <div class="container-fluid text-left" id="gameContainer">
             <div id="statDiv">
                 <div id="yourTime"></div>
                 <div id="yourMoves"></div>
@@ -46,5 +48,39 @@
             </div>
         </div>
         <br>
+		<footer>
+			<div class="container">
+				<div class="container">
+					<div class="col-sm-4">
+						Jakub Lichman<br>
+						Matúš Lukáè<br>
+						Roman Kvoèka<br>
+					</div>
+					<div class="col-sm-4">
+						Róbert Román<br>
+						Tamás Baka
+					</div>
+					<div class="col-sm-4">
+						Source code available <a href="https://github.com/limo1996/WebTech">here</a>
+					</div>
+				</div>
+				<hr>
+				<div class="container">
+					<div class="col-sm-4 text-left">
+						Copyright © 2016 All rights reserved.
+					</div>
+					<div class="col-sm-4" id="visited">Bol si na stránke 0x</div>
+					<div class="col-sm-4 text-left">
+						<img src="../../Images/slovak_republic.png" alt="slovakia" id="skImg" /> Slovensko
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="../../Menu/jQueryScripts.js"></script>
+		<script type="text/javascript" src="../../JS/localStor.js"></script>
     </body>
 </html>

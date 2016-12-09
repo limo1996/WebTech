@@ -1,63 +1,107 @@
 <!DOCTYPE html>
-<html lang="sk">
-<head>
-<title>Hra</title>
-<meta charset="utf-8">
-  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <script type="text/javascript" src="tangramScripts.js"></script>
-  <link rel="stylesheet" href="tangramStyles.css">
-</head>
-<body >
+<html>
 
-  <div id="game">
-    <div id="output">
-    <p>Best score:
-    <output id="bSkore" >0</output></p>
-    <p>Level:
-    <output id="level" >1</output></p>
-    <p>Score:
-    <output id="skore" >0</output></p>
-    <p>Time: 
-    <output id="Timer">0</output></p>
-  </div>
-  <div id="navod">
-  Hra má 16 rôznych riešení(16 levelov). Hra sa začina vtedy, keď klikneš na jeden útvar.<br>
-  Keď chcete otočiť útvar tak musíte naňho kliknúť.<br>
-  Nemusíte presne tam vložiť 10px je tolerovaných.
-  Počas hra musíte pamätať ako ste predtým poskladali štvorce, lebo keď takisto poskladáte už nebudú akceptované.
-  Level je ukončená, keď je štvorec poskladaný. Hra je ukončená, keď ste poskladali 16 rôzných štvorcov.<br>
-  HINT: Niekedy stači vymeniť trojuholníky, ktoré majú takú istú veľkosť ale rôznú farbu.
-  </div>
-  <div id="body">
-    &nbsp;Body:
-    <ul>
-      <li>100b - Urobíte za 0-25s</li> 
-      <li> &nbsp;&nbsp;75b - Urobíte za 26-50s</li> 
-      <li> &nbsp;&nbsp;50b - Urobíte za 51-90s</li> 
-      <li> &nbsp;&nbsp;25b - Urobíte za 91-150s</li> 
-      <li>&nbsp;&nbsp;&nbsp;&nbsp;0b - Urobíte za 151-&infin;s</li>
-    </ul>
-  </div>
-    <div id="canvas">  
-      <div id="instruction">
-        <h1>Tangram</h1>
-        <p>Sem poskladaj štvorec</p>
-      </div>
+<head>
+    <meta charset="utf-8">
+    <title>Tangram</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link href="../../Menu/menuStyles.css" type="text/css" rel="stylesheet">
+    <link href="../../CSS/mainStyles.css" rel="stylesheet">
+    <link rel="stylesheet" href="tangramStyles.css">
+
+    <script src="../../Menu/menuScripts.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="tangramScripts.js"></script>
+</head>
+
+<body onload="LoadMenu('Tangram', '../../Menu/menu.json');">
+    <style>
+    </style>
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation" id="menuBar">
     </div>
-    <div id="blockTray">
-      <div id="square" class="block"></div>
-      <div id="triangle1" class="block"></div>
-      <div id="triangle2" class="block"></div>
-      <div id="triangle3" class="block"></div>
-      <div id="triangle4" class="block"></div>
-      <div id="triangle5" class="block"></div>
-      <div id="parallelogram" class="block"></div>
+					<!-- Tangram -->
+    <div id="game">
+        <div id="output">
+            <p>Best score:
+            <output id="bSkore" >0</output></p>
+            <p>Level:
+            <output id="level" >1</output></p>
+            <p>Score:
+            <output id="skore" >0</output></p>
+            <p>Time: 
+            <output id="Timer">0</output></p>
+        </div>
+        <div id="navod">
+            Hra má 16 rôznych riešení(16 levelov). Hra sa začina vtedy, keď klikneš na jeden útvar.
+            Keď chcete otočiť útvar tak musíte naňho kliknúť.<br>
+            Nemusíte presne tam vložiť 10px je tolerovaných.
+            Počas hra musíte pamätať ako ste predtým poskladali štvorce, lebo keď takisto poskladáte už nebudú akceptované.
+            Level je ukončená, keď je štvorec poskladaný. Hra je ukončená, keď ste poskladali 16 rôzných štvorcov.<br>
+            HINT: Niekedy stači vymeniť trojuholníky, ktoré majú takú istú veľkosť ale rôznú farbu.
+        </div>
+        <div id="body">
+            &nbsp;Body:
+            <ul>
+                <li>100b - Urobíte za 0-25s</li> 
+                <li> &nbsp;&nbsp;75b - Urobíte za 26-50s</li> 
+                <li> &nbsp;&nbsp;50b - Urobíte za 51-90s</li> 
+                <li> &nbsp;&nbsp;25b - Urobíte za 91-150s</li> 
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;0b - Urobíte za 151-&infin;s</li>
+            </ul>
+        </div>
+        <div id="canvas">  
+            <div id="instruction">
+                <h1>Tangram</h1>
+                <p>Sem poskladaj štvorec</p>
+            </div>
+        </div>
+        <div id="blockTray">
+            <div id="square" class="block"></div>
+            <div id="triangle1" class="block"></div>
+            <div id="triangle2" class="block"></div>
+            <div id="triangle3" class="block"></div>
+            <div id="triangle4" class="block"></div>
+            <div id="triangle5" class="block"></div>
+            <div id="parallelogram" class="block"></div>
+        </div>
+        <div id="dialog-confirm" title="Chcete ísť na ďalší level alebo ukončíte?">
+            <output id="trval"></output>
+        </div>
     </div>
-    <div id="dialog-confirm" title="Chcete ísť na ďalší level alebo ukončíte?">
-    <output id="trval"></output>
-  </div>
-</body>
+    <footer>
+        <div class="container">
+            <div class="container">
+                <div class="col-sm-4">
+                    Jakub Lichman<br>
+                    Matúš Lukáč<br>
+                    Roman Kvočka<br>
+                </div>
+                <div class="col-sm-4">
+                    Róbert Román<br>
+                    Tamás Baka
+                </div>
+                <div class="col-sm-4">
+                    Source code available <a href="https://github.com/limo1996/WebTech">here</a>
+                </div>
+            </div>
+            <hr>
+            <div class="container">
+                <div class="col-sm-4 text-left">
+                    Copyright © 2016 All rights reserved.
+                </div>
+                <div class="col-sm-4" id="visited">0</div>
+                <div class="col-sm-4 text-left">
+                    <img src="../../Images/slovak_republic.png" alt="slovakia" id="skImg"/> Slovensko
+                </div>
+            </div>
+        </div>
+    </footer>
+<script type="text/javascript" src="../../Menu/jQueryScripts.js"></script>
 </html>
 

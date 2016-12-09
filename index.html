@@ -1,87 +1,118 @@
 ﻿<!DOCTYPE html>
-<html>
-
+<html lang="sk">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <title>Final project</title>
-    <link href="Menu/menuStyles.css" type="text/css" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Bootstrap -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<title>Final project</title>
+	<link href="Menu/menuStyles.css" type="text/css" rel="stylesheet">
 	<link href="CSS/mainStyles.css" rel="stylesheet">
-    <script src="Menu/menuScripts.js"></script>
+	<script src="Menu/menuScripts.js"></script>
 </head>
-
 <body onload="LoadMenu('Menu2','Menu/menu.json');">
-    <style>
-    </style>
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation" id="menuBar">
-    </div>
-        <ul class="breadcrumb" id="breadCrumb"></ul>
-
+	<style>
+	</style>
+	<div class="navbar navbar-default navbar-fixed-top" role="navigation" id="menuBar">
+	</div>
 	<header>
 		<div class="container">
-			<div class="col-sm-7">
-				<div id="leftContent">
-					<h1></h1>
-					<a href="#" class="btn btn-outline btn-xl page-scroll">Welcome to our pages</a>
-				</div>
+			<div class="row text-center">
+				<h1>Ročnikový projekt WebTech</h1>
 			</div>
-			<div class="col-sm-5">
-				<div id="rightContent">
-
+			<div class="mySpan"></div>
+			<div class="row text-center">
+				<!--Tu budu nase fotky az ich tu date...-->
+				<div class="col-sm-1"></div>
+				<div class="col-sm-2">
+					<img class="img-circle persons" alt="Jakub" src="Images/slovak_republic.png" />
 				</div>
+				<div class="col-sm-2">
+					<img class="img-circle persons" alt="Matus" src="Images/mlynDK1.jpg" />
+				</div>
+				<div class="col-sm-2">
+					<img class="img-circle persons" alt="Tamas" src="Images/kolesa.png" />
+				</div>
+				<div class="col-sm-2">
+					<img class="img-circle persons" alt="Roman" src="Images/novyStaryMost.jpg" />
+				</div>
+				<div class="col-sm-2">
+					<img class="img-circle persons" alt="Robert" src="Images/novy_mlyn.png" />
+				</div>
+				<div class="col-sm-1"></div>
+			</div>
+			<br />
+			<div class="row text-center">
+				<a href="#" class="btn btn-outline btn-xl page-scroll">Zisti viac</a>
 			</div>
 		</div>
 	</header>
-    <section>
-        <div class="container">
-            <!--pozadie obrazok neakej technickej pamiatky s tlacidlom objavuj bla bla alebo 5 priamych tlacidiel s odkazmi rovno na pamiatky-->
-
-        </div>
-    </section>
-    <section>
-        <div class="container">
-        </div>
-    </section>
-    <footer>
-        <div class="container">
-            <div class="container">
-                <div class="col-sm-4">
-                    Jakub Lichman<br>
-                    Matúš Lukáč<br>
-                    Roman Kvočka<br>
-                </div>
-                <div class="col-sm-4">
-                    Roman Róbert<br>
-                    Tamás Baka
-                </div>
-                <div class="col-sm-4">
-                    Source code available <a href="https://github.com/limo1996/WebTech">here</a>
-                </div>
-            </div>
-            <hr>
-            <div class="container">
-                <div class="col-sm-4 text-left">
-                    Copyright © 2016 All rights reserved.
-                </div>
-                <div class="col-sm-4" id="visited">0</div>
-                <div class="col-sm-4 text-left">
-                    <img src="Images/slovak_republic.png" alt="slovakia" id="skImg"/> Slovensko
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="Menu/jQueryScripts.js"></script>
+	<section>
+		<div class="container-fluid">
+			<h2>PAMIATKY</h2>
+			<h4>Zisti viac o pamiatkách v daných mestách</h4>
+			<div class="row">
+				<div class="col-sm-4 hexaDiv">
+					BRATISLAVA
+					<img src="Images/jurTeplaren.jpg" class="hexaImage" alt="teplaren" />
+				</div>
+				<div class="col-sm-4 hexaDiv text-center">
+					TAMAS
+				</div>
+				<div class="col-sm-4 hexaDiv text-center">
+					MATUS
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4 hexaDiv text-center">
+					ROMAN
+				</div>
+				<div class="col-sm-4 hexaDiv text-center">
+					ROBERT
+				</div>
+				<div class="col-sm-4 hexaDiv text-center">
+					ČASOVÁ OS
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container">
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<div class="container">
+				<div class="col-sm-4">
+					Jakub Lichman<br>
+					Matúš Lukáč<br>
+					Roman Kvočka<br>
+				</div>
+				<div class="col-sm-4">
+					Róbert Román<br>
+					Tamás Baka
+				</div>
+				<div class="col-sm-4">
+					Source code available <a href="https://github.com/limo1996/WebTech">here</a>
+				</div>
+			</div>
+			<hr>
+			<div class="container">
+				<div class="col-sm-4 text-left">
+					Copyright © 2016 All rights reserved.
+				</div>
+				<div class="col-sm-4" id="visited">Bol si na stránke 0x</div>
+				<div class="col-sm-4 text-left">
+					<img src="Images/slovak_republic.png" alt="slovakia" id="skImg" /> Slovensko
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="Menu/jQueryScripts.js"></script>
 </body>
-<footer></footer>
-<script type="text/javascript" src="JS/localStor.js"></script>
-
 </html>

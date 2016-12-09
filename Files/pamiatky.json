@@ -2,6 +2,8 @@
 	"pamiatky": [
 		{
 			"tag": 1,
+			"lat": 48.138368,
+			"lon":  17.117270,
 			"nazov": "Bratislavská tepláreň",
 			"autor": "Dušan Jurkovič",
 			"rokVzniku": "1941",
@@ -27,6 +29,8 @@
 		},
 		{
 			"tag": 2,
+			"lat": 48.143824,
+			"lon": 17.125515,
 			"nazov": "Starý most Františka Jozefa I.",
 			"autor": "",
 			"rokVzniku": "1889",
@@ -99,6 +103,107 @@
 					"alt": "Gymnázium P.J Šafárika v Rožňave stará fotka"
 				}
 			]
-		}
+		},
+		{
+			"tag": 5,
+			"nazov": "Schoellerov mlyn",
+			"lat":48.217658,
+			"lon":18.603478,
+			"rokVzniku": "1882",
+			"poloha": "Levice, Mlynská ulica",
+			"Nadpis1": "História",
+			"Nadpis2": "Súčastný stav",
+			"paragrafs": [
+				"Mlyn postavili v rokoch 1879 až 1882 na mieste starého kamenného mlyna z čias Esterházyovcov. Nový mlyn v roku 1889 vyhorel, avšak znovu ho vybudovali a stal sa najväčšímpriemyselným objektom v okolí. .",
+				"V roku 1900 pôvodne vodný mlyn prestavali na parný pohon. Ako kurivo slúžila nafta, neskôr pri vyšších energetických nárokoch sem potiahli doplnkové vedenie z mestskej elektrárne a napokon mlyn v roku 1928 napojili na rozvodnú sieť Stredoslovenských elektrární.",	
+				"Prestavbu mlyna realizovala firma Bárdos és Brachfeld v rokoch 1926 až 1927. V rámci nej postavili štvorposchodové silo na dlhšie uskladovanie obilia pri zachovaní jeho kvality. Mlyn zamestnával približne 80 ľudí a spracúval 2 300 vagónov obilia ročne. Bol vybavený najmodernejšou technikou, mal laboratórium európskeho významu, vlastnú elektráreň a skúšobnú pec. Produkty levického mlyna boli známe po celom Slovensku a získavali významné ocenenia. ",
+				"Mlyn podstupuje v súčasnosti rekonštrukciu. Hlavná budova je opravená a slúži pre podnikateľské účely. Mlyn tvorí jednu z dominánt mesta a svojou mohutnosťou a úchvatnosťou stavby pripomína každému okoloidúcemu význam svojej existencie vminulosti."
+			],
+			"source": "http://www.levice.sk/download_file_f.php?id=069979",
+			"imgs": [
+				{
+					"src": "../../Images/stary_mlyn.png",
+					"alt": "Historická fotka Schoellerovho mlynu"
+				},
+				{
+					"src": "../../Images/novy_mlyn.png",
+					"alt": "Súčasná fotka Shchoellerovho mlynu"
+				}
+			]
+		},
+		{
+			"tag": 6,
+			"nazov": "Bývalá radnica (dnes budova Mestského úradu)",
+			"lat": 48.219796,
+			"lon": 18.606493,
+			"rokVzniku": "1902",
+			"poloha": "Levice,Námestie hrdinov",
+			"Nadpis1": "História",
+			"Nadpis2": "Súčastný stav",
+			"paragrafs": [
+				"Do polovice 18. storočia Levice nemali radnicu, v pravom zmysle slova. Richtári totiž úradovali vo vlastných domoch. Koncom 19. storočia levickí radní páni rozhodli o stavbe Mestského domu, pričom za vhodný považovali priestor na mieste starej radnice. Projekt vyhotovil architekt Rudolf Czibulka. Mestský dom postavený v slohu neskorého romantizmu s prvkami uhorskej secesie 19. septembra 1902 slávnostne odovzdali do rúk mešťanostu Ľudovíta Bódogha.", 
+				"V dvadsiatych rokoch 20. storočia mesto začalo uvažovať o prestavbe radnice, pretože pôvodné priestory už neboli dostačujúce. Magistrát preto vyhlásil súťaž, v ktorej vyhral pôvodný architekt – Rudolf Czibulka. Ten poskytol originálne a úsporné riešenie prestavby bez rozobratia krovu. Strechu budovy rozobrali na sektory a podopreli podpornými stĺpmi. Krov zdvihli skrutkovými dvihákmi, pričom postupne domurovali ďalšie poschodie. Do zrekonštruovanej budovy na prvé poschodie umiestnili Okresný úrad a iné inštitúcie, na druhom poschodí sídlil Štátny daňový úrad, daňové riaditeľstvo, mestská knižnica a múzeum. Na prízemí bolo 6 obchodných priestorov, Mestský notársky úrad, mestské žandárstvo a úrad na sprostredkovanie práce. ",
+				"Do zrekonštruovanej budovy na prvé poschodie umiestnili Okresný úrad a iné inštitúcie, na druhom poschodí sídlil Štátny daňový úrad, daňové riaditeľstvo, mestská knižnica a múzeum. Na prízemí bolo 6 obchodných priestorov, Mestský notársky úrad, mestské žandárstvo a úrad na sprostredkovanie práce. Po pripojení Levíc k Maďarsku v novembri 1938 sa mesto stalo sídlom župy a v budove Mestského domu zriadili župný úrad. Funkciu radnice prevzala dnešná budova polície. Ešte pred prestavbou na secesné priečelie nad oknami v strede umiestnili kamenný erb mesta. Po prestavbe v roku 1927 a zodvihnutí strechy pribudli na hornej časti priečelia veľké ručičkové hodiny a mestský erb získal novú podobu. V spodnej časti budovy bolo spomínaných 6 obchodných priestorov: Langova centrálna kaviareň, predajňa s obuvou Alexandra Kovácsa a obchod Schweihsa a Trebitscha so zmiešaným tovarom. V pravom krídle mal obchod s vínom a so značkovým alkoholom Imrich Amstetter. Na pravej strane budovy bola predajňa Samuela Wienera a obchod s lahôdkami a koreninami. Po niekoľkých rokoch prevádzky Langovej centrálnej kaviarne, si tento priestor prenajal židovský obchodník Móric Vámos. Zriadil v nich obchod so skleným a s porcelánovým tovarom, lustrami, hračkami, detskými kočíkmi a potrebami pre matky. Obchody sa postupne menili, výklady sa vytrácali a v 40. rokoch sa prerobili na okná.",
+				"V nedávnej minulosti bola v dolných priestoroch situovaná Tekovská knižnica – oddelenie detskej literatúry, neskôr kníhkupectvo a banka. V súčasnosti sú tieto priestory budovy využívané Mestským úradom ako kancelária prvého kontaktu a matričný úrad."
+			],
+			"source": "http://www.levice.sk/download_file_f.php?id=069971",
+			"imgs": [
+				{
+					"src": "../../Images/stary_urad.png",
+					"alt": "Mestský úrad v minulosti"
+				},
+				{
+					"src": "../../Images/novy_urad.png",
+					"alt": "Mestský úrad v súčasnosti."
+				}
+			]
+		},
+        {
+            "tag": 7,
+            "lat": 47.9205454,
+			"lon": 18.0016874,
+            "nazov": "Lodný mlyn Kolárov",
+            "rokVzniku": "1982",
+            "poloha": "Nitriansky kraj, okres Komárno, Kolárov",
+            "Nadpis1": "História",
+            "Nadpis2": "Súčastný stav",
+            "paragrafs": [
+                "Lodný mlyn v Kolárove na juhozápadnom Slovensku je posledným exemplárom plávajúceho mlyna a jediným lodným mlynom na Slovensku. V mlyne sídli Múzeum vodného mlynárstva.Vodný mlyn je umiestnený na mŕtvom ramene Dunaja. Postavený je na dvoch rovnobežných člnoch a ukotvený o breh rieky. Loďky sú väčšie, ako boli na pôvodných plávajúcich mlynoch. Je to rekonštruovaná podoba vyrobená v Slovenských lodeniciach v Komárne v roku 1982 podľa vzoru bývalého lodného mlyna v Radvani nad Dunajom.",
+                "Mlyn je dnes teoreticky funkčný, v skutočnosti však nefunguje, čoho dôvodom je stojatá voda ramena. V objekte sa nachádza niekoľko komponentov z pôvodného mlyna a využitý je ako malá historická expozícia. Zaujímavosťou je napríklad benzínový agregát z prelomu 19. a 20. storočia, pripomínajúci malú lokomotívu, ktorý údajne patrí medzi prvé mechanizmy na svete, vďaka ktorým vyrábali stroje rybárske siete.Mlyn má pevnú konštrukciu, aby vydržal nápor jarných ľadov i storočnú vodu. Vedie k nemu 86 m dlhý most, ktorý sa považuje za najdlhší most s drevenou konštrukciou v Európe. Mlyn sa nachádza na obľúbenej vodáckej trase Malým Dunajom. Rameno Malého Dunaja je tu však zahatané z oboch strán, takže k mlynu sa po vode nedá dostať.",
+                "Pri vstupe do areálu je k zhliadnutiu malé technické múzeum. Skvostom medzi exponátmi je stroj na pohon transmisie, s prevodom na pletacie stroje na výrobu sietí. Stroj sa podarilo takmer po 50-tich rokoch opäť sfunkčniť, čo sa aj využíva pri niektorých slávnostných príležitostiach. Mlyn je súčasťou areálu s viacerými technickými pamiatkami a možnosťou oddychu a občerstvenia v tradičnej Krčme u Mlyna, ktorá okrem iného upúta aj ojedinelou ponukou bylinkových likérov.Počas celej letnej sezóny sa v areáli koná množstvo rôznych kultúrnych i gastronomických podujatí, tiež sa tu organizujú ekotábory pre školy."
+            ],
+            "source": "http://slovakia.travel/lodny-mlyn-kolarovo",
+            "imgs": [{
+                "src": "../../Images/mlynK1.jpg",
+                "alt": "Vodný mlyn Kolárovo 1"
+            }, {
+                "src": "../../Images/mlynK2.jpg",
+                "alt": "Vodný mlyn Kolárovo 2"
+            }]
+        }, 
+        {
+            "tag": 8,
+            "lat": 48.028519,
+			"lon": 17.7029306,
+            "nazov": "Vodný mlyn Dunajský Klátov",
+            "rokVzniku": "1889",
+            "poloha": "Trnavský kraj, okres Dunajská Streda, Dunajský Klátov",
+            "Nadpis1": "História",
+            "Nadpis2": "Súčastný stav",
+            "paragrafs": [
+                "Kultúrna technická pamiatka, vodný mlyn v Dunajskom Klátove sa nachádza na brehu Klátovského ramena Malého Dunaja v katastri obce Dunajský Klátov, okres Dunajská Streda. Je typickým príkladom spodkového mlyna.  Vodný mlyn Dunajský KlátovTerajšiu stavebnú úpravu získal pri prestavbe v roku 1920. Posledným majiteľom bol Michal Cséfalvay. Naposledy sa v mlyne pracovalo v štyridsiatich rokoch 20. storočia.",
+                "Postavením nového mostu v päťdesiatych rokoch bola voda odvedená od vodného kolesa, a niet divu, že bolo úplne zruinované. V druhej polovici osemdesiatych rokov 20. storočia bol mlyn odkúpený štátom a objekt a celé okolie bolo vyhlásené za štátom chránené územie. Začala sa stavebno-technická rekonštrukcia objektu. Pre verejnosť bol mlyn sprístupnený 21.augusta 1987.",
+                "V roku 2016 sa realizovala komplexná obnova budovy mlyna, zrekonštruovaný bol interiér aj exteriér a budova dostala novú strechu. Obnovilo sa mlynské koleso, jeho oporná časť a k nemu patriace ozubené koleso.Taktiež boli spevnené brehy, vybudovala sa nová ohrada, prebehla komplexná úprava okolitého terénu.Na druhom brehu Klátovského ramena bolo vybudované mólo - výhľadňa.Pre verejnosť bol mlyn znovu otvorený 7. mája 2016.",
+                "Mlyn je síce schopný prevádzky, ale nemožno ho spúšťať pre nízku hladinu vody.Na rozdiel od iných dunajských mlynov má murovanú mlynicu, len koleso a hnacia časť sú umiestnené v drevenej prístavbe.V horúcom lete na vodnej hladine umocňujú čaro prírodnej rezervácie Klátovské rameno prekrásne kvety lekna bieleho."
+            ],
+            "source": "http://www.muzeum.sk/?obj=pamiatka&ix=zom_vmdv",
+            "imgs": [{
+                "src": "../../Images/mlynDK1.jpg",
+                "alt": "Vodný mlyn Dunajský Klátov 1"
+            }, {
+                "src": "../../Images/mlynDK2.jpg",
+                "alt": "Vodný mlyn Dunajský Klátov 2"
+            }]
+        }
     ]
 }
