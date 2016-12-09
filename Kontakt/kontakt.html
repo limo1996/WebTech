@@ -3,23 +3,17 @@
 <head>
 	<title>Pamiatky Bratislavy</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 	<meta charset="utf-8">
+	<link rel="stylesheet" href="todoCSS.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="Menu/menuStyles.css" type="text/css" rel="stylesheet">
+	<link href="CSS/mainStyles.css" rel="stylesheet">
+    <script src="Menu/menuScripts.js"></script>
 <style>
-.col-md-2{
-background: rgb(255,255,255);
-margin:15px;
-background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%);
-background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%);
-background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0;
-}
-a{
-text-decoration:none;
-}
+
 </style>
 </head>
 <body>
@@ -189,6 +183,35 @@ text-decoration:none;
   </tbody>
 </table>
 	</div>
-
+  <footer>
+        <div class="container">
+            <div class="container">
+                <div class="col-sm-4">
+                    Jakub Lichman<br>
+                    Matúš Lukáč<br>
+                    Roman Kvočka<br>
+                </div>
+                <div class="col-sm-4">
+                    Róbert Román<br>
+                    Tamás Baka
+                </div>
+                <div class="col-sm-4">
+                    Source code available <a href="https://github.com/limo1996/WebTech">here</a>
+                </div>
+            </div>
+            <hr>
+            <div class="container">
+                <div class="col-sm-4 text-left">
+                    Copyright © 2016 All rights reserved.
+                </div>
+                <div class="col-sm-4" id="visited">0</div>
+                <div class="col-sm-4 text-left">
+                    <img src="../Images/slovak_republic.png" alt="slovakia" id="skImg"/> Slovensko
+                </div>
+            </div>
+        </div>
+    </footer>
+  
+  <script src="todoJS.js"></script>
 </body>
 </html>
