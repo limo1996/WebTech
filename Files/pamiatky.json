@@ -2,6 +2,8 @@
 	"pamiatky": [
 		{
 			"tag": 1,
+			"lat": 48.138368,
+			"lon":  17.117270,
 			"nazov": "Bratislavská tepláreň",
 			"autor": "Dušan Jurkovič",
 			"rokVzniku": "1941",
@@ -27,6 +29,8 @@
 		},
 		{
 			"tag": 2,
+			"lat": 48.143824,
+			"lon": 17.125515,
 			"nazov": "Starý most Františka Jozefa I.",
 			"autor": "",
 			"rokVzniku": "1889",
