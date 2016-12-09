@@ -6,7 +6,7 @@ function myMap() {
   };
   map = new google.maps.Map(mapCanvas, mapOptions);
 
-  setMarkers('Points.json');
+  setMarkers('../Files/pamiatky.json');
 }
 
 var map;
@@ -29,7 +29,7 @@ function setMarkers(path){
                     var json = JSON.parse(allText);
                     var wrapper = document.getElementById('mapWrapper');
 
-                    json.coordinates.forEach(function(element) {
+                    json.pamiatky.forEach(function(element) {
                         var marker = new google.maps.Marker({
                             position: new google.maps.LatLng(element.lat, element.lon),
                             label: element.label
