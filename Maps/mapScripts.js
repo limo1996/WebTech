@@ -48,8 +48,8 @@ function setMarkers(path) {
                         infowindow.open(map, marker);
                     });
                     marker.setMap(map);
-                    var bottom = ((100 * (element.lat - x2)) / (x1 - x2)) + "%";
-                    var left = (100 * (element.lon - y1)) / (y2 - y1) + "%";
+                    var bottom = ((100 * (element.lat - x2)) / (x1 - x2) + 19) + "%";
+                    var left = ((100 * (element.lon - y1)) / (y2 - y1) + 2) + "%";
                     wrapper.innerHTML += "<img alt='Pin' src='pin.png' class='pins' style='left:" + ";bottom:" + bottom + ";left:" + left + "'/>"
 
                 }, this);
