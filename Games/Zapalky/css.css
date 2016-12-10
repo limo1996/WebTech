@@ -23,6 +23,24 @@
     font-size: 25px;
 }
 
+#aktual{
+    text-align: center;
+    color: yellow;
+    position: absolute;
+    left: 20px;
+    top: 145px;
+    font-size: 25px;
+}
+
+#aktuall{
+    text-align: center;
+    color: yellow;
+    position: absolute;
+    left: 75px;
+    top: 170px;
+    font-size: 25px;
+}
+
 #score {
 	text-align: center;
 	color: yellow;
@@ -64,6 +82,14 @@
 	  	top:220px;
 	  	left: 450px;
 	  	position: absolute;
+
+}
+
+#startDivTextt{
+      font-size: 25px;
+        color: white;
+        
+        position: absolute;
 
 }
 

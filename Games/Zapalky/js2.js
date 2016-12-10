@@ -86,6 +86,7 @@ function next(){
  	}
  	document.getElementById('scoree').innerHTML = bestScore.toString();
  	document.getElementById('lvl').innerHTML = "Level: " + j.toString();
+ 	document.getElementById('aktuall').innerHTML =bodyy.toString();
 	create();
 }
 
