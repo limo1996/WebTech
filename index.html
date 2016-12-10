@@ -1,5 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="sk">
+
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,23 +12,24 @@
 	<link href="CSS/mainStyles.css" rel="stylesheet">
 	<script src="Menu/menuScripts.js"></script>
 </head>
+
 <body onload="LoadMenu('Menu2','Menu/menu.json');">
 	<div class="navbar navbar-default navbar-fixed-top" role="navigation" id="menuBar">
 	</div>
 	<header>
 		<div class="container">
 			<div class="row text-center">
-				<h1>Ročnikový projekt WebTech</h1>
+				<h1>Ročníkový projekt WebTech</h1>
 			</div>
 			<div class="mySpan"></div>
 			<div class="row text-center">
 				<!--Tu budu nase fotky az ich tu date...-->
 				<div class="col-sm-1"></div>
 				<div class="col-sm-2">
-					<img class="img-circle persons" alt="Jakub" src="Images/slovak_republic.png" />
+					<img class="img-circle persons" alt="Jakub" src="Images/ironman.png" />
 				</div>
 				<div class="col-sm-2">
-					<img class="img-circle persons" alt="Matus" src="Images/mlynDK1.jpg" />
+					<img class="img-circle persons" alt="Matus" src="Images/tomas.jpg" />
 				</div>
 				<div class="col-sm-2">
 					<img class="img-circle persons" alt="Tamas" src="Images/kolesa.png" />
@@ -42,35 +44,59 @@
 			</div>
 			<br />
 			<div class="row text-center">
-				<a href="#" class="btn btn-outline btn-xl page-scroll">Zisti viac</a>
+				<a href="#pamiatky" class="btn btn-outline btn-xl page-scroll">Zisti viac</a>
 			</div>
 		</div>
 	</header>
+
 	<section>
-		<div class="container-fluid">
+		<div class="container-fluid" id="pamiatky">
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
 			<h2>PAMIATKY</h2>
 			<h4>Zisti viac o pamiatkách v daných mestách</h4>
 			<div class="row">
 				<div class="col-sm-4 hexaDiv">
-					BRATISLAVA
-					<img src="Images/jurTeplaren.jpg" class="hexaImage" alt="teplaren" />
+					<a href="Pamiatky/Limo/limovePamiatky.html" class="imgs">
+						<span class="cities">BRATISLAVA</span>
+						<img src="Images/jurTeplaren.jpg" class="img-responsive hexaImage" alt="teplaren" />
+					</a>
 				</div>
 				<div class="col-sm-4 hexaDiv text-center">
-					TAMAS
+					<a href="Pamiatky/Tomas/tomasPamiatky.html" class="imgs">
+						<span class="cities">ROŽŇAVA</span>
+						<img src="Images/roznavaMestskaVeza.jpg" class="img-responsive hexaImage" alt="teplaren" />
+					</a>
 				</div>
 				<div class="col-sm-4 hexaDiv text-center">
-					MATUS
+					<a href="Pamiatky/Robert/robertPamiatky.html" class="imgs">
+						<span class="cities">KOLÁROVO</span>
+						<img src="Images/mlynK2.jpg" class="img-responsive hexaImage" alt="teplaren" />
+					</a>
 				</div>
 			</div>
+			<br>
 			<div class="row">
 				<div class="col-sm-4 hexaDiv text-center">
-					ROMAN
+					<a href="Pamiatky/Roman/romanPamiatky.html" class="imgs">
+						<span class="cities">ROMAN</span>
+						<img src="Images/jurTeplaren.jpg" class="img-responsive hexaImage" alt="teplaren" />
+					</a>
 				</div>
 				<div class="col-sm-4 hexaDiv text-center">
-					ROBERT
+					<a href="Pamiatky/Suky/sukyPamiatky.html" class="imgs">
+						<span class="cities"></span>
+						<img src="Images/jurTeplaren.jpg" class="img-responsive hexaImage" alt="teplaren" />
+					</a>
 				</div>
 				<div class="col-sm-4 hexaDiv text-center">
-					ČASOVÁ OS
+					<a href="" class="imgs">
+						<span class="cities">ČASOVÁ OS</span>
+						<img src="Images/timeline.jpg" class="img-responsive hexaImage" alt="teplaren" id="timelineImg"/>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -83,13 +109,10 @@
 		<div class="container">
 			<div class="container">
 				<div class="col-sm-4">
-					Jakub Lichman<br>
-					Matúš Lukáč<br>
-					Roman Kvočka<br>
+					Jakub Lichman<br> Matúš Lukáč<br> Roman Kvočka<br>
 				</div>
 				<div class="col-sm-4">
-					Róbert Román<br>
-					Tamás Baka
+					Róbert Román<br> Tamás Baka
 				</div>
 				<div class="col-sm-4">
 					Source code available <a href="https://github.com/limo1996/WebTech">here</a>
@@ -113,4 +136,5 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="Menu/jQueryScripts.js"></script>
 </body>
+
 </html>

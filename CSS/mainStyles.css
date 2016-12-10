@@ -81,9 +81,11 @@ hr{
 }
 
 h1{
-	margin-top: 100px;
+	margin-top: 130px;
 	color: white;
-	font-weight: 500;
+	font-weight: 600;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .persons{
@@ -92,11 +94,42 @@ h1{
 }
 
 .mySpan{
-	height: 230px;
+	height: 300px;
 }
 
 @media (max-width: 760){
 	.mySpan{
 		height : 20px;
 	}
+}
+
+.cities{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    color: #dc2430;
+    font-weight: 800;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hexaImage:hover .hexaImage{
+    opacity: 0.5;
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+}
+
+a img{
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+#timelineImg{
+    margin-top:20%;
 }
