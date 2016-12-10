@@ -88,7 +88,7 @@
 				},
 				{
 					"displayName": "Mapa Pamiatok",
-					"href": "#",
+					"href": "http://147.175.98.22/~xlichman/fa967d3e-8b79-4700-914e-63b52a4f8e15/WebTech/Maps/maps.html",
 					"separator": true,
 					"children": [ ]
 				},
@@ -107,23 +107,10 @@
 			"children": [ ]
 		},
 		{
-			"displayName": "Menu3",
-			"href": "#",
+			"displayName": "Meniny",
+			"href": "http://147.175.98.22/~xlichman/fa967d3e-8b79-4700-914e-63b52a4f8e15/WebTech/Meniny/meniny.html",
 			"separator": false,
-			"children": [
-				{
-					"displayName": "Menu1.1",
-					"href": "#",
-					"separator": false,
-					"children": [ ]
-				},
-				{
-					"displayName": "Menu1.2",
-					"href": "#",
-					"separator": false,
-					"children": [ ]
-				}
-			]
+			"children": [ ]
 		}
 	]
 }

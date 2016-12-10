@@ -1,4 +1,3 @@
- $(document).ready(function() {
    dif=10;
    start=new Date();
    score=0;
@@ -79,7 +78,6 @@
       angle+=90;
     }
   });
-});
 
 function controll(){
   var count=0;

@@ -27,7 +27,7 @@ function LoadPage(tag1, tag2, path) {
 						if(pamiatka.rokVzniku)
 							content += "<p><span class='glyphicon glyphicon-flag'></span>&nbsp;" + pamiatka.rokVzniku + "</p></div>";
 						
-						content += "<p class='lead text-info'>" + pamiatka.Nadpis2 + "</p>";
+						content += "<p class='lead text-info'>" + pamiatka.Nadpis1 + "</p>";
 						content += "<div class='articleText text-justify'>" + pamiatka.paragrafs[0] + "</div>";
 						content += "<div class='articleText text-justify'>" + pamiatka.paragrafs[1] + "</div>";
 

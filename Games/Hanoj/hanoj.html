@@ -1,86 +1,110 @@
-<!-- 
-    TODO:
-        - pri starte dat moznost volby poctu kamenov
-        - skontrolovat chyby 
-        - pri konci vypisat lepsie statistiky
-        - ceknut online hry a pripadne sa inspirovat
--->
-
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Hanoj towers</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
-              integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <link rel="stylesheet" href="hanojStyles.css">
-		<link href="../../Menu/menuStyles.css" type="text/css" rel="stylesheet">
-		<link rel="stylesheet" href="../../CSS/mainStyles.css" />
-        <script src="hanojScripts.js"></script>
-    </head>
-    <body>
-        <div class="container-fluid" id="top">
-            
-        </div>
+<html lang="sk">
 
-        <div class="container-fluid text-left" id="gameContainer">
-            <div id="statDiv">
-                <div id="yourTime"></div>
-                <div id="yourMoves"></div>
-                <div id="yourBestScore"></div>
+<head>
+    <title>Hanoj towers</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="hanojStyles.css">
+    <link href="../../Menu/menuStyles.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="../../CSS/mainStyles.css" />
+    <script src="hanojScripts.js"></script>
+    <script src="../../Menu/menuScripts.js"></script>
+</head>
+
+<body onload="LoadMenu('Hanoj', '../../Menu/menu.json');">
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation" id="menuBar">
+    </div>
+
+    <div class="container-fluid text-left" id="gameContainer">
+        <div id="statDiv">
+            <div id="yourTime"></div>
+            <div id="yourMoves"></div>
+            <div id="yourBestScore"></div>
+        </div>
+        <div id="endDiv">
+            <div id="YouWon">You won !</div>
+            <button type="button" class="btn btn-success" onclick="restart();" id="btnRest">Restart</button>
+            <button type="button" class="btn btn-primary" onclick="Continue();" id="btnCont">Continue</button>
+        </div>
+        <div id="startDiv">
+            <img id="playImg" src="play-button-white.png" alt="press to play" onclick="start(false);" />
+            <input type="number" id="inCount" value="3" />
+        </div>
+        <div id="firstColumn" class="column" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <div class="stick"></div>
+        </div>
+        <div id="secondColumn" class="column" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <div class="stick"></div>
+        </div>
+        <div id="thirdColumn" class="column" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <div class="stick"></div>
+        </div>
+    </div>
+    <br>
+    <p class='lead text-info'>Návod na hru</p>
+    <div id="navod">
+        <p class="">Logická hra Hanojská veža má jednoduché pravidlá. Hra začína postavením pyramídy z hracích "kameňov" na jednu z drevených
+            tyčiek. Úlohou je potom presunúť celú pyramídu na inú tyčku, avšak pri dodržaní nasledovných pokynov:</p>
+        <ul>
+            <li>V jednom ťahu (na jedenkrát) je možné premiestniť iba jeden hrací kameň</li>
+            <li>Väčší kameň nesmie byť nikdy položený na menší</li>
+        </ul>
+    </div>
+    <div class="row text-center">
+        <div class="col-sm-4">
+            <img src="Img/step1.png" alt="step1" class="img-responsive step" />
+        </div>
+        <div class="col-sm-4">
+            <img src="Img/step2.png" alt="step2" class="img-responsive step" />
+        </div>
+        <div class="col-sm-4">
+            <img src="Img/step3.png" alt="step3" class="img-responsive step" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">
+            <img src="Img/step4.png" alt="step4" class="img-responsive step" />
+        </div>
+        <div class="col-sm-4">
+            <img src="Img/step5.png" alt="step5" class="img-responsive step" />
+        </div>
+        <div class="col-sm-4">
+            <img src="Img/step6.png" alt="step6" class="img-responsive step" />
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="container">
+                <div class="col-sm-4">
+                    Jakub Lichman<br> Matúš Lukáč<br> Roman Kvočka<br>
+                </div>
+                <div class="col-sm-4">
+                    Róbert Roman<br> Tamás Baka
+                </div>
+                <div class="col-sm-4">
+                    Source code available <a href="https://github.com/limo1996/WebTech">here</a>
+                </div>
             </div>
-            <div id="endDiv">
-                <div id="YouWon">You won !</div>
-                <button type="button" class="btn btn-success" onclick="restart();" id="btnRest">Restart</button>
-                <button type="button" class="btn btn-primary" onclick="Continue();" id="btnCont">Continue</button>
-            </div>
-            <div id="startDiv">
-                <img id="playImg" src="play-button-white.png" alt="press to play" onclick="start(false);"/>
-                <input type="number" id="inCount" value="3"/>
-            </div>
-            <div id="firstColumn" class="column" ondrop="drop(event)" ondragover="allowDrop(event)">
-                <div class="stick"></div>
-            </div>
-            <div id="secondColumn" class="column" ondrop="drop(event)" ondragover="allowDrop(event)">
-                <div class="stick"></div>
-            </div>
-            <div id="thirdColumn" class="column" ondrop="drop(event)" ondragover="allowDrop(event)">
-                <div class="stick"></div>
+            <hr>
+            <div class="container">
+                <div class="col-sm-4 text-left">
+                    Copyright © 2016 All rights reserved.
+                </div>
+                <div class="col-sm-4" id="visited">Bol si na stránke 0x</div>
+                <div class="col-sm-4 text-left">
+                    <img src="../../Images/slovak_republic.png" alt="slovakia" id="skImg" /> Slovensko
+                </div>
             </div>
         </div>
-        <br>
-		<footer>
-			<div class="container">
-				<div class="container">
-					<div class="col-sm-4">
-						Jakub Lichman<br>
-						Mat�� Luk��<br>
-						Roman Kvo�ka<br>
-					</div>
-					<div class="col-sm-4">
-						R�bert Rom�n<br>
-						Tam�s Baka
-					</div>
-					<div class="col-sm-4">
-						Source code available <a href="https://github.com/limo1996/WebTech">here</a>
-					</div>
-				</div>
-				<hr>
-				<div class="container">
-					<div class="col-sm-4 text-left">
-						Copyright � 2016 All rights reserved.
-					</div>
-					<div class="col-sm-4" id="visited">Bol si na str�nke 0x</div>
-					<div class="col-sm-4 text-left">
-						<img src="../../Images/slovak_republic.png" alt="slovakia" id="skImg" /> Slovensko
-					</div>
-				</div>
-			</div>
-		</footer>
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<script src="../../Menu/jQueryScripts.js"></script>
-		<script type="text/javascript" src="../../JS/localStor.js"></script>
-    </body>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="../../Menu/jQueryScripts.js"></script>
+    <script type="text/javascript" src="../../JS/localStor.js"></script>
+</body>
+
 </html>
