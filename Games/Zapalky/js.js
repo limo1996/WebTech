@@ -1,3 +1,5 @@
+var body = 11;
+var bodyy =0;
 function allowDrop(ev) {
     ev.preventDefault();
 }
@@ -7,6 +9,7 @@ function drag(ev) {
 }
 
 function drop(ev) {
+    body = body-1;
     ev.preventDefault();
     var data = ev.dataTransfer.getData("text");
     var dragDiv = document.getElementById(data)
@@ -40,7 +43,16 @@ function drop(ev) {
     var zaciatokSort = zaciatok.sort();
     var vysledkySort  = vysledky[j].sort();
     if(zaciatokSort.toString() == vysledkySort.toString()){
-    	console.log('DOPICE');
+    	var omggg  = document.getElementById('nextDivv');
+
+            omggg.id = 'nextDiv';
+                console.log(body);
+                bodyy = bodyy + body;
+                if(bodyy > bestScore){
+                    bestScore = bodyy;
+                    localStorage.setItem('bodyy', bodyy);
+                }
+                body = 11;
     }
 	}
 }
