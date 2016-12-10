@@ -18,7 +18,7 @@ function LoadMenu(activeItem, path){
                                             "<span class='icon-bar'></span>" +
                                             "<span class='icon-bar'></span>" +
                                         "</button>" +
-                                    "<a class='navbar-brand' href='index.html#'>Home</a>" +
+                                    "<p class='navbar-brand'>WebTech</p>" +
                                 "</div>"+
                                 "<div class='container'>" +
                                     "<div class='navbar-header'>" +

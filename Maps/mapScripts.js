@@ -10,11 +10,11 @@ function myMap() {
 }
 
 var map;
-var x1 = 49.645483;
-var y1 = 16.661879;
+var x1 = 49.893344;
+var y1 = 16.541465;
 
-var x2 = 47.960144;
-var y2 = 22.784962;
+var x2 = 47.689842; 
+var y2 = 22.892938;
 
 function setMarkers(path) {
     var rawFile = new XMLHttpRequest();
@@ -48,8 +48,8 @@ function setMarkers(path) {
                         infowindow.open(map, marker);
                     });
                     marker.setMap(map);
-                    var bottom = ((100 * (element.lat - x2)) / (x1 - x2) + 19) + "%";
-                    var left = ((100 * (element.lon - y1)) / (y2 - y1) + 2) + "%";
+                    var bottom = ((100 * (element.lat - x2)) / (x1 - x2) + 8) + "%";
+                    var left = ((100 * (element.lon - y1)) / (y2 - y1) + 1) + "%";
                     wrapper.innerHTML += "<img alt='Pin' src='pin.png' class='pins' style='left:" + ";bottom:" + bottom + ";left:" + left + "'/>"
 
                 }, this);
