@@ -66,14 +66,14 @@
 							"children": [ ]
 						},
 						{
-							"displayName": "Tamás",
-							"href": "#",
+							"displayName": "Levice a Štiavnické bane",
+							"href": "http://147.175.98.22/~xlichman/fa967d3e-8b79-4700-914e-63b52a4f8e15/WebTech/Pamiatky/Roman/romanPamiatky.html",
 							"separator": false,
 							"children": [ ]
 						},
 						{
-							"displayName": "Roman",
-							"href": "#",
+							"displayName": "Prešov",
+							"href": "http://147.175.98.22/~xlichman/fa967d3e-8b79-4700-914e-63b52a4f8e15/WebTech/Pamiatky/Suky/sukyPamiatky.html",
 							"separator": false,
 							"children": [ ]
 						},
@@ -94,7 +94,7 @@
 				},
 				{
 					"displayName": "Vznik Pamiatok",
-					"href": "#",
+					"href": "http://147.175.98.22/~xlichman/fa967d3e-8b79-4700-914e-63b52a4f8e15/WebTech/timeline/vertical.html",
 					"separator": false,
 					"children": [ ]
 				}
