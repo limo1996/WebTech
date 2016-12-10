@@ -56,6 +56,8 @@
 		},
 		{
 			"tag": 3,
+			"lat": 48.662135, 
+			"lon": 20.533023,
 			"nazov": "Rožňavská mestská veža",
 			"rokVzniku": "1654",
 			"poloha": "Rožňava, Baníkov nám.",
@@ -81,6 +83,8 @@
 		},
 		{
 			"tag": 4,
+			"lat": 48.663770,
+			"lon": 20.530919,
 			"nazov": "Gymnázium P.J.Šafárika",
 			"rokVzniku": "1906",
 			"poloha": "Rožňava, Hronca akademika ul.",
