@@ -39,6 +39,10 @@ h1,h2,h4,h5,h6 {
 	h2 {
 		font-size: 14px;
 	}
+	dt{
+	color:#ffb366;
+	text-shadow: #000 1px 1px 2px;
+	}
 .sociales {
 	text-align: center;
 	margin-bottom: 20px;
