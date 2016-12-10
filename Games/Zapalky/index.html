@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html>
  <head>
+   
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap -->
+  
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css.css">
     <script type="text/javascript" src= "js.js"></script>
-    <script type="text/javascript" src= "meniny.js"></script>
     <script type="text/javascript" src= "js2.js"></script>
-
-    <title>ML's Page</title>
+    <title>Zapalky</title>
+    <link href="../../Menu/menuStyles.css" type="text/css" rel="stylesheet">
+    <link href="../../CSS/mainStyles.css" rel="stylesheet">
+    <script src="../../Menu/menuScripts.js"></script>
 </head>
-  <body>
-      <button type="button" onclick="meniny()">Meniny</button>
-
+  <body onload="LoadMenu('Zapalky','../../Menu/menu.json');">
+<div class="navbar navbar-default navbar-fixed-top" role="navigation" id="menuBar"></div>
+<br><br><br>
   <div id="background">
     <div class="h1 lineHeight"></div>
     <div class="h2 lineHeight"></div>
@@ -74,6 +81,7 @@
 
      <div id = "h34" style="width: 10px; height: 110px;"
      class="lineEightWidth" ondrop="drop(event)" ondragover="allowDrop(event)">22</div>
+
       <div id="h33" style="width: 110px; height: 10px;" class="lineEightHeight"></div>
      <div  class= "zapalka" style="width: 110px; height: 10px; left: 300px; top: 230px;" >
     <div   style ="width:100px; height: 10px; background-color: yellow;"></div></div>
@@ -92,12 +100,53 @@
    
     
     <div id="tmp" style="left: 0px; top: 0px"> </div>
-    <button type="button" onclick="create()">Start</button>
-    <button type="button" onclick="next()">Next</button>
+    <div id = "startDiv" onclick="start()">
+    <div id = "startDivText">Click for Start</div></div>
 
-
+     <div id = "nextDivv" onclick="nextt()">
+    <div id = "nextDivText">Click for next level</div></div>
 
   </div>
+  <div id = "skore">
+    <div id = "score">Best score:</div>
+    <div id = "scoree">0</div>
+    <div id = "lvl">Level: 0</div>
 
+  </div>
+  <br><br>
+   
+<footer>
+        <div class="container">
+            <div class="container">
+                <div class="col-sm-4">
+                    Jakub Lichman<br>
+                    Matúš Lukáč<br>
+                    Roman Kvočka<br>
+                </div>
+                <div class="col-sm-4">
+                    Róbert Román<br>
+                    Tamás Baka
+                </div>
+                <div class="col-sm-4">
+                    Source code available <a href="https://github.com/limo1996/WebTech">here</a>
+                </div>
+            </div>
+            <hr>
+            <div class="container">
+                <div class="col-sm-4 text-left">
+                    Copyright © 2016 All rights reserved.
+                </div>
+                <div class="col-sm-4" id="visited">Bol si na stránke 0x</div>
+                <div class="col-sm-4 text-left">
+                    <img src="../../Images/slovak_republic.png" alt="slovakia" id="skImg" /> Slovensko
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="../../Menu/jQueryScripts.js"></script>
   </body>
 </html>

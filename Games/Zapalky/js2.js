@@ -1,25 +1,25 @@
-var pole = [["110px","10px","110px","120px","100px","10px"],
-			["110px","10px","230px","120px","100px","10px"],
-			["110px","10px","350px","120px","100px","10px"],
-			["110px","10px","110px","480px","100px","10px"],
-			["110px","10px","230px","480px","100px","10px"],
-			["110px","10px","350px","480px","100px","10px"],
-			["110px","10px","110px","840px","100px","10px"],
-			["110px","10px","230px","840px","100px","10px"],
-			["110px","10px","350px","840px","100px","10px"],
-			["10px","110px","120px","110px","10px","100px"],
-			["10px","110px","120px","230px","10px","100px"],
-			["10px","110px","120px","470px","10px","100px"],
-			["10px","110px","120px","590px","10px","100px"],
-			["10px","110px","120px","830px","10px","100px"],
-			["10px","110px","120px","950px","10px","100px"],
-			["10px","110px","240px","110px","10px","100px"],
-			["10px","110px","240px","230px","10px","100px"],
-			["10px","110px","240px","470px","10px","100px"],
-			["10px","110px","240px","590px","10px","100px"],
-			["10px","110px","240px","830px","10px","100px"],
-			["10px","110px","240px","950px","10px","100px"],
-			["10px","110px","180px","350px","10px","100px"],];
+var pole = [["110px","10px","275px","170px","100px","10px"],
+			["110px","10px","395px","170px","100px","10px"],
+			["110px","10px","515px","170px","100px","10px"],
+			["110px","10px","275px","530px","100px","10px"],
+			["110px","10px","395px","530px","100px","10px"],
+			["110px","10px","515px","530px","100px","10px"],
+			["110px","10px","275px","890px","100px","10px"],
+			["110px","10px","395px","890px","100px","10px"],
+			["110px","10px","515px","890px","100px","10px"],
+			["10px","110px","285px","160px","10px","100px"],
+			["10px","110px","285px","280px","10px","100px"],
+			["10px","110px","285px","520px","10px","100px"],
+			["10px","110px","285px","640px","10px","100px"],
+			["10px","110px","285px","880px","10px","100px"],
+			["10px","110px","285px","1000px","10px","100px"],
+			["10px","110px","405px","160px","10px","100px"],
+			["10px","110px","405px","280px","10px","100px"],
+			["10px","110px","405px","520px","10px","100px"],
+			["10px","110px","405px","640px","10px","100px"],
+			["10px","110px","405px","880px","10px","100px"],
+			["10px","110px","405px","1000px","10px","100px"],
+			["10px","110px","345px","400px","10px","100px"],];
 
 var kola = [[1,3,4,5,6,7,8,9,10,11,13,15,16,17,19,20,22],
 			[1,2,3,7,8,9,10,13,14,15,17,19,20,21],
@@ -44,6 +44,7 @@ var vysledky = [[1,3,4,5,6,7,8,9,10,11,13,15,16,17,18,20,22],
 			[4,5,6,7,11,12,15,17,18,19,21,22]]
 
 var zaciatok;
+var bestScore;
  i =0;
 j=1;
 function create(){
@@ -72,6 +73,7 @@ function create(){
 }
 }
 
+
 function next(){
 	j++;
 	if(j == 10){
@@ -82,5 +84,26 @@ function next(){
 	var elem = document.getElementById(zaciatok[i]);
  	elem.parentElement.removeChild(elem);
  	}
+ 	document.getElementById('scoree').innerHTML = bestScore.toString();
+ 	document.getElementById('lvl').innerHTML = "Level: " + j.toString();
 	create();
+}
+
+function start(){
+	var omg  = document.getElementById('startDiv');
+	bestScore = localStorage.getItem('bodyy');
+	if(bestScore == null){
+		bestScore =0;
+	}
+ 	document.getElementById('scoree').innerHTML = bestScore.toString();
+
+	omg.id = 'startDivv';
+	document.getElementById('lvl').innerHTML = "Level: " + j.toString();
+	create();
+}
+
+function nextt(){
+	var omgg  = document.getElementById('nextDiv');
+	omgg.id = 'nextDivv';
+	next();
 }
