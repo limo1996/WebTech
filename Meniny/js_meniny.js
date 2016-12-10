@@ -110,7 +110,7 @@ if(mm<10) {
     mm='0'+mm
 } 
 
-today = mm+dd;
+today = mm.toString()+dd.toString();
 
 for (i = 0; i <dni.length; i++) {
     if(dni[i].childNodes[0].nodeValue == today){

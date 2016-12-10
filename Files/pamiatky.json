@@ -209,6 +209,54 @@
                 "src": "../../Images/mlynDK2.jpg",
                 "alt": "Vodný mlyn Dunajský Klátov 2"
             }]
-        }
-    ]
+        },
+        {
+            "tag": 9,
+            "lat": 49.294332,
+			"lon": 21.278297,
+            "nazov": "Dolná brána s mostom, Bardejov",
+            "rokVzniku": "1420",
+            "poloha": "Prešovský kraj, okres Bardejov, Bardejov",
+            "Nadpis1": "História opevnenia",
+            "Nadpis2": "Dolná brána",
+            "paragrafs": [
+            	"Už začiatkom 14. storočia nastal nebývalý rozvoj niekdajšej kráľovskej dediny, prosperujúcej nielen z poľnohospodárstva, ale aj z remesiel a obchodu. K rozmachu významnou mierou prispeli privilégiá uhorských panovníkov, čo v konečnom dôsledku vyústilo v prerod kráľovskej obce na slobodné kráľovské mesto. Privilégium kráľa Ľudovíta I. Veľkého z Anjou z roku 1352 povoľovalo Bardejovčanom o. i. opevniť mesto hradbami a baštami. Týmto privilégiom sa vytvoril predpoklad pre neskorší ucelený urbanisticko-architektonický vývoj územia vo vnútri mestských hradieb.
+				Opevňovanie Bardejova predstavovalo významnú no nákladnú záležitosť, ktorá sa z tohto dôvodu natiahla na niekoľko storočí. Postup prác bol súčasne ovplyvňovaný naliehavosťou zabezpečenia jednotlivých exponovaných úsekov. Ako jedna z najdôležitejších súčastí opevnenia boli mestské brány. Tie sa začali budovať v priebehu 14. storočia no už v nasledujúcom storočí prešli podstatnými stavebnými úpravami."
+            	"Dolná brána uzatvárala vstup do mesta na severovýchode. Pôvodne vežová brána zo 14. storočia bola v tridsiatych rokoch 15. storočia doplnená o predbránie, ktorého súčasťou bol padací most. V prvej polovici 16. storočia bol vybudovaný kruhový barbakán so vstupom na severozápadnej bráne. Drevený padací most bol v roku 1821 nahradený dvojoblúkovým kamenným mostom"
+            ],
+            "source": "https://sk.wikipedia.org/wiki/Mestsk%C3%A9_opevnenie_(Bardejov)",
+            "imgs": [{
+                "src": "../../Images/B1.jpg",
+                "alt": "Dolná brána"
+            }, {
+                "src": "../../Images/B2.jpg",
+                "alt": "Dolná brána"
+            }]   
+        },
+           {
+            "tag": 10,
+            "lat": 49.294332,
+			"lon": 21.278297,
+            "nazov": "Bývalá mestská brána s mostom, Bardejov",
+            "rokVzniku": "1420",
+            "poloha": "Prešovský kraj, okres Bardejov, Bardejov",
+            "Nadpis1": "História opevnenia",
+            "Nadpis2": "Horná brána",
+            "paragrafs": [
+            	"Už začiatkom 14. storočia nastal nebývalý rozvoj niekdajšej kráľovskej dediny, prosperujúcej nielen z poľnohospodárstva, ale aj z remesiel a obchodu. K rozmachu významnou mierou prispeli privilégiá uhorských panovníkov, čo v konečnom dôsledku vyústilo v prerod kráľovskej obce na slobodné kráľovské mesto. Privilégium kráľa Ľudovíta I. Veľkého z Anjou z roku 1352 povoľovalo Bardejovčanom o. i. opevniť mesto hradbami a baštami. Týmto privilégiom sa vytvoril predpoklad pre neskorší ucelený urbanisticko-architektonický vývoj územia vo vnútri mestských hradieb.
+				Opevňovanie Bardejova predstavovalo významnú no nákladnú záležitosť, ktorá sa z tohto dôvodu natiahla na niekoľko storočí. Postup prác bol súčasne ovplyvňovaný naliehavosťou zabezpečenia jednotlivých exponovaných úsekov. Ako jedna z najdôležitejších súčastí opevnenia boli mestské brány. Tie sa začali budovať v priebehu 14. storočia no už v nasledujúcom storočí prešli podstatnými stavebnými úpravami."
+           		"V dôsledku husitského ohrozenia a okupácie severných hraníc Uhorska poľskými vojskami začiatkom 15. storočia sa začala druhá etapa opevňovacích prác. Podľa dobových zápisov trvali od roku 1420 do roku 1441. V tejto etape opevňovania mesta bol vybudovaný hlavný obranný múr, ktorý zabezpečil nielen účinnú ochranu mesta a jeho obyvateľov ale aj umožňoval obrancom podnikať výpady proti nepriateľom. Účinnosť obrany mestských hradieb bola zvýšená vyhĺbením vodných priekop, obkolesujúcich takmer celé mesto. Práce viedol bardejovský mešťan, majster Mikuláš. Vodná priekopa bola rozdelené na niekoľko úsekov, z ktorých každý mal svoje pomenovanie, napr. Horný rybník, Dolný rybník, Veľká priekopa-dolina. Z tohto obdobia pochádza dôležitý záznam, podľa ktorého sa v roku 1428 vybudovala značná časť opevnenia a to aj s finančným prispením kráľa Žigmunda Luxemburského. Upravovali sa aj mestské brány, ktoré v rokoch 1421 - 1439 doplnili mostami, väčšinou drevenými, iba most vedúci k Hornej bráne bol kamenný.
+				V ďalšej fáze opevňovania boli postavené bašty, doplňujúce pevnostný systém na najviac ohrozených úsekoch. Podľa záznamov z roku 1440 sa postavili štyri veže. Vystavaním dômyselne konštruovaných barbakanov bol mestský pevnostný systém dobudovaný"
+           		"Horná brána s barbakánom sa nachádza na južnej strane mesta a je postavená na mieste hradu chrániaceho stredovekú tridsiatkovú stanicu. Plynulá pôdorysná línia hradobného múra tu vystupuje v tvare širokého oblúka do predpolia. V strede vystupujúceho útvaru bola umiestnená vežová brána, z ktorej sa prechádzalo cez padací most do barbákanu a odtiaľ cez ďalší most na prešovskú cestu. Most, pôvodne drevený, bol v roku 1770 nahradený päťoblúkovým kamenným mostom. Z barbakánu sa zachovala juhozápadná časť oblúka barbakánového múru, juhovýchodná časť oblúka v základoch obytného domu, časť oblúka vedúceho k mostu cez vodnú priekopu a vystužené vodné priekopy."
+            ],
+            "source": "http://www.severovychod.sk/body-zaujmu/dolna-brana-v-bardejove/",
+            "imgs": [{
+                "src": "../../Images/B3.jpg",
+                "alt": "Dolná brána"
+            }, {
+                "src": "../../Images/B4.jpg",
+                "alt": "Dolná brána"
+            }]
+           }
+    	]
 }
