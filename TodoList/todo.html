@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="sk">
+ <head>
+    <title>TODO</title>
+    
+    
+    <link rel="stylesheet" href="todoCSS.css">
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <link href="../Menu/menuStyles.css" type="text/css" rel="stylesheet">
+	<link href="../CSS/mainStyles.css" rel="stylesheet">
+    <script src="../Menu/menuScripts.js"></script>
+
+</head>
+<body onload="LoadMenu('Pripomienkovač úloh','../Menu/menu.json');">
+   
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation" id="menuBar">
+    </div>
+        <ul class="breadcrumb" id="breadCrumb"></ul>
+
+        
+
+  <section>
+       <div class="container">
+          <div class="row">
+              <div class="col-lg-12">
+                   <header><h1>Osobný pripomienkovač</h1></header>  
+                      <ul id="todolist"></ul>
+      
+                         <form id ="form" action="#" method="post">
+                            <div>
+                                <input type="text" id="novaUloha" placeholder="Nová úloha" required>
+                                <input type="submit" class="btn btn-primary" value="Pridaj">
+                           </div>
+                        </form>
+              </div>
+          </div>
+      </div>
+  </section>
+  <footer>
+        <div class="container">
+            <div class="container">
+                <div class="col-sm-4">
+                    Jakub Lichman<br>
+                    Matúš Lukáč<br>
+                    Roman Kvočka<br>
+                </div>
+                <div class="col-sm-4">
+                    Róbert Román<br>
+                    Tamás Baka
+                </div>
+                <div class="col-sm-4">
+                    Source code available <a href="https://github.com/limo1996/WebTech">here</a>
+                </div>
+            </div>
+            <hr>
+            <div class="container">
+                <div class="col-sm-4 text-left">
+                    Copyright © 2016 All rights reserved.
+                </div>
+                <div class="col-sm-4" id="visited">0</div>
+                <div class="col-sm-4 text-left">
+                    <img src="../Images/slovak_republic.png" alt="slovakia" id="skImg"/> Slovensko
+                </div>
+            </div>
+        </div>
+    </footer>
+  
+  <script src="todoJS.js"></script>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="../Menu/jQueryScripts.js"></script>
+
+
+<script type="text/javascript" src="JS/localStor.js"></script>
+</body>
+</html>
