@@ -75,7 +75,7 @@ function getDate(meno){
   var b = diaConvert(String(meno)).toLowerCase() ;
 
   for (i = 0; i <menaa.length; i++) {
-    if( menaa[i] == b){
+    if( menaa[i].search(b) != -1){
       var pole = mena[i].parentNode.childNodes;
       break;
     }
